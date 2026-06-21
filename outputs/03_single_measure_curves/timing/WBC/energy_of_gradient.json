@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Energy of Gradient",
+  "native_avg_time_per_slice_sec": 9.140283917076886e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00300246570201125,
+    "128": 4.612069926224649e-05,
+    "512": 0.000780086179729551
+  }
+}

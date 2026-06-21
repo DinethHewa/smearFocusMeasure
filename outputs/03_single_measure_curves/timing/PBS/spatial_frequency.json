@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Spatial Frequency",
+  "native_avg_time_per_slice_sec": 0.031681036060035694,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.004977231299271807,
+    "128": 0.00022188442089827732,
+    "512": 0.0012510872789425775
+  }
+}

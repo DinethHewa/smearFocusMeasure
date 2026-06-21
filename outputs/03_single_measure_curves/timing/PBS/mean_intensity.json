@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Mean Intensity",
+  "native_avg_time_per_slice_sec": 0.005698644179792609,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0006026883787126281,
+    "128": 7.929739920655266e-05,
+    "512": 0.00019505609903717414
+  }
+}

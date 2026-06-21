@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Sum Modified Laplacian",
+  "native_avg_time_per_slice_sec": 0.040216300679021516,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.005169902441266459,
+    "128": 0.0002042648388305679,
+    "512": 0.001270657640416175
+  }
+}

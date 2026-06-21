@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "DCT Focus Measure",
+  "native_avg_time_per_slice_sec": 0.000296022139955312,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.009361958740919362,
+    "128": 0.00013350299996091054,
+    "512": 0.0017332694394281134
+  }
+}

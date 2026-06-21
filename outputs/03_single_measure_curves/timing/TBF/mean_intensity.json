@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Mean Intensity",
+  "native_avg_time_per_slice_sec": 0.005699726679595187,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0006079287000466138,
+    "128": 7.802229927619919e-05,
+    "512": 0.00018925667711300776
+  }
+}

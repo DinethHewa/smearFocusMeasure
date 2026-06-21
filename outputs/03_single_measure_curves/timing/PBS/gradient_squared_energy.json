@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Gradient Squared Energy",
+  "native_avg_time_per_slice_sec": 0.023721913939807562,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0035469875184935516,
+    "128": 0.000169332459627185,
+    "512": 0.0009268346399767324
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Curvelet Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.15238053571869387,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.01842140836204635,
+    "128": 0.0004238867195090279,
+    "512": 0.002923045538482256
+  }
+}

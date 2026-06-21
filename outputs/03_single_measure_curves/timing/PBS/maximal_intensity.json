@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Maximal Intensity",
+  "native_avg_time_per_slice_sec": 0.0057607440787251106,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0005873309803428128,
+    "128": 6.099771911976859e-05,
+    "512": 0.0001680326819769107
+  }
+}

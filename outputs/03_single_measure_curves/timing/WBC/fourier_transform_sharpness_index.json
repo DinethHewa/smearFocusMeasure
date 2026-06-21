@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Fourier Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.0005789385008392856,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.022504329800431152,
+    "128": 0.0002181234594900161,
+    "512": 0.004487454679619986
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Modified Tenengrad",
+  "native_avg_time_per_slice_sec": 0.0016410153402830474,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.05017212466016645,
+    "128": 0.000724746499909088,
+    "512": 0.010520458980172407
+  }
+}

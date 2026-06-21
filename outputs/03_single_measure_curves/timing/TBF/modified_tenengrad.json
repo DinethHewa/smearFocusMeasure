@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Modified Tenengrad",
+  "native_avg_time_per_slice_sec": 0.3084099900408182,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.04433519607875496,
+    "128": 0.0010294186402461491,
+    "512": 0.01086674566118745
+  }
+}

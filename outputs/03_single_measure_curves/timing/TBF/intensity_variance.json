@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Intensity Variance",
+  "native_avg_time_per_slice_sec": 0.01805075655982364,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0022463625404634513,
+    "128": 0.00017765779979526995,
+    "512": 0.0006355176586657763
+  }
+}

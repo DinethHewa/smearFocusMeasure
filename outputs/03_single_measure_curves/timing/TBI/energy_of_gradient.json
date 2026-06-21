@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Energy of Gradient",
+  "native_avg_time_per_slice_sec": 0.025742688160389663,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0032840057811699807,
+    "128": 0.000174209599790629,
+    "512": 0.0008872177597368136
+  }
+}

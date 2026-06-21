@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Histogram Entropy",
+  "native_avg_time_per_slice_sec": 0.01277107093919767,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.007563811278669163,
+    "128": 0.00040633382042869925,
+    "512": 0.002237451440305449
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Mean Intensity",
+  "native_avg_time_per_slice_sec": 2.191543986555189e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00045893789967522026,
+    "128": 1.3234061188995838e-05,
+    "512": 8.91644594958052e-05
+  }
+}

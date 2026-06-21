@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Squared Gradient",
+  "native_avg_time_per_slice_sec": 0.00010796833899803459,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00313899747969117,
+    "128": 5.173247947823256e-05,
+    "512": 0.0008666969602927566
+  }
+}

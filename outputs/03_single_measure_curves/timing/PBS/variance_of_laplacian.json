@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Variance of Laplacian",
+  "native_avg_time_per_slice_sec": 0.018654871458129493,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0024379504792159425,
+    "128": 0.00021607361937640236,
+    "512": 0.0007040615795995109
+  }
+}

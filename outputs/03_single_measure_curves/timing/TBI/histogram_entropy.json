@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Histogram Entropy",
+  "native_avg_time_per_slice_sec": 0.04465372130071046,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.007521572879632003,
+    "128": 0.00041277476004324853,
+    "512": 0.002133660199760925
+  }
+}

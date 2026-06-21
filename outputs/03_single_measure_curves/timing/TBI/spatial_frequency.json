@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Spatial Frequency",
+  "native_avg_time_per_slice_sec": 0.03474007194134174,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00506619971973123,
+    "128": 0.00020603780227247627,
+    "512": 0.0013902690206305125
+  }
+}

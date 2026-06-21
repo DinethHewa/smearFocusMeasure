@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Laplacian Energy",
+  "native_avg_time_per_slice_sec": 0.1446757801406784,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.022148589459829962,
+    "128": 0.0004913972204667516,
+    "512": 0.005053891799470875
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Energy of Gradient",
+  "native_avg_time_per_slice_sec": 0.02485205889941426,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00349220215837704,
+    "128": 0.00016899708076380195,
+    "512": 0.0008945202000904828
+  }
+}

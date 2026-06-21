@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Fourier High Frequency Energy Ratio",
+  "native_avg_time_per_slice_sec": 0.0007218947992078029,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.026321617920766583,
+    "128": 0.00031278928072424604,
+    "512": 0.005228575560322497
+  }
+}

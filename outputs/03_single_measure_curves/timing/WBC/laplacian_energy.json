@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Laplacian Energy",
+  "native_avg_time_per_slice_sec": 0.0006551232797210104,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02064799197949469,
+    "128": 0.0003085819398984313,
+    "512": 0.004069633280741982
+  }
+}

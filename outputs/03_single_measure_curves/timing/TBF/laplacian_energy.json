@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Laplacian Energy",
+  "native_avg_time_per_slice_sec": 0.13034936375974213,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.01998808143893257,
+    "128": 0.000524849180073943,
+    "512": 0.004726443920808379
+  }
+}

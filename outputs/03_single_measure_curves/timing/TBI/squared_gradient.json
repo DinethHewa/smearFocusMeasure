@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Squared Gradient",
+  "native_avg_time_per_slice_sec": 0.024415105280058923,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003432054260629229,
+    "128": 0.00017569907970027999,
+    "512": 0.0009742204993381165
+  }
+}

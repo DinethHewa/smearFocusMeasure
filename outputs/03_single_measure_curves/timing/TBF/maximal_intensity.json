@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Maximal Intensity",
+  "native_avg_time_per_slice_sec": 0.005656254779605661,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0005780281819170341,
+    "128": 6.115155963925644e-05,
+    "512": 0.00016678890038747342
+  }
+}

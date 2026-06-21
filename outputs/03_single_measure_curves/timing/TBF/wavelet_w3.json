@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Wavelet W3",
+  "native_avg_time_per_slice_sec": 0.16558555174036882,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.021590481520688626,
+    "128": 0.0005731141814612783,
+    "512": 0.003892938241478987
+  }
+}

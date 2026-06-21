@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Modified Tenengrad",
+  "native_avg_time_per_slice_sec": 0.3341081327202846,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.051972831760940606,
+    "128": 0.0009714947393513285,
+    "512": 0.011673392060329206
+  }
+}

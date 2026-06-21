@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Intensity Range Index",
+  "native_avg_time_per_slice_sec": 0.008258467780251522,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0009881072214921005,
+    "128": 6.999320001341403e-05,
+    "512": 0.000246470378478989
+  }
+}

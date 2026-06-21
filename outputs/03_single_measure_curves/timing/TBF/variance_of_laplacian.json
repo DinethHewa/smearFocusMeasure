@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Variance of Laplacian",
+  "native_avg_time_per_slice_sec": 0.018511879900470377,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00260788276034873,
+    "128": 0.0002209520002361387,
+    "512": 0.0007575690990779549
+  }
+}

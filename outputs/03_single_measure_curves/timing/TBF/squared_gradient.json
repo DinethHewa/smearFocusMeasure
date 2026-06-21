@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Squared Gradient",
+  "native_avg_time_per_slice_sec": 0.02203337318089325,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003352733579231426,
+    "128": 0.00020776200137333944,
+    "512": 0.0009048128797439858
+  }
+}

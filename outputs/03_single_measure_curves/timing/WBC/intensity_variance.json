@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Intensity Variance",
+  "native_avg_time_per_slice_sec": 6.044373963959515e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0020104116402217187,
+    "128": 5.244201980531216e-05,
+    "512": 0.0006378566406783648
+  }
+}

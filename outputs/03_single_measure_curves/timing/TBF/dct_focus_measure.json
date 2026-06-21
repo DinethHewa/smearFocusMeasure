@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "DCT Focus Measure",
+  "native_avg_time_per_slice_sec": 0.07051159979979275,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.009933896760630887,
+    "128": 0.0003059557196684182,
+    "512": 0.0022382512196782046
+  }
+}

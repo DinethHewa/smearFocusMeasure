@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Intensity Skewness Index",
+  "native_avg_time_per_slice_sec": 0.06554580375959632,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.012416386879922357,
+    "128": 0.00043260569975245744,
+    "512": 0.003424365439568646
+  }
+}

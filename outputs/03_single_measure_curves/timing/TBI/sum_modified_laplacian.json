@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Sum Modified Laplacian",
+  "native_avg_time_per_slice_sec": 0.041044949519564396,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.005453904579044319,
+    "128": 0.00023306069924728946,
+    "512": 0.0014257182384608312
+  }
+}

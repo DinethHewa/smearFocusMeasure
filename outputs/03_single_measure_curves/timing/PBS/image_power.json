@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Image Power",
+  "native_avg_time_per_slice_sec": 0.0105016828989028,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0013000821808236652,
+    "128": 7.61826999951154e-05,
+    "512": 0.0003651874203933403
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Brenner Gradient",
+  "native_avg_time_per_slice_sec": 0.013709275820583572,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0019770818200777283,
+    "128": 0.00011071960063418373,
+    "512": 0.0004617104207864031
+  }
+}

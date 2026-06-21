@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "GLCM Contrast",
+  "native_avg_time_per_slice_sec": 1.5432091650977964,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.2679311185984989,
+    "128": 0.004470774740038905,
+    "512": 0.0677564682206139
+  }
+}

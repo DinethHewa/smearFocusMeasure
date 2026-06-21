@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Fourier Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.1738672400204814,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02481955543975346,
+    "128": 0.00041685366100864486,
+    "512": 0.00556717183906585
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Variance of Laplacian",
+  "native_avg_time_per_slice_sec": 9.309397952165454e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.002191042358754203,
+    "128": 7.48691798071377e-05,
+    "512": 0.00048096652084495873
+  }
+}

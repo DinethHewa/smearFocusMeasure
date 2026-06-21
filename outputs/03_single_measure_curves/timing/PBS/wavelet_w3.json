@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Wavelet W3",
+  "native_avg_time_per_slice_sec": 0.17317350819968852,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.020286547199648338,
+    "128": 0.0005327727008261718,
+    "512": 0.0035264456196455285
+  }
+}

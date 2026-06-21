@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "DCT Focus Measure",
+  "native_avg_time_per_slice_sec": 0.06936617226077942,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.009334223360347095,
+    "128": 0.00029070398071780803,
+    "512": 0.0021085743396542967
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Spatial Frequency",
+  "native_avg_time_per_slice_sec": 0.000127709660155233,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.004183773721742909,
+    "128": 7.526839995989575e-05,
+    "512": 0.0008423069803393446
+  }
+}

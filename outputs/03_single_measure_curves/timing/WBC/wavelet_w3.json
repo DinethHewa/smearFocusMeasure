@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Wavelet W3",
+  "native_avg_time_per_slice_sec": 0.0004472666003857739,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.020455554398649836,
+    "128": 0.0002984470207593404,
+    "512": 0.003097213640867267
+  }
+}

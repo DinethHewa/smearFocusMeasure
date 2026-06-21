@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Intensity Skewness Index",
+  "native_avg_time_per_slice_sec": 0.07305743452016031,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0124605697215884,
+    "128": 0.00045662824006285517,
+    "512": 0.0034052434581099077
+  }
+}

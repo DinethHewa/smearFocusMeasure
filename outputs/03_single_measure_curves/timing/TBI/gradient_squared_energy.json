@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Gradient Squared Energy",
+  "native_avg_time_per_slice_sec": 0.02412141536042327,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0034593344992026685,
+    "128": 0.00017998033872572704,
+    "512": 0.0009351334793609567
+  }
+}

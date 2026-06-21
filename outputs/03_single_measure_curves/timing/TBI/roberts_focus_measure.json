@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Roberts Focus Measure",
+  "native_avg_time_per_slice_sec": 0.02546188576059649,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003435347819759045,
+    "128": 0.00015451983956154435,
+    "512": 0.0009240746201248839
+  }
+}

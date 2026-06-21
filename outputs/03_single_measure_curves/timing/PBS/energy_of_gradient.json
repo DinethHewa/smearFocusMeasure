@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Energy of Gradient",
+  "native_avg_time_per_slice_sec": 0.02343185355857713,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003326431641180534,
+    "128": 0.00021683367987861856,
+    "512": 0.0009182329001487233
+  }
+}

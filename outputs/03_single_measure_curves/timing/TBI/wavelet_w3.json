@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Wavelet W3",
+  "native_avg_time_per_slice_sec": 0.19072271313809325,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.020413736340706236,
+    "128": 0.000558704020222649,
+    "512": 0.0034913203795440494
+  }
+}

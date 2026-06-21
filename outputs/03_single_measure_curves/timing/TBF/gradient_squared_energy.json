@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Gradient Squared Energy",
+  "native_avg_time_per_slice_sec": 0.02227731807768578,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0033612367598107084,
+    "128": 0.00018426680064294486,
+    "512": 0.0009359075789689087
+  }
+}

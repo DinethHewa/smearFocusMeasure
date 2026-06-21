@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Laplacian Energy",
+  "native_avg_time_per_slice_sec": 0.13691006105975248,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02077557996060932,
+    "128": 0.0004818527001771145,
+    "512": 0.0051203540401184
+  }
+}

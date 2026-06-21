@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Mean Absolute Laplacian",
+  "native_avg_time_per_slice_sec": 0.1404722432993003,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.021901024939725174,
+    "128": 0.0005355507400236092,
+    "512": 0.005095417718112003
+  }
+}

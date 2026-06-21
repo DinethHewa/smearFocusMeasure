@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Curvelet Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.00038611271884292364,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.01929801699880045,
+    "128": 0.00020946772041497753,
+    "512": 0.0027664143397123555
+  }
+}

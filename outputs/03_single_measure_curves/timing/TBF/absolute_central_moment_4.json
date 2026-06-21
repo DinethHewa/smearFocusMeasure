@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Absolute Central Moment 4",
+  "native_avg_time_per_slice_sec": 0.08474665932008066,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.015407427719619591,
+    "128": 0.0003735006792703643,
+    "512": 0.003917636420519557
+  }
+}

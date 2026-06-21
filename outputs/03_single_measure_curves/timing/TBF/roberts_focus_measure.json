@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Roberts Focus Measure",
+  "native_avg_time_per_slice_sec": 0.023653711160004604,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003465741500258446,
+    "128": 0.00014731027942616493,
+    "512": 0.0009553233985207044
+  }
+}

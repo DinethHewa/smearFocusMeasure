@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Curvelet Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.15123596626101063,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.017912506779830438,
+    "128": 0.00043863510101800786,
+    "512": 0.002928671420668252
+  }
+}

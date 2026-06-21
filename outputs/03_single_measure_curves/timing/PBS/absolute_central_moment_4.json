@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Absolute Central Moment 4",
+  "native_avg_time_per_slice_sec": 0.08343807666009524,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.015133667939808219,
+    "128": 0.0003657335604657419,
+    "512": 0.0038717239402467386
+  }
+}

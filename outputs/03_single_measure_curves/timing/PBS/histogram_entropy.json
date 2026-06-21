@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Histogram Entropy",
+  "native_avg_time_per_slice_sec": 0.04090907412028173,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.007676004019740504,
+    "128": 0.00040301715926034377,
+    "512": 0.002210084420221392
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "GLCM Contrast",
+  "native_avg_time_per_slice_sec": 1.4246066494178375,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.2753254507208476,
+    "128": 0.004461440921295435,
+    "512": 0.06736756316007814
+  }
+}

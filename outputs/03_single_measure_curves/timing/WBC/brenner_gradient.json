@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Brenner Gradient",
+  "native_avg_time_per_slice_sec": 8.488033985486254e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0015692213381407782,
+    "128": 3.984441893408075e-05,
+    "512": 0.00041419736022362485
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Fourier Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.17485627929971087,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.024202397999179084,
+    "128": 0.0004211261609452777,
+    "512": 0.005032656739349477
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Curvelet Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.15412760525970953,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.018027694360353053,
+    "128": 0.000435729059681762,
+    "512": 0.0027763811603654176
+  }
+}

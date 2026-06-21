@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "GLCM Contrast",
+  "native_avg_time_per_slice_sec": 0.010272618040035012,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.27618231483909766,
+    "128": 0.004166109561338089,
+    "512": 0.06744510010088561
+  }
+}

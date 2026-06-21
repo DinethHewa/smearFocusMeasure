@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Fourier High Frequency Energy Ratio",
+  "native_avg_time_per_slice_sec": 0.18933871490036835,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02736913812084822,
+    "128": 0.0006821995007339865,
+    "512": 0.005998075559036806
+  }
+}

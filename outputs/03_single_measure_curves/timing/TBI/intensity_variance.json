@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Intensity Variance",
+  "native_avg_time_per_slice_sec": 0.018605223121121527,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0024724900806904772,
+    "128": 0.0001697099575540051,
+    "512": 0.0006422233782359399
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Tenengrad",
+  "native_avg_time_per_slice_sec": 0.02327231269940967,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003356450459396001,
+    "128": 0.00016184200008865447,
+    "512": 0.0009045868794783019
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Roberts Focus Measure",
+  "native_avg_time_per_slice_sec": 0.00012488766078604384,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0034514315210981295,
+    "128": 5.4479298123624174e-05,
+    "512": 0.0010799211394623854
+  }
+}

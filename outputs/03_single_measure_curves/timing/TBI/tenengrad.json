@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Tenengrad",
+  "native_avg_time_per_slice_sec": 0.028061418440483977,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0035180638189194723,
+    "128": 0.00016770608024671674,
+    "512": 0.0009807355407974684
+  }
+}

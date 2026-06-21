@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Fourier Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.16287093515973539,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02313817282032687,
+    "128": 0.00041884266014676543,
+    "512": 0.005095825861208141
+  }
+}

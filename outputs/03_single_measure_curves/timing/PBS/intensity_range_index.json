@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Intensity Range Index",
+  "native_avg_time_per_slice_sec": 0.007995830060972367,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0009555299408384599,
+    "128": 7.683141942834482e-05,
+    "512": 0.0002639602404087782
+  }
+}

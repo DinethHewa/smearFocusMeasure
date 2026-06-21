@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Intensity Skewness Index",
+  "native_avg_time_per_slice_sec": 0.07322000490006758,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.012636155841464642,
+    "128": 0.00042767555831233037,
+    "512": 0.003338448521099053
+  }
+}

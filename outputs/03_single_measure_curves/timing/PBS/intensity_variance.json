@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Intensity Variance",
+  "native_avg_time_per_slice_sec": 0.016979391041677446,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.002384055760339834,
+    "128": 0.0001730984597816132,
+    "512": 0.0006844614390865899
+  }
+}

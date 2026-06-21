@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Variance of Laplacian",
+  "native_avg_time_per_slice_sec": 0.02037606496043736,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0024786021394538693,
+    "128": 0.0002306887591839768,
+    "512": 0.0007203769404441118
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Sum Modified Laplacian",
+  "native_avg_time_per_slice_sec": 0.00017759199952706694,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0046942959996522406,
+    "128": 8.49411787930876e-05,
+    "512": 0.0031938715805881657
+  }
+}

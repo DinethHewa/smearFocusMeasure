@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Gradient Squared Energy",
+  "native_avg_time_per_slice_sec": 0.00010734466079156846,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003424523621215485,
+    "128": 5.334128043614328e-05,
+    "512": 0.0006526676809880883
+  }
+}

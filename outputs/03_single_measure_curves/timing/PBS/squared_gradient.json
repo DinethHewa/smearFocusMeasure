@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Squared Gradient",
+  "native_avg_time_per_slice_sec": 0.023615422419970854,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0033333567608497105,
+    "128": 0.00017795231950003653,
+    "512": 0.0009366442821919918
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "DCT Focus Measure",
+  "native_avg_time_per_slice_sec": 0.07386502441921039,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.00991323896072572,
+    "128": 0.0002984419392305426,
+    "512": 0.0021740696590859445
+  }
+}

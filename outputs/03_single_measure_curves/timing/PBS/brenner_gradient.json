@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Brenner Gradient",
+  "native_avg_time_per_slice_sec": 0.011920552160881925,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0017465460003586485,
+    "128": 0.00010101682069944217,
+    "512": 0.0004637789202388376
+  }
+}
