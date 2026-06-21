@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Definitions of autofocus evaluation metrics.}
+\begin{tabular}{lcc}
+\hline
+metric_name & direction & description \\
+\hline
+absolute\_peak\_localization\_error & lower\_is\_better & Absolute difference between predicted and reference peak index. \\
+fwhm & lower\_is\_better & Full width at half maximum of the normalized focus curve. \\
+curvature\_at\_peak & higher\_is\_better & Peak sharpness proxy using local second-order curvature. \\
+steep\_slope\_width & lower\_is\_better & Width of the steep-response region around the main peak. \\
+steep\_to\_gradual\_slope\_ratio & higher\_is\_better & Ratio of local peak slope to background slope level. \\
+false\_maxima\_count & lower\_is\_better & Count of local maxima excluding the global maximum. \\
+noise\_level & lower\_is\_better & Second-difference fluctuation level of the focus curve. \\
+rrmse\_under\_additive\_noise & lower\_is\_better & Relative RMSE between clean and noisy normalized curves. \\
+range\_around\_global\_maximum & lower\_is\_better & Width of the high-response plateau around the global maximum. \\
+execution\_time\_per\_slice & lower\_is\_better & Average processing time per slice. \\
+\hline
+\end{tabular}
+\end{table}

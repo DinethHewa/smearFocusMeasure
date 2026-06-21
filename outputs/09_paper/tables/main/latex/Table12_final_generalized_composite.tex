@@ -1,0 +1,11 @@
+\begin{table}[t]
+\centering
+\caption{Final generalized composite focus measure obtained by all-dataset GP refit after LODO validation.}
+\begin{tabular}{lccccccccccccc}
+\hline
+result_type & source & seed & best_training_objective & best_all_dataset_score & best_complexity & num_nodes & tree_height & train_datasets & terminals & best_expression & num_final_refit_seeds & mean_all_dataset_score & std_all_dataset_score \\
+\hline
+final\_refit\_best\_expression & all\_dataset\_refit\_after\_lodo\_validation & 44 & 0.17986742118415752 & 0.24242176812442642 & 33.0 & 33 & 7 & WBC | TBI | PBS | BMA | TBF & Gradient Squared Energy | Fourier Transform Sharpness Index | Wavelet W1 | Curvelet Transform Sharpness Index | Sum Modified Laplacian | Intensity Skewness Index | GLCM Contrast | Squared Gradient | Wavelet W3 | Fourier High Frequency Energy Ratio & add(sub(mul(mul(mul(mul(Gradient\_Squared\_Energy, Gradient\_Squared\_Energy), mul(mul(Gradient\_Squared\_Energy, Gradient\_Squared\_Energy), mul(Gradient\_Squared\_Energy, Gradient\_Squared\_Energy))), Gradient\_Squared\_Energy), mul(mul(Fourier\_Transform\_Sharpness\_Index, mul(mul(Gradient\_Squared\_Energy, Squared\_Gradient), GLCM\_Contrast)), mul(Gradient\_Squared\_Energy, Squared\_Gradient))), Wavelet\_W1), add(add(Gradient\_Squared\_Energy, Fourier\_Transform\_Sharpness\_Index), Fourier\_Transform\_Sharpness\_Index)) & 10 & 0.2453822860221436 & 0.0010741126418511954 \\
+\hline
+\end{tabular}
+\end{table}
