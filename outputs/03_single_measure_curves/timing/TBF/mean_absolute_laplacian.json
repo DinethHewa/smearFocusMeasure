@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Mean Absolute Laplacian",
+  "native_avg_time_per_slice_sec": 0.13852607260050717,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.03685020343953511,
+    "128": 0.0005240271802176721,
+    "512": 0.004982908021484036
+  }
+}
