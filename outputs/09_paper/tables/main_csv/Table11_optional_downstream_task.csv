@@ -1,0 +1,4 @@
+analysis_mode,dataset_name,strategy,mean_absolute_focus_index_error,mean_laplacian_variance,mean_gradient_energy,num_samples
+focus_quality_proxy,WBC,poor_autofocus,5.544484538082489,41.6583839777934,10453827.989174718,25773
+focus_quality_proxy,WBC,brenner_gradient,0.07965700539324098,141.64739014967805,30189020.225080512,25773
+focus_quality_proxy,WBC,best_composite,0.035308268342839406,141.0878167178009,30209186.97497381,25773
