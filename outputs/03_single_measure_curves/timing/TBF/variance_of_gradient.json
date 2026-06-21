@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Variance of Gradient",
+  "native_avg_time_per_slice_sec": 0.02947003579873126,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.004802052420272957,
+    "128": 0.0002802308395621367,
+    "512": 0.0011939093616092577
+  }
+}

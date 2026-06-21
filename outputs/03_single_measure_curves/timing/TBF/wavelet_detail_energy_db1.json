@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBF",
+  "measure_name": "Wavelet Detail Energy (db1)",
+  "native_avg_time_per_slice_sec": 0.14516160122147995,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.017338035319698974,
+    "128": 0.00041222953906981273,
+    "512": 0.0028053930195164867
+  }
+}
