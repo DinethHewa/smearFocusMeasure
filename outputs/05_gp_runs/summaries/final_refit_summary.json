@@ -1,0 +1,1133 @@
+{
+  "best_all_dataset_score": 0.24242176812442642,
+  "best_complexity": 33.0,
+  "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+  "best_num_nodes": 33,
+  "best_result": {
+    "all_dataset_score": 0.24242176812442642,
+    "all_dataset_score_std": 0.03390728097596753,
+    "array_backend": "cpu",
+    "best_complexity": 33.0,
+    "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+    "best_training_objective": 0.17986742118415752,
+    "evaluation_dataset": "ALL_TRAINING_DATASETS",
+    "gp_primary_objective": "corrected_generalization_score",
+    "gp_secondary_objective": "expression_complexity",
+    "gp_settings": {
+      "crossover_probability": 0.5,
+      "device": "cpu",
+      "elitism": 1,
+      "max_eval_seconds": 30.0,
+      "max_nodes": 35,
+      "max_tree_depth": 10,
+      "mutation_probability": 0.2,
+      "num_generations": 100,
+      "num_seeds": 10,
+      "population_size": 500,
+      "tournament_size": 3,
+      "use_nsga2": true
+    },
+    "hall_of_fame": [
+      {
+        "expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 33.0,
+        "fitness_generalization_score": 0.17986742128322872
+      },
+      {
+        "expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 33.0,
+        "fitness_generalization_score": 0.1806159613971623
+      },
+      {
+        "expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 35.0,
+        "fitness_generalization_score": 0.18063040729249688
+      },
+      {
+        "expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 33.0,
+        "fitness_generalization_score": 0.18065706232461406
+      },
+      {
+        "expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 35.0,
+        "fitness_generalization_score": 0.18151037092287314
+      },
+      {
+        "expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, GLCM_Contrast), Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 23.0,
+        "fitness_generalization_score": 0.18178595887338017
+      },
+      {
+        "expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 24.0,
+        "fitness_generalization_score": 0.18178595895893251
+      },
+      {
+        "expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 26.0,
+        "fitness_generalization_score": 0.18179622702739762
+      },
+      {
+        "expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), GLCM_Contrast)), Fourier_High_Frequency_Energy_Ratio)), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 21.0,
+        "fitness_generalization_score": 0.18193876431476366
+      },
+      {
+        "expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), Fourier_High_Frequency_Energy_Ratio)), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "fitness_complexity": 21.0,
+        "fitness_generalization_score": 0.18193876442001922
+      }
+    ],
+    "held_out_dataset": "FINAL_ALL",
+    "heldout_metric_scores": {},
+    "heldout_metrics_raw": {},
+    "heldout_score": 0.24242176812442642,
+    "label_modes": {
+      "BMA": "surrogate",
+      "PBS": "surrogate",
+      "TBF": "surrogate",
+      "TBI": "surrogate",
+      "WBC": "surrogate"
+    },
+    "logbook": [
+      {
+        "best_complexity": 5.0,
+        "best_expression": "mul(add(Fourier_Transform_Sharpness_Index, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index)",
+        "best_generalization_score": 0.2008288679147861,
+        "best_height": 2,
+        "best_nodes": 5,
+        "generation": 0,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 9.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(Gradient_Squared_Energy, Gradient_Squared_Energy))",
+        "best_generalization_score": 0.200184765929464,
+        "best_height": 3,
+        "best_nodes": 9,
+        "generation": 1,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 9.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(Gradient_Squared_Energy, Gradient_Squared_Energy))",
+        "best_generalization_score": 0.200184765929464,
+        "best_height": 3,
+        "best_nodes": 9,
+        "generation": 2,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 9.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(Gradient_Squared_Energy, Gradient_Squared_Energy))",
+        "best_generalization_score": 0.200184765929464,
+        "best_height": 3,
+        "best_nodes": 9,
+        "generation": 3,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 9.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(Gradient_Squared_Energy, Gradient_Squared_Energy))",
+        "best_generalization_score": 0.200184765929464,
+        "best_height": 3,
+        "best_nodes": 9,
+        "generation": 4,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 9.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(Gradient_Squared_Energy, Gradient_Squared_Energy))",
+        "best_generalization_score": 0.200184765929464,
+        "best_height": 3,
+        "best_nodes": 9,
+        "generation": 5,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 15.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(mul(sub(Gradient_Squared_Energy, Gradient_Squared_Energy), sub(Sum_Modified_Laplacian, Curvelet_Transform_Sharpness_Index)), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19954316702820243,
+        "best_height": 4,
+        "best_nodes": 15,
+        "generation": 6,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 7.0,
+        "best_expression": "add(sub(Gradient_Squared_Energy, Wavelet_W1), add(Gradient_Squared_Energy, Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19954316347879367,
+        "best_height": 2,
+        "best_nodes": 7,
+        "generation": 7,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(mul(Wavelet_W3, Fourier_High_Frequency_Energy_Ratio), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19937397707980184,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 8,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(mul(Wavelet_W3, Fourier_High_Frequency_Energy_Ratio), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19937397707980184,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 9,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(add(Intensity_Skewness_Index, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19757042829094174,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 10,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 13.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(mul(Gradient_Squared_Energy, sub(Sum_Modified_Laplacian, Curvelet_Transform_Sharpness_Index)), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19750875436919357,
+        "best_height": 4,
+        "best_nodes": 13,
+        "generation": 11,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 13.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(mul(Gradient_Squared_Energy, sub(Sum_Modified_Laplacian, Curvelet_Transform_Sharpness_Index)), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19750875436919357,
+        "best_height": 4,
+        "best_nodes": 13,
+        "generation": 12,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 13.0,
+        "best_expression": "add(sub(add(Gradient_Squared_Energy, Gradient_Squared_Energy), Wavelet_W1), add(mul(Gradient_Squared_Energy, sub(Sum_Modified_Laplacian, Curvelet_Transform_Sharpness_Index)), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.19750875436919357,
+        "best_height": 4,
+        "best_nodes": 13,
+        "generation": 13,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 5.0,
+        "best_expression": "add(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), Fourier_Transform_Sharpness_Index)",
+        "best_generalization_score": 0.19474101671820002,
+        "best_height": 2,
+        "best_nodes": 5,
+        "generation": 14,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 5.0,
+        "best_expression": "add(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), Fourier_Transform_Sharpness_Index)",
+        "best_generalization_score": 0.19474101671820002,
+        "best_height": 2,
+        "best_nodes": 5,
+        "generation": 15,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(mul(Gradient_Squared_Energy, Curvelet_Transform_Sharpness_Index), Wavelet_W1), add(add(Intensity_Skewness_Index, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.19347964620668406,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 16,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(mul(Gradient_Squared_Energy, Curvelet_Transform_Sharpness_Index), Wavelet_W1), add(add(Intensity_Skewness_Index, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.19347964620668406,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 17,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(mul(Gradient_Squared_Energy, Curvelet_Transform_Sharpness_Index), Wavelet_W1), add(add(Intensity_Skewness_Index, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.19347964620668406,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 18,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 11.0,
+        "best_expression": "add(sub(mul(Gradient_Squared_Energy, Curvelet_Transform_Sharpness_Index), Wavelet_W1), add(add(Intensity_Skewness_Index, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.19347964620668406,
+        "best_height": 3,
+        "best_nodes": 11,
+        "generation": 19,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 13.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), Curvelet_Transform_Sharpness_Index), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18999046744097564,
+        "best_height": 4,
+        "best_nodes": 13,
+        "generation": 20,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 13.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), Curvelet_Transform_Sharpness_Index), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18999046744097564,
+        "best_height": 4,
+        "best_nodes": 13,
+        "generation": 21,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 19.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18800158629287422,
+        "best_height": 5,
+        "best_nodes": 19,
+        "generation": 22,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 19.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18800158629287422,
+        "best_height": 5,
+        "best_nodes": 19,
+        "generation": 23,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 19.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18800158629287422,
+        "best_height": 5,
+        "best_nodes": 19,
+        "generation": 24,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18675327221192195,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 25,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18675327221192195,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 26,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 27,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 28,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 29,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 30,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 31,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 32,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 33,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 34,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 35,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 36,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 37,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Gradient_Squared_Energy))",
+        "best_generalization_score": 0.18645011754624569,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 38,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446292713114,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 39,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446292713114,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 40,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446292713114,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 41,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446292713114,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 42,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446292713114,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 43,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1835744617711293,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 44,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1835744617711293,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 45,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446116794424,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 46,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 25.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18357446116794424,
+        "best_height": 7,
+        "best_nodes": 25,
+        "generation": 47,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 32.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Squared_Gradient), Wavelet_W1)), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18293019110327133,
+        "best_height": 8,
+        "best_nodes": 32,
+        "generation": 48,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 32.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18270848579818463,
+        "best_height": 8,
+        "best_nodes": 32,
+        "generation": 49,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 32.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18270848579818463,
+        "best_height": 8,
+        "best_nodes": 32,
+        "generation": 50,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 32.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18270848579818463,
+        "best_height": 8,
+        "best_nodes": 32,
+        "generation": 51,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 32.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18270848579818463,
+        "best_height": 8,
+        "best_nodes": 32,
+        "generation": 52,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 32.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18270848579818463,
+        "best_height": 8,
+        "best_nodes": 32,
+        "generation": 53,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 30.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(Wavelet_W1, mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18230333228456833,
+        "best_height": 8,
+        "best_nodes": 30,
+        "generation": 54,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 30.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(Wavelet_W1, mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18230333228456833,
+        "best_height": 8,
+        "best_nodes": 30,
+        "generation": 55,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 34.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(Wavelet_W1, mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio)))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1822853316308129,
+        "best_height": 9,
+        "best_nodes": 34,
+        "generation": 56,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 34.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(Wavelet_W1, mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio)))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1822853316308129,
+        "best_height": 9,
+        "best_nodes": 34,
+        "generation": 57,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 34.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(Wavelet_W1, mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio)))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1822853316308129,
+        "best_height": 9,
+        "best_nodes": 34,
+        "generation": 58,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 34.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(psqrt(Gradient_Squared_Energy), mul(mul(GLCM_Contrast, Fourier_Transform_Sharpness_Index), Wavelet_W1)), mul(Wavelet_W1, mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio)))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1822853316308129,
+        "best_height": 9,
+        "best_nodes": 34,
+        "generation": 59,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622702739762,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 60,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622702739762,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 61,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622702739762,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 62,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622667828202,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 63,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622667828202,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 64,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622667828202,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 65,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622667828202,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 66,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622667828202,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 67,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 26.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18179622667828202,
+        "best_height": 8,
+        "best_nodes": 26,
+        "generation": 68,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151037092287314,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 69,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151037000588524,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 70,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151036850626986,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 71,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151036850626986,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 72,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151036850626986,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 73,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151036850626986,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 74,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151036850626986,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 75,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(mul(Gradient_Squared_Energy, pabs(GLCM_Contrast)), mul(Curvelet_Transform_Sharpness_Index, Squared_Gradient))), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18151036850626986,
+        "best_height": 9,
+        "best_nodes": 35,
+        "generation": 76,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18063040729249688,
+        "best_height": 8,
+        "best_nodes": 35,
+        "generation": 77,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18063040729249688,
+        "best_height": 8,
+        "best_nodes": 35,
+        "generation": 78,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18063040729249688,
+        "best_height": 8,
+        "best_nodes": 35,
+        "generation": 79,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18063040729249688,
+        "best_height": 8,
+        "best_nodes": 35,
+        "generation": 80,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18063040729249688,
+        "best_height": 8,
+        "best_nodes": 35,
+        "generation": 81,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 35.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index)), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.180630407238018,
+        "best_height": 8,
+        "best_nodes": 35,
+        "generation": 82,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1806159613971623,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 83,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1806159613971623,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 84,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1806159613971623,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 85,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1806159613971623,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 86,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1806159613971623,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 87,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.1806159613971623,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 88,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18061596034323207,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 89,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18061596034323207,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 90,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18061596034323207,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 91,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Fourier_High_Frequency_Energy_Ratio))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.18061596034323207,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 92,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742128322872,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 93,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742128322872,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 94,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742128322872,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 95,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742128322872,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 96,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742118415752,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 97,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742118415752,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 98,
+        "population_size": 500
+      },
+      {
+        "best_complexity": 33.0,
+        "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+        "best_generalization_score": 0.17986742118415752,
+        "best_height": 7,
+        "best_nodes": 33,
+        "generation": 99,
+        "population_size": 500
+      }
+    ],
+    "mean_heldout_curve": [],
+    "num_nodes": 33,
+    "result_type": "final_refit",
+    "resume_status": "computed",
+    "seed": 44,
+    "terminals": [
+      "Gradient Squared Energy",
+      "Fourier Transform Sharpness Index",
+      "Wavelet W1",
+      "Curvelet Transform Sharpness Index",
+      "Sum Modified Laplacian",
+      "Intensity Skewness Index",
+      "GLCM Contrast",
+      "Squared Gradient",
+      "Wavelet W3",
+      "Fourier High Frequency Energy Ratio"
+    ],
+    "train_dataset_metric_scores": {
+      "BMA": {
+        "absolute_peak_localization_error": 0.0038610038610032943,
+        "curvature_at_peak": 9.657797005187121e-05,
+        "execution_time_per_slice": 1.4903330698304234,
+        "false_maxima_count": 0.0,
+        "fwhm": 0.0025773195876285997,
+        "noise_level": 0.46979902442670624,
+        "range_around_global_maximum": -0.07317073170724928,
+        "steep_slope_width": 0.9999999999998694,
+        "steep_to_gradual_slope_ratio": 0.10508896285771731
+      },
+      "PBS": {
+        "absolute_peak_localization_error": 0.01221640488656031,
+        "curvature_at_peak": -0.002491872313941528,
+        "execution_time_per_slice": 1.547769415705916,
+        "false_maxima_count": 0.07999999999996481,
+        "fwhm": -0.015337423312881654,
+        "noise_level": 0.5451639055287556,
+        "range_around_global_maximum": -0.04347826086949244,
+        "steep_slope_width": 0.9934959349592252,
+        "steep_to_gradual_slope_ratio": -0.040840079802874095
+      },
+      "TBF": {
+        "absolute_peak_localization_error": 0.014763014763012677,
+        "curvature_at_peak": 9.53523077463857e-13,
+        "execution_time_per_slice": 1.4285013110752554,
+        "false_maxima_count": 0.018442622950812795,
+        "fwhm": 0.08628211342704038,
+        "noise_level": 0.20362449365442772,
+        "range_around_global_maximum": 0.010147991543339598,
+        "steep_slope_width": 0.9325674325673479,
+        "steep_to_gradual_slope_ratio": 2.386949964082175e-13
+      },
+      "TBI": {
+        "absolute_peak_localization_error": 0.0,
+        "curvature_at_peak": 0.03388744320448363,
+        "execution_time_per_slice": 1.4841789449606684,
+        "false_maxima_count": 0.10638297872333635,
+        "fwhm": 0.0,
+        "noise_level": 0.463031679807522,
+        "range_around_global_maximum": -0.03225806451609791,
+        "steep_slope_width": 0.8950617283948961,
+        "steep_to_gradual_slope_ratio": 0.061449846914424525
+      },
+      "WBC": {
+        "absolute_peak_localization_error": 0.0022280367903579337,
+        "curvature_at_peak": -0.03683585436306428,
+        "execution_time_per_slice": 1.1275966475979382,
+        "false_maxima_count": 0.21161987885068362,
+        "fwhm": -0.08749589981242369,
+        "noise_level": 0.16854355864744616,
+        "range_around_global_maximum": -0.05206348059360549,
+        "steep_slope_width": 0.9600792557929334,
+        "steep_to_gradual_slope_ratio": -0.109511810190545
+      }
+    },
+    "train_dataset_scores": [
+      0.17881420299964662,
+      0.2664348357293646,
+      0.27068139662187723,
+      0.25955921851011615,
+      0.23661918676112767
+    ],
+    "train_datasets": [
+      "WBC",
+      "TBI",
+      "PBS",
+      "BMA",
+      "TBF"
+    ],
+    "tree_height": 7
+  },
+  "best_seed": 44,
+  "best_training_objective": 0.17986742118415752,
+  "best_tree_height": 7,
+  "mean_all_dataset_score": 0.2453822860221436,
+  "mean_training_objective": 0.18281130736424417,
+  "num_seeds": 10,
+  "result_type": "final_refit_summary",
+  "selection_rule": {
+    "explicit_terminals": null,
+    "fallback_terminals": [
+      "GLCM Contrast",
+      "Intensity Skewness Index",
+      "Fourier Transform Sharpness Index",
+      "Brenner Gradient",
+      "Fourier High Frequency Energy Ratio",
+      "Wavelet W1",
+      "Wavelet W2",
+      "Wavelet W3",
+      "Curvelet Transform Sharpness Index",
+      "Sum Modified Laplacian",
+      "Squared Gradient",
+      "Gradient Squared Energy",
+      "Roberts Focus Measure"
+    ],
+    "top_k_rank": 6,
+    "top_k_value": 6
+  },
+  "std_all_dataset_score": 0.0010741126418511954,
+  "std_training_objective": 0.0012630212611637296,
+  "terminals": [
+    "Gradient Squared Energy",
+    "Fourier Transform Sharpness Index",
+    "Wavelet W1",
+    "Curvelet Transform Sharpness Index",
+    "Sum Modified Laplacian",
+    "Intensity Skewness Index",
+    "GLCM Contrast",
+    "Squared Gradient",
+    "Wavelet W3",
+    "Fourier High Frequency Energy Ratio"
+  ],
+  "train_datasets": [
+    "WBC",
+    "TBI",
+    "PBS",
+    "BMA",
+    "TBF"
+  ]
+}

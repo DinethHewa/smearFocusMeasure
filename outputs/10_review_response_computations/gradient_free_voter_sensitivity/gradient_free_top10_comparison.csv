@@ -1,0 +1,41 @@
+comparison,top_position,measure_name,score,family
+original_rank,1,Gradient Squared Energy,10.24977397684207,gradient
+original_rank,2,Squared Gradient,10.285248771386602,gradient
+original_rank,3,Energy of Gradient,10.361818448572636,gradient
+original_rank,4,Brenner Gradient,10.402274672612531,gradient
+original_rank,5,Tenengrad,10.518195456371991,gradient
+original_rank,6,Variance of Gradient,10.833724756162239,gradient
+original_rank,7,Roberts Focus Measure,11.486755479572867,gradient
+original_rank,8,Modified Tenengrad,12.05032910407827,gradient
+original_rank,9,Spatial Frequency,12.353924590408944,gradient
+original_rank,10,DCT Focus Measure,13.709370177159494,frequency
+gradient_free_rank,1,Brenner Gradient,10.491271017597578,gradient
+gradient_free_rank,2,Gradient Squared Energy,10.529667637109508,gradient
+gradient_free_rank,3,Energy of Gradient,10.543047677914831,gradient
+gradient_free_rank,4,Squared Gradient,10.564483523931495,gradient
+gradient_free_rank,5,Tenengrad,10.69712855303897,gradient
+gradient_free_rank,6,Variance of Gradient,11.099068276024797,gradient
+gradient_free_rank,7,Roberts Focus Measure,11.611869604562948,gradient
+gradient_free_rank,8,Modified Tenengrad,12.33928054580353,gradient
+gradient_free_rank,9,Spatial Frequency,12.461484132713725,gradient
+gradient_free_rank,10,DCT Focus Measure,13.567593533739409,frequency
+original_value,1,Variance of Gradient,0.10226159618718453,gradient
+original_value,2,Gradient Squared Energy,0.10584065091066588,gradient
+original_value,3,Squared Gradient,0.10587024391532437,gradient
+original_value,4,Energy of Gradient,0.10681720936610134,gradient
+original_value,5,Tenengrad,0.10689891001357385,gradient
+original_value,6,Brenner Gradient,0.10969771518476504,gradient
+original_value,7,Modified Tenengrad,0.11683166569691544,gradient
+original_value,8,Fourier Transform Sharpness Index,0.1282247546775048,frequency
+original_value,9,Roberts Focus Measure,0.13921879718263058,gradient
+original_value,10,DCT Focus Measure,0.15180337668350694,frequency
+gradient_free_value,1,Variance of Gradient,0.10415539583507902,gradient
+gradient_free_value,2,Energy of Gradient,0.10914348235413843,gradient
+gradient_free_value,3,Gradient Squared Energy,0.10917298282548406,gradient
+gradient_free_value,4,Squared Gradient,0.10919577231784561,gradient
+gradient_free_value,5,Tenengrad,0.10922716601105913,gradient
+gradient_free_value,6,Brenner Gradient,0.11096546538790433,gradient
+gradient_free_value,7,Modified Tenengrad,0.11992887076485098,gradient
+gradient_free_value,8,Fourier Transform Sharpness Index,0.12984014734809585,frequency
+gradient_free_value,9,Roberts Focus Measure,0.13932847582932206,gradient
+gradient_free_value,10,DCT Focus Measure,0.1513918847522468,frequency

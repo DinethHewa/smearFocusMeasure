@@ -1,0 +1,55 @@
+{
+  "figures_written": [
+    {
+      "description": "Normalized focus curves for selected top single measures.",
+      "figure_key": "Fig5_representative_single_focus_curves",
+      "files": [
+        "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.png",
+        "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.pdf"
+      ]
+    },
+    {
+      "description": "One or more representative normalized focus-curve plots per dataset.",
+      "figure_key": "SFig1_dataset_specific_focus_curves",
+      "files": [
+        "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.png",
+        "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.pdf"
+      ]
+    },
+    {
+      "description": "Cross-dataset summary heatmap for single handcrafted focus measures.",
+      "figure_key": "Fig2_single_measure_heatmap",
+      "files": [
+        "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.png",
+        "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.pdf"
+      ],
+      "metric_used": "absolute_peak_localization_error"
+    },
+    {
+      "description": "Confidence interval summary for leading single operators.",
+      "figure_key": "Fig3_top_operator_bootstrap_ci",
+      "files": [
+        "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.png",
+        "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.pdf"
+      ]
+    },
+    {
+      "description": "Ranking or metric variation across native and reduced resolutions.",
+      "figure_key": "Fig4_resolution_sensitivity",
+      "files": [
+        "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.png",
+        "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.pdf"
+      ]
+    },
+    {
+      "description": "Operator runtime comparison across native and reduced resolutions.",
+      "figure_key": "Fig10_runtime_scaling",
+      "files": [
+        "outputs/09_paper/figures/main/Fig10_runtime_scaling.png",
+        "outputs/09_paper/figures/main/Fig10_runtime_scaling.pdf"
+      ]
+    }
+  ],
+  "run_mode": "full",
+  "stage": "plot_single_measure_results"
+}

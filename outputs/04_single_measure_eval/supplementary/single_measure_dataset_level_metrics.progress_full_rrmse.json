@@ -1,0 +1,51 @@
+{
+  "completed_rows": 160,
+  "progress_csv": "outputs/04_single_measure_eval/supplementary/single_measure_dataset_level_metrics.progress_full_rrmse.csv",
+  "signature": {
+    "dataset_order": [
+      "WBC",
+      "TBI",
+      "PBS",
+      "BMA",
+      "TBF"
+    ],
+    "measure_names": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index",
+      "Fourier High Frequency Energy Ratio",
+      "Roberts Focus Measure",
+      "Wavelet W1",
+      "Wavelet W2",
+      "Wavelet W3",
+      "Wavelet Detail Energy (db1)",
+      "Curvelet Transform Sharpness Index",
+      "DCT Focus Measure",
+      "Intensity Skewness Index",
+      "Squared Gradient",
+      "Gradient Squared Energy",
+      "Mean Intensity",
+      "Intensity Variance",
+      "Intensity Range Index",
+      "Maximal Intensity",
+      "Laplacian Energy",
+      "Mean Absolute Laplacian",
+      "Spatial Frequency",
+      "Modified Tenengrad",
+      "Absolute Central Moment 2",
+      "Absolute Central Moment 4",
+      "Image Power"
+    ],
+    "run_mode": "full",
+    "skip_rrmse": false
+  },
+  "status": "complete",
+  "total_expected_rows": 160
+}

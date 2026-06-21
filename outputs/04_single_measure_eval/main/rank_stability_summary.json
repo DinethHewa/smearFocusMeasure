@@ -1,0 +1,42 @@
+{
+  "comparison_resolution": 1024,
+  "dataset_names": [
+    "WBC",
+    "TBI",
+    "PBS",
+    "BMA",
+    "TBF"
+  ],
+  "dataset_stack_counts_used": {
+    "BMA": 5,
+    "PBS": 5,
+    "TBF": 5,
+    "TBI": 5,
+    "WBC": 5
+  },
+  "mean_absolute_value_rank_shift": 2.5454545454545454,
+  "measures_evaluated": [
+    "Gradient Squared Energy",
+    "Squared Gradient",
+    "Energy of Gradient",
+    "Brenner Gradient",
+    "Tenengrad",
+    "Variance of Gradient",
+    "Roberts Focus Measure",
+    "Modified Tenengrad",
+    "Spatial Frequency",
+    "DCT Focus Measure",
+    "Fourier Transform Sharpness Index"
+  ],
+  "pass_thresholds": {
+    "max_mean_absolute_value_rank_shift": 5.5,
+    "min_top_k_overlap_at_5": 3,
+    "min_value_rank_spearman": 0.3
+  },
+  "passed": true,
+  "run_mode": "full",
+  "skip_rrmse": false,
+  "status": "complete",
+  "top_k_overlap_at_5": 3,
+  "value_rank_spearman": 0.41818181818181827
+}

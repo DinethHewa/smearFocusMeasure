@@ -1,0 +1,23 @@
+{
+  "figures_written": [
+    {
+      "critical_difference": 7.092270289627993,
+      "description": "Critical-difference diagram for overall rank-based comparison.",
+      "figure_key": "Fig7_nemenyi_cd_overall_rank",
+      "files": [
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png",
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf"
+      ]
+    },
+    {
+      "critical_difference": 22.427727896766523,
+      "description": "Critical-difference diagram for accuracy-specific ranking.",
+      "figure_key": "Fig8_nemenyi_cd_accuracy_rank",
+      "files": [
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png",
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf"
+      ]
+    }
+  ],
+  "stage": "run_statistics_and_sensitivity"
+}

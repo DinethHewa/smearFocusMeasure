@@ -1,0 +1,9 @@
+{
+  "best_composite_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+  "best_composite_id": "CFM1",
+  "composite_metric_profile_csv": "outputs/06_composite_eval/supplementary/top_composites_10_metric_profile.csv",
+  "foldwise_gp_summary_csv": "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+  "run_mode": "full",
+  "stage": "evaluate_composites",
+  "table7_csv": "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv"
+}

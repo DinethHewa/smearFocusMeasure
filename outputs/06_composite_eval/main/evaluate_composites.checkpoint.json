@@ -1,0 +1,17 @@
+{
+  "details": {
+    "comparison_csv": "outputs/06_composite_eval/main/best_composite_vs_best_single.csv",
+    "composite_metric_json": "outputs/06_composite_eval/supplementary/composite_metric_raw_by_dataset.json",
+    "composite_metric_profile_csv": "outputs/06_composite_eval/supplementary/top_composites_10_metric_profile.csv",
+    "num_candidates_evaluated": 14,
+    "run_mode": "full",
+    "skip_rrmse": false,
+    "table7_csv": "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv",
+    "top_k_composites": 10,
+    "union_metric_json": "outputs/06_composite_eval/supplementary/union_metric_raw.json",
+    "within_spread_csv": "outputs/06_composite_eval/supplementary/within_admissible_spread.csv"
+  },
+  "stage": "evaluate_composites",
+  "status": "complete",
+  "timestamp_utc": "2026-05-22T01:08:55.215059+00:00"
+}

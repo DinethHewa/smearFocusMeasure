@@ -1,0 +1,101 @@
+{
+  "details": {
+    "publication_measure_subset": [
+      "Gradient Squared Energy",
+      "Squared Gradient",
+      "Energy of Gradient",
+      "Brenner Gradient",
+      "Tenengrad",
+      "Variance of Gradient",
+      "Roberts Focus Measure",
+      "Modified Tenengrad",
+      "Spatial Frequency",
+      "DCT Focus Measure",
+      "Fourier Transform Sharpness Index"
+    ],
+    "rank_stability_checkpoint": "outputs/04_single_measure_eval/main/rank_stability.checkpoint.json",
+    "rank_stability_passed": true
+  },
+  "files": {
+    "dataset_level_metrics_csv": {
+      "exists": true,
+      "mtime_ns": 1778289865601642270,
+      "path": "outputs/04_single_measure_eval/supplementary/single_measure_dataset_level_metrics.csv",
+      "size_bytes": 39278
+    },
+    "dataset_metric_raw_json": {
+      "exists": true,
+      "mtime_ns": 1778289868499383562,
+      "path": "outputs/04_single_measure_eval/supplementary/dataset_metric_raw.json",
+      "size_bytes": 85477
+    },
+    "label_source_manifest_json": {
+      "exists": true,
+      "mtime_ns": 1778262771103900906,
+      "path": "outputs/02_reference_labels/manifests/label_source_manifest.json",
+      "size_bytes": 113864
+    },
+    "label_usage_disclosure_csv": {
+      "exists": true,
+      "mtime_ns": 1778289868522230405,
+      "path": "outputs/04_single_measure_eval/supplementary/label_source_usage_by_measure.csv",
+      "size_bytes": 11377
+    },
+    "label_usage_disclosure_json": {
+      "exists": true,
+      "mtime_ns": 1778289868526038212,
+      "path": "outputs/04_single_measure_eval/supplementary/label_source_usage_by_measure.json",
+      "size_bytes": 44310
+    },
+    "rank_all_csv": {
+      "exists": true,
+      "mtime_ns": 1778289866835371808,
+      "path": "outputs/04_single_measure_eval/supplementary/all_single_rank_based.csv",
+      "size_bytes": 2952
+    },
+    "rank_stability_detail_csv": {
+      "exists": true,
+      "mtime_ns": 1778292045404098249,
+      "path": "outputs/04_single_measure_eval/supplementary/rank_stability_detail_by_dataset.csv",
+      "size_bytes": 20367
+    },
+    "rank_stability_summary_csv": {
+      "exists": true,
+      "mtime_ns": 1778292045400349499,
+      "path": "outputs/04_single_measure_eval/supplementary/rank_stability_1024.csv",
+      "size_bytes": 1490
+    },
+    "rank_stability_summary_json": {
+      "exists": true,
+      "mtime_ns": 1778292045404098249,
+      "path": "outputs/04_single_measure_eval/main/rank_stability_summary.json",
+      "size_bytes": 907
+    },
+    "rank_top10_csv": {
+      "exists": true,
+      "mtime_ns": 1778289866835371808,
+      "path": "outputs/04_single_measure_eval/main/top10_single_rank_based.csv",
+      "size_bytes": 1003
+    },
+    "value_equal_all_csv": {
+      "exists": true,
+      "mtime_ns": 1778289866835371808,
+      "path": "outputs/04_single_measure_eval/supplementary/all_single_value_based_equal_dataset.csv",
+      "size_bytes": 3341
+    },
+    "value_equal_top10_csv": {
+      "exists": true,
+      "mtime_ns": 1778289866835371808,
+      "path": "outputs/04_single_measure_eval/main/top10_single_value_based_equal_dataset.csv",
+      "size_bytes": 1113
+    },
+    "value_per_stack_all_csv": {
+      "exists": true,
+      "mtime_ns": 1778289866839179616,
+      "path": "outputs/04_single_measure_eval/supplementary/all_single_value_based_per_stack.csv",
+      "size_bytes": 3248
+    }
+  },
+  "run_mode": "full",
+  "status": "frozen"
+}

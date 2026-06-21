@@ -1,0 +1,83 @@
+{
+  "accuracy_cd": 22.427727896766523,
+  "accuracy_friedman": [
+    {
+      "blocks": "BMA,PBS,TBF,TBI,WBC",
+      "family": "single_accuracy_rank",
+      "k": 32,
+      "methods": "Absolute Central Moment 2,Absolute Central Moment 4,Brenner Gradient,Curvelet Transform Sharpness Index,DCT Focus Measure,Energy of Gradient,Fourier High Frequency Energy Ratio,Fourier Transform Sharpness Index,GLCM Contrast,Gradient Squared Energy,Histogram Entropy,Image Power,Intensity Range Index,Intensity Skewness Index,Intensity Variance,Laplacian Energy,Maximal Intensity,Mean Absolute Laplacian,Mean Intensity,Modified Tenengrad,Normalized Variance,Roberts Focus Measure,Spatial Frequency,Squared Gradient,Sum Modified Laplacian,Tenengrad,Variance of Gradient,Variance of Laplacian,Wavelet Detail Energy (db1),Wavelet W1,Wavelet W2,Wavelet W3",
+      "n": 5,
+      "note": "",
+      "p_value": 1.5426549723579326e-08,
+      "statistic": 95.80295640429206,
+      "valid": true
+    }
+  ],
+  "alpha_summary_csv": "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+  "figure_records": [
+    {
+      "critical_difference": 7.092270289627993,
+      "description": "Critical-difference diagram for overall rank-based comparison.",
+      "figure_key": "Fig7_nemenyi_cd_overall_rank",
+      "files": [
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png",
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf"
+      ]
+    },
+    {
+      "critical_difference": 22.427727896766523,
+      "description": "Critical-difference diagram for accuracy-specific ranking.",
+      "figure_key": "Fig8_nemenyi_cd_accuracy_rank",
+      "files": [
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png",
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf"
+      ]
+    }
+  ],
+  "metric_weight_summary_csv": "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+  "overall_cd": 7.092270289627993,
+  "overall_friedman": [
+    {
+      "blocks": "BMA::absolute_peak_localization_error,BMA::fwhm,BMA::curvature_at_peak,BMA::steep_slope_width,BMA::steep_to_gradual_slope_ratio,BMA::false_maxima_count,BMA::noise_level,BMA::rrmse_under_additive_noise,BMA::range_around_global_maximum,BMA::execution_time_per_slice,PBS::absolute_peak_localization_error,PBS::fwhm,PBS::curvature_at_peak,PBS::steep_slope_width,PBS::steep_to_gradual_slope_ratio,PBS::false_maxima_count,PBS::noise_level,PBS::rrmse_under_additive_noise,PBS::range_around_global_maximum,PBS::execution_time_per_slice,TBF::absolute_peak_localization_error,TBF::fwhm,TBF::curvature_at_peak,TBF::steep_slope_width,TBF::steep_to_gradual_slope_ratio,TBF::false_maxima_count,TBF::noise_level,TBF::rrmse_under_additive_noise,TBF::range_around_global_maximum,TBF::execution_time_per_slice,TBI::absolute_peak_localization_error,TBI::fwhm,TBI::curvature_at_peak,TBI::steep_slope_width,TBI::steep_to_gradual_slope_ratio,TBI::false_maxima_count,TBI::noise_level,TBI::rrmse_under_additive_noise,TBI::range_around_global_maximum,TBI::execution_time_per_slice,WBC::absolute_peak_localization_error,WBC::fwhm,WBC::curvature_at_peak,WBC::steep_slope_width,WBC::steep_to_gradual_slope_ratio,WBC::false_maxima_count,WBC::noise_level,WBC::rrmse_under_additive_noise,WBC::range_around_global_maximum,WBC::execution_time_per_slice",
+      "family": "single_overall_rank",
+      "k": 32,
+      "methods": "Absolute Central Moment 2,Absolute Central Moment 4,Brenner Gradient,Curvelet Transform Sharpness Index,DCT Focus Measure,Energy of Gradient,Fourier High Frequency Energy Ratio,Fourier Transform Sharpness Index,GLCM Contrast,Gradient Squared Energy,Histogram Entropy,Image Power,Intensity Range Index,Intensity Skewness Index,Intensity Variance,Laplacian Energy,Maximal Intensity,Mean Absolute Laplacian,Mean Intensity,Modified Tenengrad,Normalized Variance,Roberts Focus Measure,Spatial Frequency,Squared Gradient,Sum Modified Laplacian,Tenengrad,Variance of Gradient,Variance of Laplacian,Wavelet Detail Energy (db1),Wavelet W1,Wavelet W2,Wavelet W3",
+      "n": 50,
+      "note": "",
+      "p_value": 3.1217517778266456e-15,
+      "statistic": 136.71121507143718,
+      "valid": true
+    }
+  ],
+  "run_mode": "full",
+  "union_statistics": {
+    "union_accuracy_cd": 33.56223819697029,
+    "union_accuracy_friedman": [
+      {
+        "blocks": "BMA,PBS,TBF,TBI,WBC",
+        "family": "union_accuracy_rank",
+        "k": 46,
+        "methods": "Absolute Central Moment 2,Absolute Central Moment 4,Brenner Gradient,CFM1,CFM10,CFM11,CFM12,CFM13,CFM14,CFM2,CFM3,CFM4,CFM5,CFM6,CFM7,CFM8,CFM9,Curvelet Transform Sharpness Index,DCT Focus Measure,Energy of Gradient,Fourier High Frequency Energy Ratio,Fourier Transform Sharpness Index,GLCM Contrast,Gradient Squared Energy,Histogram Entropy,Image Power,Intensity Range Index,Intensity Skewness Index,Intensity Variance,Laplacian Energy,Maximal Intensity,Mean Absolute Laplacian,Mean Intensity,Modified Tenengrad,Normalized Variance,Roberts Focus Measure,Spatial Frequency,Squared Gradient,Sum Modified Laplacian,Tenengrad,Variance of Gradient,Variance of Laplacian,Wavelet Detail Energy (db1),Wavelet W1,Wavelet W2,Wavelet W3",
+        "n": 5,
+        "note": "",
+        "p_value": 2.1118168617346973e-13,
+        "statistic": 151.17512583086798,
+        "valid": true
+      }
+    ],
+    "union_overall_cd": 10.613311607552903,
+    "union_overall_friedman": [
+      {
+        "blocks": "BMA::absolute_peak_localization_error,BMA::fwhm,BMA::curvature_at_peak,BMA::steep_slope_width,BMA::steep_to_gradual_slope_ratio,BMA::false_maxima_count,BMA::noise_level,BMA::rrmse_under_additive_noise,BMA::range_around_global_maximum,BMA::execution_time_per_slice,PBS::absolute_peak_localization_error,PBS::fwhm,PBS::curvature_at_peak,PBS::steep_slope_width,PBS::steep_to_gradual_slope_ratio,PBS::false_maxima_count,PBS::noise_level,PBS::rrmse_under_additive_noise,PBS::range_around_global_maximum,PBS::execution_time_per_slice,TBF::absolute_peak_localization_error,TBF::fwhm,TBF::curvature_at_peak,TBF::steep_slope_width,TBF::steep_to_gradual_slope_ratio,TBF::false_maxima_count,TBF::noise_level,TBF::rrmse_under_additive_noise,TBF::range_around_global_maximum,TBF::execution_time_per_slice,TBI::absolute_peak_localization_error,TBI::fwhm,TBI::curvature_at_peak,TBI::steep_slope_width,TBI::steep_to_gradual_slope_ratio,TBI::false_maxima_count,TBI::noise_level,TBI::rrmse_under_additive_noise,TBI::range_around_global_maximum,TBI::execution_time_per_slice,WBC::absolute_peak_localization_error,WBC::fwhm,WBC::curvature_at_peak,WBC::steep_slope_width,WBC::steep_to_gradual_slope_ratio,WBC::false_maxima_count,WBC::noise_level,WBC::rrmse_under_additive_noise,WBC::range_around_global_maximum,WBC::execution_time_per_slice",
+        "family": "union_overall_rank",
+        "k": 46,
+        "methods": "Absolute Central Moment 2,Absolute Central Moment 4,Brenner Gradient,CFM1,CFM10,CFM11,CFM12,CFM13,CFM14,CFM2,CFM3,CFM4,CFM5,CFM6,CFM7,CFM8,CFM9,Curvelet Transform Sharpness Index,DCT Focus Measure,Energy of Gradient,Fourier High Frequency Energy Ratio,Fourier Transform Sharpness Index,GLCM Contrast,Gradient Squared Energy,Histogram Entropy,Image Power,Intensity Range Index,Intensity Skewness Index,Intensity Variance,Laplacian Energy,Maximal Intensity,Mean Absolute Laplacian,Mean Intensity,Modified Tenengrad,Normalized Variance,Roberts Focus Measure,Spatial Frequency,Squared Gradient,Sum Modified Laplacian,Tenengrad,Variance of Gradient,Variance of Laplacian,Wavelet Detail Energy (db1),Wavelet W1,Wavelet W2,Wavelet W3",
+        "n": 50,
+        "note": "",
+        "p_value": 5.183543063472964e-29,
+        "statistic": 243.24320063461093,
+        "valid": true
+      }
+    ]
+  }
+}

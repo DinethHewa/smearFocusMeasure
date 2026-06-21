@@ -1,0 +1,17 @@
+{
+  "details": {
+    "detailed_csv": "outputs/04_single_measure_eval/supplementary/single_measure_dataset_level_metrics.csv",
+    "freeze_manifest_json": "outputs/04_single_measure_eval/main/single_measure_results_freeze.json",
+    "label_usage_disclosure_csv": "outputs/04_single_measure_eval/supplementary/label_source_usage_by_measure.csv",
+    "measures_evaluated": 32,
+    "progress_csv": "outputs/04_single_measure_eval/supplementary/single_measure_dataset_level_metrics.progress_full_rrmse.csv",
+    "rank_stability_summary_json": "outputs/04_single_measure_eval/main/rank_stability_summary.json",
+    "rank_top10_csv": "outputs/04_single_measure_eval/main/top10_single_rank_based.csv",
+    "run_mode": "full",
+    "skip_rrmse": false,
+    "value_equal_top10_csv": "outputs/04_single_measure_eval/main/top10_single_value_based_equal_dataset.csv"
+  },
+  "stage": "evaluate_single_measures",
+  "status": "complete",
+  "timestamp_utc": "2026-05-09T02:00:45.417558+00:00"
+}

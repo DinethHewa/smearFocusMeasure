@@ -1,0 +1,5 @@
+comparison_item,name,expression,score,final_rank
+best_composite_under_common_value_scoring,CFM1,"add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",0.1621995745372937,10
+best_single_under_common_value_scoring,Variance of Gradient,,0.11820337864485986,1
+best_single_under_original_rank_based_analysis,Gradient Squared Energy,,10.24977397684207,1
+best_single_under_original_value_based_analysis,Variance of Gradient,,0.10226159618718453,1

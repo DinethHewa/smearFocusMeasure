@@ -1,0 +1,592 @@
+{
+  "source_datasets": [],
+  "source_label_only_rank": [],
+  "source_label_only_value": [],
+  "surrogate_datasets": [
+    "WBC",
+    "TBI",
+    "PBS",
+    "BMA",
+    "TBF"
+  ],
+  "surrogate_label_only_rank": [
+    {
+      "bootstrap_ci_high": 13.46025,
+      "bootstrap_ci_low": 9.92975,
+      "final_rank": 1,
+      "measure_name": "Gradient Squared Energy",
+      "overall_rank_mean": 11.71,
+      "overall_rank_std": 6.842579922806894,
+      "rank_generalization_score": 10.24977397684207
+    },
+    {
+      "bootstrap_ci_high": 13.530249999999999,
+      "bootstrap_ci_low": 9.93975,
+      "final_rank": 2,
+      "measure_name": "Squared Gradient",
+      "overall_rank_mean": 11.75,
+      "overall_rank_std": 6.867495904622004,
+      "rank_generalization_score": 10.285248771386602
+    },
+    {
+      "bootstrap_ci_high": 13.710499999999998,
+      "bootstrap_ci_low": 10.24975,
+      "final_rank": 3,
+      "measure_name": "Energy of Gradient",
+      "overall_rank_mean": 11.97,
+      "overall_rank_std": 6.609394828575457,
+      "rank_generalization_score": 10.361818448572636
+    },
+    {
+      "bootstrap_ci_high": 13.7,
+      "bootstrap_ci_low": 9.82975,
+      "final_rank": 4,
+      "measure_name": "Brenner Gradient",
+      "overall_rank_mean": 11.75,
+      "overall_rank_std": 7.257582242041767,
+      "rank_generalization_score": 10.402274672612531
+    },
+    {
+      "bootstrap_ci_high": 13.950499999999996,
+      "bootstrap_ci_low": 10.44,
+      "final_rank": 5,
+      "measure_name": "Tenengrad",
+      "overall_rank_mean": 12.19,
+      "overall_rank_std": 6.617318187906639,
+      "rank_generalization_score": 10.518195456371991
+    },
+    {
+      "bootstrap_ci_high": 14.25025,
+      "bootstrap_ci_low": 9.479500000000002,
+      "final_rank": 6,
+      "measure_name": "Variance of Gradient",
+      "overall_rank_mean": 11.74,
+      "overall_rank_std": 8.719082520540795,
+      "rank_generalization_score": 10.833724756162239
+    },
+    {
+      "bootstrap_ci_high": 15.450249999999999,
+      "bootstrap_ci_low": 11.75975,
+      "final_rank": 7,
+      "measure_name": "Roberts Focus Measure",
+      "overall_rank_mean": 13.55,
+      "overall_rank_std": 6.672518265242891,
+      "rank_generalization_score": 11.486755479572867
+    },
+    {
+      "bootstrap_ci_high": 15.700999999999993,
+      "bootstrap_ci_low": 10.399750000000001,
+      "final_rank": 8,
+      "measure_name": "Modified Tenengrad",
+      "overall_rank_mean": 13.03,
+      "overall_rank_std": 9.764430346927567,
+      "rank_generalization_score": 12.05032910407827
+    },
+    {
+      "bootstrap_ci_high": 16.700249999999997,
+      "bootstrap_ci_low": 13.53,
+      "final_rank": 9,
+      "measure_name": "Spatial Frequency",
+      "overall_rank_mean": 15.11,
+      "overall_rank_std": 5.92308196802982,
+      "rank_generalization_score": 12.353924590408944
+    },
+    {
+      "bootstrap_ci_high": 18.5,
+      "bootstrap_ci_low": 14.97,
+      "final_rank": 10,
+      "measure_name": "DCT Focus Measure",
+      "overall_rank_mean": 16.75,
+      "overall_rank_std": 6.614567257198312,
+      "rank_generalization_score": 13.709370177159494
+    },
+    {
+      "bootstrap_ci_high": 18.250999999999994,
+      "bootstrap_ci_low": 13.469750000000001,
+      "final_rank": 11,
+      "measure_name": "Fourier Transform Sharpness Index",
+      "overall_rank_mean": 15.88,
+      "overall_rank_std": 8.88963441318033,
+      "rank_generalization_score": 13.7828903239541
+    },
+    {
+      "bootstrap_ci_high": 19.540499999999998,
+      "bootstrap_ci_low": 16.2695,
+      "final_rank": 12,
+      "measure_name": "Wavelet W1",
+      "overall_rank_mean": 17.9,
+      "overall_rank_std": 5.769748694700662,
+      "rank_generalization_score": 14.260924608410196
+    },
+    {
+      "bootstrap_ci_high": 19.540249999999997,
+      "bootstrap_ci_low": 16.24,
+      "final_rank": 13,
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "overall_rank_mean": 17.9,
+      "overall_rank_std": 5.890670590009257,
+      "rank_generalization_score": 14.297201177002774
+    },
+    {
+      "bootstrap_ci_high": 19.55025,
+      "bootstrap_ci_low": 16.29,
+      "final_rank": 14,
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "overall_rank_mean": 17.92,
+      "overall_rank_std": 5.868867011613059,
+      "rank_generalization_score": 14.304660103483918
+    },
+    {
+      "bootstrap_ci_high": 19.01025,
+      "bootstrap_ci_low": 13.5,
+      "final_rank": 15,
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "overall_rank_mean": 16.24,
+      "overall_rank_std": 9.963553582934152,
+      "rank_generalization_score": 14.357066074880244
+    },
+    {
+      "bootstrap_ci_high": 19.99,
+      "bootstrap_ci_low": 16.45,
+      "final_rank": 16,
+      "measure_name": "Wavelet W3",
+      "overall_rank_mean": 18.22,
+      "overall_rank_std": 6.1880206851625825,
+      "rank_generalization_score": 14.610406205548774
+    },
+    {
+      "bootstrap_ci_high": 19.3205,
+      "bootstrap_ci_low": 13.51,
+      "final_rank": 17,
+      "measure_name": "Variance of Laplacian",
+      "overall_rank_mean": 16.38,
+      "overall_rank_std": 10.615347380090771,
+      "rank_generalization_score": 14.650604214027231
+    },
+    {
+      "bootstrap_ci_high": 20.21,
+      "bootstrap_ci_low": 16.52,
+      "final_rank": 18,
+      "measure_name": "Wavelet W2",
+      "overall_rank_mean": 18.32,
+      "overall_rank_std": 6.316454701808603,
+      "rank_generalization_score": 14.71893641054258
+    },
+    {
+      "bootstrap_ci_high": 20.0505,
+      "bootstrap_ci_low": 14.68,
+      "final_rank": 19,
+      "measure_name": "Sum Modified Laplacian",
+      "overall_rank_mean": 17.33,
+      "overall_rank_std": 9.94716542538627,
+      "rank_generalization_score": 15.11514962761588
+    },
+    {
+      "bootstrap_ci_high": 20.24,
+      "bootstrap_ci_low": 14.778000000000002,
+      "final_rank": 20,
+      "measure_name": "Intensity Range Index",
+      "overall_rank_mean": 17.56,
+      "overall_rank_std": 10.178722906141026,
+      "rank_generalization_score": 15.345616871842306
+    },
+    {
+      "bootstrap_ci_high": 20.720499999999998,
+      "bootstrap_ci_low": 14.979500000000002,
+      "final_rank": 21,
+      "measure_name": "Normalized Variance",
+      "overall_rank_mean": 17.9,
+      "overall_rank_std": 10.018981984213765,
+      "rank_generalization_score": 15.535694595264127
+    },
+    {
+      "bootstrap_ci_high": 20.580249999999996,
+      "bootstrap_ci_low": 14.819500000000001,
+      "final_rank": 22,
+      "measure_name": "Laplacian Energy",
+      "overall_rank_mean": 17.76,
+      "overall_rank_std": 10.43227683681755,
+      "rank_generalization_score": 15.561683051045266
+    },
+    {
+      "bootstrap_ci_high": 20.87025,
+      "bootstrap_ci_low": 15.46,
+      "final_rank": 23,
+      "measure_name": "Intensity Variance",
+      "overall_rank_mean": 18.19,
+      "overall_rank_std": 9.490990464645932,
+      "rank_generalization_score": 15.580297139393782
+    },
+    {
+      "bootstrap_ci_high": 21.0,
+      "bootstrap_ci_low": 15.759500000000001,
+      "final_rank": 24,
+      "measure_name": "Absolute Central Moment 2",
+      "overall_rank_mean": 18.41,
+      "overall_rank_std": 9.258882221953145,
+      "rank_generalization_score": 15.664664666585942
+    },
+    {
+      "bootstrap_ci_high": 21.5,
+      "bootstrap_ci_low": 16.699,
+      "final_rank": 25,
+      "measure_name": "Absolute Central Moment 4",
+      "overall_rank_mean": 19.12,
+      "overall_rank_std": 8.448408134080644,
+      "rank_generalization_score": 15.918522440224194
+    },
+    {
+      "bootstrap_ci_high": 21.040749999999996,
+      "bootstrap_ci_low": 15.379000000000003,
+      "final_rank": 26,
+      "measure_name": "Mean Intensity",
+      "overall_rank_mean": 18.34,
+      "overall_rank_std": 10.322519072397009,
+      "rank_generalization_score": 15.934755721719103
+    },
+    {
+      "bootstrap_ci_high": 20.970249999999997,
+      "bootstrap_ci_low": 14.279250000000001,
+      "final_rank": 27,
+      "measure_name": "Intensity Skewness Index",
+      "overall_rank_mean": 17.63,
+      "overall_rank_std": 12.389031439140027,
+      "rank_generalization_score": 16.05770943174201
+    },
+    {
+      "bootstrap_ci_high": 21.490249999999996,
+      "bootstrap_ci_low": 15.48,
+      "final_rank": 28,
+      "measure_name": "GLCM Contrast",
+      "overall_rank_mean": 18.51,
+      "overall_rank_std": 10.61955272127786,
+      "rank_generalization_score": 16.14286581638336
+    },
+    {
+      "bootstrap_ci_high": 21.6105,
+      "bootstrap_ci_low": 16.58,
+      "final_rank": 29,
+      "measure_name": "Image Power",
+      "overall_rank_mean": 19.17,
+      "overall_rank_std": 9.311611031395158,
+      "rank_generalization_score": 16.21248330941855
+    },
+    {
+      "bootstrap_ci_high": 22.25,
+      "bootstrap_ci_low": 17.1395,
+      "final_rank": 30,
+      "measure_name": "Mean Absolute Laplacian",
+      "overall_rank_mean": 19.76,
+      "overall_rank_std": 9.092436417154646,
+      "rank_generalization_score": 16.559730925146397
+    },
+    {
+      "bootstrap_ci_high": 22.02,
+      "bootstrap_ci_low": 15.76,
+      "final_rank": 31,
+      "measure_name": "Maximal Intensity",
+      "overall_rank_mean": 18.96,
+      "overall_rank_std": 11.606825578081201,
+      "rank_generalization_score": 16.75404767342436
+    },
+    {
+      "bootstrap_ci_high": 24.02,
+      "bootstrap_ci_low": 18.00975,
+      "final_rank": 32,
+      "measure_name": "Histogram Entropy",
+      "overall_rank_mean": 21.05,
+      "overall_rank_std": 10.75,
+      "rank_generalization_score": 17.96
+    }
+  ],
+  "surrogate_label_only_value": [
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 1,
+      "generalization_score": 0.10226159618718453,
+      "measure_name": "Variance of Gradient",
+      "weighted_mean": 0.13583364384880575,
+      "weighted_std": 0.02392681831006833
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 2,
+      "generalization_score": 0.10584065091066588,
+      "measure_name": "Gradient Squared Energy",
+      "weighted_mean": 0.13915487868463056,
+      "weighted_std": 0.028107452771415
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 3,
+      "generalization_score": 0.10587024391532437,
+      "measure_name": "Squared Gradient",
+      "weighted_mean": 0.13918105052278149,
+      "weighted_std": 0.028145028497924437
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 4,
+      "generalization_score": 0.10681720936610134,
+      "measure_name": "Energy of Gradient",
+      "weighted_mean": 0.1410750336329921,
+      "weighted_std": 0.026882286076689625
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 5,
+      "generalization_score": 0.10689891001357385,
+      "measure_name": "Tenengrad",
+      "weighted_mean": 0.1411895214830564,
+      "weighted_std": 0.026887483251447908
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 6,
+      "generalization_score": 0.10969771518476504,
+      "measure_name": "Brenner Gradient",
+      "weighted_mean": 0.14397310124626977,
+      "weighted_std": 0.029721814374587333
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 7,
+      "generalization_score": 0.11683166569691544,
+      "measure_name": "Modified Tenengrad",
+      "weighted_mean": 0.15429722377994481,
+      "weighted_std": 0.029412030169846937
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 8,
+      "generalization_score": 0.1282247546775048,
+      "measure_name": "Fourier Transform Sharpness Index",
+      "weighted_mean": 0.1636040944454698,
+      "weighted_std": 0.045672961885586484
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 9,
+      "generalization_score": 0.13921879718263058,
+      "measure_name": "Roberts Focus Measure",
+      "weighted_mean": 0.17779966761109434,
+      "weighted_std": 0.04919676618288188
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 10,
+      "generalization_score": 0.15180337668350694,
+      "measure_name": "DCT Focus Measure",
+      "weighted_mean": 0.2004518600126018,
+      "weighted_std": 0.03829024891561896
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 11,
+      "generalization_score": 0.1542812030557605,
+      "measure_name": "Spatial Frequency",
+      "weighted_mean": 0.19717587389591795,
+      "weighted_std": 0.05419363776205986
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 12,
+      "generalization_score": 0.17942523424883805,
+      "measure_name": "Wavelet W1",
+      "weighted_mean": 0.22762763119409424,
+      "weighted_std": 0.06695297470990694
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 13,
+      "generalization_score": 0.17947748932870253,
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "weighted_mean": 0.2276773324824014,
+      "weighted_std": 0.06701118863673854
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 14,
+      "generalization_score": 0.17962379175672377,
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "weighted_mean": 0.22789944745099194,
+      "weighted_std": 0.0669805951367648
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 15,
+      "generalization_score": 0.18028511568123187,
+      "measure_name": "Wavelet W3",
+      "weighted_mean": 0.22883360116223952,
+      "weighted_std": 0.06700531622554742
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 16,
+      "generalization_score": 0.18088937553300746,
+      "measure_name": "Wavelet W2",
+      "weighted_mean": 0.23038320973320728,
+      "weighted_std": 0.06540376239920788
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 17,
+      "generalization_score": 0.20406596372184838,
+      "measure_name": "Normalized Variance",
+      "weighted_mean": 0.24698813335280498,
+      "weighted_std": 0.10391423458294965
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 18,
+      "generalization_score": 0.20526013432057866,
+      "measure_name": "Absolute Central Moment 4",
+      "weighted_mean": 0.24809017703992964,
+      "weighted_std": 0.10532336797542638
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 19,
+      "generalization_score": 0.20855226485493475,
+      "measure_name": "Intensity Variance",
+      "weighted_mean": 0.2517098695263887,
+      "weighted_std": 0.10785118728820893
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 20,
+      "generalization_score": 0.20869570014474065,
+      "measure_name": "Absolute Central Moment 2",
+      "weighted_mean": 0.2519467995553325,
+      "weighted_std": 0.10777646818669298
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 21,
+      "generalization_score": 0.21394224581274932,
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "weighted_mean": 0.2590178368493388,
+      "weighted_std": 0.10876586672737384
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 22,
+      "generalization_score": 0.23761749582467942,
+      "measure_name": "Intensity Range Index",
+      "weighted_mean": 0.30807193245069264,
+      "weighted_std": 0.073223810363982
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 23,
+      "generalization_score": 0.267038090939282,
+      "measure_name": "Sum Modified Laplacian",
+      "weighted_mean": 0.32338008433097404,
+      "weighted_std": 0.1355734396920007
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 24,
+      "generalization_score": 0.27188937187713935,
+      "measure_name": "Variance of Laplacian",
+      "weighted_mean": 0.327978338347132,
+      "weighted_std": 0.1410151167804897
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 25,
+      "generalization_score": 0.2761455845155937,
+      "measure_name": "Laplacian Energy",
+      "weighted_mean": 0.3339695706747013,
+      "weighted_std": 0.14122295014434266
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 26,
+      "generalization_score": 0.282605406094417,
+      "measure_name": "Image Power",
+      "weighted_mean": 0.354837897189288,
+      "weighted_std": 0.11406292687305138
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 27,
+      "generalization_score": 0.2906931804267344,
+      "measure_name": "Mean Absolute Laplacian",
+      "weighted_mean": 0.35705847646809974,
+      "weighted_std": 0.13584082299688213
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 28,
+      "generalization_score": 0.3092327997418083,
+      "measure_name": "Mean Intensity",
+      "weighted_mean": 0.40574142482553077,
+      "weighted_std": 0.08404600787978919
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 29,
+      "generalization_score": 0.3339900512788854,
+      "measure_name": "GLCM Contrast",
+      "weighted_mean": 0.407543811397431,
+      "weighted_std": 0.16236461100227914
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 30,
+      "generalization_score": 0.33804114204953795,
+      "measure_name": "Intensity Skewness Index",
+      "weighted_mean": 0.42693392550004056,
+      "weighted_std": 0.13062464733169848
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 31,
+      "generalization_score": 0.3442896738433553,
+      "measure_name": "Maximal Intensity",
+      "weighted_mean": 0.43015385488887764,
+      "weighted_std": 0.14393991807046985
+    },
+    {
+      "alpha": 0.7,
+      "dataset_weighting_mode": "equal_dataset",
+      "final_rank": 32,
+      "generalization_score": 0.34482711571671887,
+      "measure_name": "Histogram Entropy",
+      "weighted_mean": 0.4283391876712115,
+      "weighted_std": 0.14996561448956947
+    }
+  ]
+}

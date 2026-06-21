@@ -1,0 +1,12 @@
+{
+  "details": {
+    "alpha_summary_csv": "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+    "metric_weight_summary_csv": "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+    "num_figures_written": 2,
+    "run_mode": "full",
+    "statistics_summary_json": "outputs/07_statistics/statistics/statistics_summary.json"
+  },
+  "stage": "run_statistics_and_sensitivity",
+  "status": "complete",
+  "timestamp_utc": "2026-05-22T03:46:31.628312+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "details": {
+    "detail_csv": "outputs/04_single_measure_eval/supplementary/rank_stability_detail_by_dataset.csv",
+    "measures_evaluated": [
+      "Gradient Squared Energy",
+      "Squared Gradient",
+      "Energy of Gradient",
+      "Brenner Gradient",
+      "Tenengrad",
+      "Variance of Gradient",
+      "Roberts Focus Measure",
+      "Modified Tenengrad",
+      "Spatial Frequency",
+      "DCT Focus Measure",
+      "Fourier Transform Sharpness Index"
+    ],
+    "passed": true,
+    "run_mode": "full",
+    "summary_csv": "outputs/04_single_measure_eval/supplementary/rank_stability_1024.csv",
+    "summary_json": "outputs/04_single_measure_eval/main/rank_stability_summary.json"
+  },
+  "stage": "rank_stability_validation",
+  "status": "complete",
+  "timestamp_utc": "2026-05-09T02:00:45.412948+00:00"
+}

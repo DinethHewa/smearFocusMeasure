@@ -1,0 +1,18 @@
+{
+  "details": {
+    "deduplicated_shortlist_json": "outputs/05_gp_runs/dedup/deduplicated_best_expressions.json",
+    "final_composite_expression_json": "outputs/05_gp_runs/summaries/final_composite_expression.json",
+    "final_refit_enabled": true,
+    "final_refit_num_seed_results": 10,
+    "final_refit_summary_json": "outputs/05_gp_runs/summaries/final_refit_summary.json",
+    "fold_summary_csv": "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+    "num_folds": 5,
+    "num_seed_results": 50,
+    "run_mode": "full",
+    "selected_terminal_manifest_csv": "outputs/05_gp_runs/summaries/selected_terminal_manifest.csv",
+    "selected_terminal_manifest_json": "outputs/05_gp_runs/summaries/selected_terminals.json"
+  },
+  "stage": "run_composite_gp_lodo",
+  "status": "complete",
+  "timestamp_utc": "2026-05-19T18:40:18.051293+00:00"
+}

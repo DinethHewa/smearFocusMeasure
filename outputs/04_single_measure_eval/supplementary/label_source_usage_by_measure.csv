@@ -1,0 +1,161 @@
+dataset_name,measure_name,dataset_label_mode,label_source_used,uses_leave_one_out_surrogate,source_labels_available
+BMA,Absolute Central Moment 2,surrogate,leave_one_out_surrogate,true,false
+BMA,Absolute Central Moment 4,surrogate,leave_one_out_surrogate,true,false
+BMA,Brenner Gradient,surrogate,leave_one_out_surrogate,true,false
+BMA,Curvelet Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+BMA,DCT Focus Measure,surrogate,leave_one_out_surrogate,true,false
+BMA,Energy of Gradient,surrogate,leave_one_out_surrogate,true,false
+BMA,Fourier High Frequency Energy Ratio,surrogate,leave_one_out_surrogate,true,false
+BMA,Fourier Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+BMA,GLCM Contrast,surrogate,leave_one_out_surrogate,true,false
+BMA,Gradient Squared Energy,surrogate,leave_one_out_surrogate,true,false
+BMA,Histogram Entropy,surrogate,leave_one_out_surrogate,true,false
+BMA,Image Power,surrogate,leave_one_out_surrogate,true,false
+BMA,Intensity Range Index,surrogate,leave_one_out_surrogate,true,false
+BMA,Intensity Skewness Index,surrogate,leave_one_out_surrogate,true,false
+BMA,Intensity Variance,surrogate,leave_one_out_surrogate,true,false
+BMA,Laplacian Energy,surrogate,leave_one_out_surrogate,true,false
+BMA,Maximal Intensity,surrogate,leave_one_out_surrogate,true,false
+BMA,Mean Absolute Laplacian,surrogate,leave_one_out_surrogate,true,false
+BMA,Mean Intensity,surrogate,leave_one_out_surrogate,true,false
+BMA,Modified Tenengrad,surrogate,leave_one_out_surrogate,true,false
+BMA,Normalized Variance,surrogate,leave_one_out_surrogate,true,false
+BMA,Roberts Focus Measure,surrogate,leave_one_out_surrogate,true,false
+BMA,Spatial Frequency,surrogate,leave_one_out_surrogate,true,false
+BMA,Squared Gradient,surrogate,leave_one_out_surrogate,true,false
+BMA,Sum Modified Laplacian,surrogate,leave_one_out_surrogate,true,false
+BMA,Tenengrad,surrogate,leave_one_out_surrogate,true,false
+BMA,Variance of Gradient,surrogate,leave_one_out_surrogate,true,false
+BMA,Variance of Laplacian,surrogate,leave_one_out_surrogate,true,false
+BMA,Wavelet Detail Energy (db1),surrogate,leave_one_out_surrogate,true,false
+BMA,Wavelet W1,surrogate,leave_one_out_surrogate,true,false
+BMA,Wavelet W2,surrogate,leave_one_out_surrogate,true,false
+BMA,Wavelet W3,surrogate,leave_one_out_surrogate,true,false
+PBS,Absolute Central Moment 2,surrogate,leave_one_out_surrogate,true,false
+PBS,Absolute Central Moment 4,surrogate,leave_one_out_surrogate,true,false
+PBS,Brenner Gradient,surrogate,leave_one_out_surrogate,true,false
+PBS,Curvelet Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+PBS,DCT Focus Measure,surrogate,leave_one_out_surrogate,true,false
+PBS,Energy of Gradient,surrogate,leave_one_out_surrogate,true,false
+PBS,Fourier High Frequency Energy Ratio,surrogate,leave_one_out_surrogate,true,false
+PBS,Fourier Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+PBS,GLCM Contrast,surrogate,leave_one_out_surrogate,true,false
+PBS,Gradient Squared Energy,surrogate,leave_one_out_surrogate,true,false
+PBS,Histogram Entropy,surrogate,leave_one_out_surrogate,true,false
+PBS,Image Power,surrogate,leave_one_out_surrogate,true,false
+PBS,Intensity Range Index,surrogate,leave_one_out_surrogate,true,false
+PBS,Intensity Skewness Index,surrogate,leave_one_out_surrogate,true,false
+PBS,Intensity Variance,surrogate,leave_one_out_surrogate,true,false
+PBS,Laplacian Energy,surrogate,leave_one_out_surrogate,true,false
+PBS,Maximal Intensity,surrogate,leave_one_out_surrogate,true,false
+PBS,Mean Absolute Laplacian,surrogate,leave_one_out_surrogate,true,false
+PBS,Mean Intensity,surrogate,leave_one_out_surrogate,true,false
+PBS,Modified Tenengrad,surrogate,leave_one_out_surrogate,true,false
+PBS,Normalized Variance,surrogate,leave_one_out_surrogate,true,false
+PBS,Roberts Focus Measure,surrogate,leave_one_out_surrogate,true,false
+PBS,Spatial Frequency,surrogate,leave_one_out_surrogate,true,false
+PBS,Squared Gradient,surrogate,leave_one_out_surrogate,true,false
+PBS,Sum Modified Laplacian,surrogate,leave_one_out_surrogate,true,false
+PBS,Tenengrad,surrogate,leave_one_out_surrogate,true,false
+PBS,Variance of Gradient,surrogate,leave_one_out_surrogate,true,false
+PBS,Variance of Laplacian,surrogate,leave_one_out_surrogate,true,false
+PBS,Wavelet Detail Energy (db1),surrogate,leave_one_out_surrogate,true,false
+PBS,Wavelet W1,surrogate,leave_one_out_surrogate,true,false
+PBS,Wavelet W2,surrogate,leave_one_out_surrogate,true,false
+PBS,Wavelet W3,surrogate,leave_one_out_surrogate,true,false
+TBF,Absolute Central Moment 2,surrogate,leave_one_out_surrogate,true,false
+TBF,Absolute Central Moment 4,surrogate,leave_one_out_surrogate,true,false
+TBF,Brenner Gradient,surrogate,leave_one_out_surrogate,true,false
+TBF,Curvelet Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+TBF,DCT Focus Measure,surrogate,leave_one_out_surrogate,true,false
+TBF,Energy of Gradient,surrogate,leave_one_out_surrogate,true,false
+TBF,Fourier High Frequency Energy Ratio,surrogate,leave_one_out_surrogate,true,false
+TBF,Fourier Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+TBF,GLCM Contrast,surrogate,leave_one_out_surrogate,true,false
+TBF,Gradient Squared Energy,surrogate,leave_one_out_surrogate,true,false
+TBF,Histogram Entropy,surrogate,leave_one_out_surrogate,true,false
+TBF,Image Power,surrogate,leave_one_out_surrogate,true,false
+TBF,Intensity Range Index,surrogate,leave_one_out_surrogate,true,false
+TBF,Intensity Skewness Index,surrogate,leave_one_out_surrogate,true,false
+TBF,Intensity Variance,surrogate,leave_one_out_surrogate,true,false
+TBF,Laplacian Energy,surrogate,leave_one_out_surrogate,true,false
+TBF,Maximal Intensity,surrogate,leave_one_out_surrogate,true,false
+TBF,Mean Absolute Laplacian,surrogate,leave_one_out_surrogate,true,false
+TBF,Mean Intensity,surrogate,leave_one_out_surrogate,true,false
+TBF,Modified Tenengrad,surrogate,leave_one_out_surrogate,true,false
+TBF,Normalized Variance,surrogate,leave_one_out_surrogate,true,false
+TBF,Roberts Focus Measure,surrogate,leave_one_out_surrogate,true,false
+TBF,Spatial Frequency,surrogate,leave_one_out_surrogate,true,false
+TBF,Squared Gradient,surrogate,leave_one_out_surrogate,true,false
+TBF,Sum Modified Laplacian,surrogate,leave_one_out_surrogate,true,false
+TBF,Tenengrad,surrogate,leave_one_out_surrogate,true,false
+TBF,Variance of Gradient,surrogate,leave_one_out_surrogate,true,false
+TBF,Variance of Laplacian,surrogate,leave_one_out_surrogate,true,false
+TBF,Wavelet Detail Energy (db1),surrogate,leave_one_out_surrogate,true,false
+TBF,Wavelet W1,surrogate,leave_one_out_surrogate,true,false
+TBF,Wavelet W2,surrogate,leave_one_out_surrogate,true,false
+TBF,Wavelet W3,surrogate,leave_one_out_surrogate,true,false
+TBI,Absolute Central Moment 2,surrogate,leave_one_out_surrogate,true,false
+TBI,Absolute Central Moment 4,surrogate,leave_one_out_surrogate,true,false
+TBI,Brenner Gradient,surrogate,leave_one_out_surrogate,true,false
+TBI,Curvelet Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+TBI,DCT Focus Measure,surrogate,leave_one_out_surrogate,true,false
+TBI,Energy of Gradient,surrogate,leave_one_out_surrogate,true,false
+TBI,Fourier High Frequency Energy Ratio,surrogate,leave_one_out_surrogate,true,false
+TBI,Fourier Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+TBI,GLCM Contrast,surrogate,leave_one_out_surrogate,true,false
+TBI,Gradient Squared Energy,surrogate,leave_one_out_surrogate,true,false
+TBI,Histogram Entropy,surrogate,leave_one_out_surrogate,true,false
+TBI,Image Power,surrogate,leave_one_out_surrogate,true,false
+TBI,Intensity Range Index,surrogate,leave_one_out_surrogate,true,false
+TBI,Intensity Skewness Index,surrogate,leave_one_out_surrogate,true,false
+TBI,Intensity Variance,surrogate,leave_one_out_surrogate,true,false
+TBI,Laplacian Energy,surrogate,leave_one_out_surrogate,true,false
+TBI,Maximal Intensity,surrogate,leave_one_out_surrogate,true,false
+TBI,Mean Absolute Laplacian,surrogate,leave_one_out_surrogate,true,false
+TBI,Mean Intensity,surrogate,leave_one_out_surrogate,true,false
+TBI,Modified Tenengrad,surrogate,leave_one_out_surrogate,true,false
+TBI,Normalized Variance,surrogate,leave_one_out_surrogate,true,false
+TBI,Roberts Focus Measure,surrogate,leave_one_out_surrogate,true,false
+TBI,Spatial Frequency,surrogate,leave_one_out_surrogate,true,false
+TBI,Squared Gradient,surrogate,leave_one_out_surrogate,true,false
+TBI,Sum Modified Laplacian,surrogate,leave_one_out_surrogate,true,false
+TBI,Tenengrad,surrogate,leave_one_out_surrogate,true,false
+TBI,Variance of Gradient,surrogate,leave_one_out_surrogate,true,false
+TBI,Variance of Laplacian,surrogate,leave_one_out_surrogate,true,false
+TBI,Wavelet Detail Energy (db1),surrogate,leave_one_out_surrogate,true,false
+TBI,Wavelet W1,surrogate,leave_one_out_surrogate,true,false
+TBI,Wavelet W2,surrogate,leave_one_out_surrogate,true,false
+TBI,Wavelet W3,surrogate,leave_one_out_surrogate,true,false
+WBC,Absolute Central Moment 2,surrogate,leave_one_out_surrogate,true,false
+WBC,Absolute Central Moment 4,surrogate,leave_one_out_surrogate,true,false
+WBC,Brenner Gradient,surrogate,leave_one_out_surrogate,true,false
+WBC,Curvelet Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+WBC,DCT Focus Measure,surrogate,leave_one_out_surrogate,true,false
+WBC,Energy of Gradient,surrogate,leave_one_out_surrogate,true,false
+WBC,Fourier High Frequency Energy Ratio,surrogate,leave_one_out_surrogate,true,false
+WBC,Fourier Transform Sharpness Index,surrogate,leave_one_out_surrogate,true,false
+WBC,GLCM Contrast,surrogate,leave_one_out_surrogate,true,false
+WBC,Gradient Squared Energy,surrogate,leave_one_out_surrogate,true,false
+WBC,Histogram Entropy,surrogate,leave_one_out_surrogate,true,false
+WBC,Image Power,surrogate,leave_one_out_surrogate,true,false
+WBC,Intensity Range Index,surrogate,leave_one_out_surrogate,true,false
+WBC,Intensity Skewness Index,surrogate,leave_one_out_surrogate,true,false
+WBC,Intensity Variance,surrogate,leave_one_out_surrogate,true,false
+WBC,Laplacian Energy,surrogate,leave_one_out_surrogate,true,false
+WBC,Maximal Intensity,surrogate,leave_one_out_surrogate,true,false
+WBC,Mean Absolute Laplacian,surrogate,leave_one_out_surrogate,true,false
+WBC,Mean Intensity,surrogate,leave_one_out_surrogate,true,false
+WBC,Modified Tenengrad,surrogate,leave_one_out_surrogate,true,false
+WBC,Normalized Variance,surrogate,leave_one_out_surrogate,true,false
+WBC,Roberts Focus Measure,surrogate,leave_one_out_surrogate,true,false
+WBC,Spatial Frequency,surrogate,leave_one_out_surrogate,true,false
+WBC,Squared Gradient,surrogate,leave_one_out_surrogate,true,false
+WBC,Sum Modified Laplacian,surrogate,leave_one_out_surrogate,true,false
+WBC,Tenengrad,surrogate,leave_one_out_surrogate,true,false
+WBC,Variance of Gradient,surrogate,leave_one_out_surrogate,true,false
+WBC,Variance of Laplacian,surrogate,leave_one_out_surrogate,true,false
+WBC,Wavelet Detail Energy (db1),surrogate,leave_one_out_surrogate,true,false
+WBC,Wavelet W1,surrogate,leave_one_out_surrogate,true,false
+WBC,Wavelet W2,surrogate,leave_one_out_surrogate,true,false
+WBC,Wavelet W3,surrogate,leave_one_out_surrogate,true,false

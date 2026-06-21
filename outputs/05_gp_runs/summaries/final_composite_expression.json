@@ -1,0 +1,45 @@
+{
+  "best_all_dataset_score": 0.24242176812442642,
+  "best_complexity": 33.0,
+  "best_expression": "add(sub(mul(mul(mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(mul(Gradient_Squared_Energy, Gradient_Squared_Energy), mul(Gradient_Squared_Energy, Gradient_Squared_Energy))), Gradient_Squared_Energy), mul(mul(Fourier_Transform_Sharpness_Index, mul(mul(Gradient_Squared_Energy, Squared_Gradient), GLCM_Contrast)), mul(Gradient_Squared_Energy, Squared_Gradient))), Wavelet_W1), add(add(Gradient_Squared_Energy, Fourier_Transform_Sharpness_Index), Fourier_Transform_Sharpness_Index))",
+  "best_training_objective": 0.17986742118415752,
+  "gp_settings": {
+    "crossover_probability": 0.5,
+    "device": "cpu",
+    "elitism": 1,
+    "max_eval_seconds": 30.0,
+    "max_nodes": 35,
+    "max_tree_depth": 10,
+    "mutation_probability": 0.2,
+    "num_generations": 100,
+    "num_seeds": 10,
+    "population_size": 500,
+    "tournament_size": 3,
+    "use_nsga2": true
+  },
+  "num_nodes": 33,
+  "result_type": "final_refit_best_expression",
+  "seed": 44,
+  "source": "all_dataset_refit_after_lodo_validation",
+  "summary_json": "outputs/05_gp_runs/summaries/final_refit_summary.json",
+  "terminals": [
+    "Gradient Squared Energy",
+    "Fourier Transform Sharpness Index",
+    "Wavelet W1",
+    "Curvelet Transform Sharpness Index",
+    "Sum Modified Laplacian",
+    "Intensity Skewness Index",
+    "GLCM Contrast",
+    "Squared Gradient",
+    "Wavelet W3",
+    "Fourier High Frequency Energy Ratio"
+  ],
+  "train_datasets": [
+    "WBC",
+    "TBI",
+    "PBS",
+    "BMA",
+    "TBF"
+  ],
+  "tree_height": 7
+}

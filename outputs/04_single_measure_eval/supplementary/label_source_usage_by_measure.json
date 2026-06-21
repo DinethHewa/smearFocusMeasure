@@ -1,0 +1,1322 @@
+{
+  "datasets": {
+    "BMA": {
+      "dataset_label_mode": "surrogate",
+      "measures_using_leave_one_out_surrogate": 32,
+      "measures_using_source_labels": 0,
+      "measures_using_surrogate": 0,
+      "source_labels_available": false
+    },
+    "PBS": {
+      "dataset_label_mode": "surrogate",
+      "measures_using_leave_one_out_surrogate": 32,
+      "measures_using_source_labels": 0,
+      "measures_using_surrogate": 0,
+      "source_labels_available": false
+    },
+    "TBF": {
+      "dataset_label_mode": "surrogate",
+      "measures_using_leave_one_out_surrogate": 32,
+      "measures_using_source_labels": 0,
+      "measures_using_surrogate": 0,
+      "source_labels_available": false
+    },
+    "TBI": {
+      "dataset_label_mode": "surrogate",
+      "measures_using_leave_one_out_surrogate": 32,
+      "measures_using_source_labels": 0,
+      "measures_using_surrogate": 0,
+      "source_labels_available": false
+    },
+    "WBC": {
+      "dataset_label_mode": "surrogate",
+      "measures_using_leave_one_out_surrogate": 32,
+      "measures_using_source_labels": 0,
+      "measures_using_surrogate": 0,
+      "source_labels_available": false
+    }
+  },
+  "rows": [
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 4",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Brenner Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "DCT Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Energy of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "GLCM Contrast",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Gradient Squared Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Histogram Entropy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Image Power",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Range Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Skewness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Laplacian Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Maximal Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Absolute Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Modified Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Normalized Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Roberts Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Spatial Frequency",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Squared Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Sum Modified Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W1",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "BMA",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W3",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 4",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Brenner Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "DCT Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Energy of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "GLCM Contrast",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Gradient Squared Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Histogram Entropy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Image Power",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Range Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Skewness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Laplacian Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Maximal Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Absolute Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Modified Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Normalized Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Roberts Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Spatial Frequency",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Squared Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Sum Modified Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W1",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "PBS",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W3",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 4",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Brenner Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "DCT Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Energy of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "GLCM Contrast",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Gradient Squared Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Histogram Entropy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Image Power",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Range Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Skewness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Laplacian Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Maximal Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Absolute Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Modified Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Normalized Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Roberts Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Spatial Frequency",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Squared Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Sum Modified Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W1",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBF",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W3",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 4",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Brenner Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "DCT Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Energy of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "GLCM Contrast",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Gradient Squared Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Histogram Entropy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Image Power",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Range Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Skewness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Laplacian Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Maximal Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Absolute Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Modified Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Normalized Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Roberts Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Spatial Frequency",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Squared Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Sum Modified Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W1",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "TBI",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W3",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Absolute Central Moment 4",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Brenner Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Curvelet Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "DCT Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Energy of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier High Frequency Energy Ratio",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Fourier Transform Sharpness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "GLCM Contrast",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Gradient Squared Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Histogram Entropy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Image Power",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Range Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Skewness Index",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Intensity Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Laplacian Energy",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Maximal Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Absolute Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Mean Intensity",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Modified Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Normalized Variance",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Roberts Focus Measure",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Spatial Frequency",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Squared Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Sum Modified Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Tenengrad",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Gradient",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Variance of Laplacian",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet Detail Energy (db1)",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W1",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W2",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    },
+    {
+      "dataset_label_mode": "surrogate",
+      "dataset_name": "WBC",
+      "label_source_used": "leave_one_out_surrogate",
+      "measure_name": "Wavelet W3",
+      "source_labels_available": "false",
+      "uses_leave_one_out_surrogate": "true"
+    }
+  ],
+  "run_mode": "full"
+}

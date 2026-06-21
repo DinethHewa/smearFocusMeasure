@@ -1,0 +1,53 @@
+{
+  "all_recorded_settings_identical": false,
+  "core_recorded_settings_identical": true,
+  "note": "Some older LODO result files may omit post-patch audit fields such as max_nodes, max_eval_seconds, and device; this is reported as recorded-metadata inconsistency rather than rerunning GP.",
+  "num_best_result_files": 60,
+  "unique_values_by_field": {
+    "crossover_probability": [
+      "0.5"
+    ],
+    "device": [
+      "",
+      "cpu"
+    ],
+    "elitism": [
+      "1"
+    ],
+    "max_eval_seconds": [
+      "",
+      "30.0"
+    ],
+    "max_nodes": [
+      "",
+      "35"
+    ],
+    "max_tree_depth": [
+      "10"
+    ],
+    "mutation_probability": [
+      "0.2"
+    ],
+    "num_generations": [
+      "100"
+    ],
+    "num_seeds": [
+      "10"
+    ],
+    "population_size": [
+      "500"
+    ],
+    "primary_objective": [
+      "corrected_generalization_score"
+    ],
+    "secondary_objective": [
+      "expression_complexity"
+    ],
+    "tournament_size": [
+      "3"
+    ],
+    "use_nsga2": [
+      "True"
+    ]
+  }
+}

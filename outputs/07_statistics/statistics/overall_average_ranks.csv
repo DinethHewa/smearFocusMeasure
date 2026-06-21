@@ -1,0 +1,33 @@
+entity_name,average_rank,display_order
+Gradient Squared Energy,11.71,1
+Variance of Gradient,11.74,2
+Brenner Gradient,11.75,3
+Squared Gradient,11.75,4
+Energy of Gradient,11.97,5
+Tenengrad,12.19,6
+Modified Tenengrad,13.03,7
+Roberts Focus Measure,13.55,8
+Spatial Frequency,15.11,9
+Fourier Transform Sharpness Index,15.88,10
+Fourier High Frequency Energy Ratio,16.24,11
+Variance of Laplacian,16.38,12
+DCT Focus Measure,16.75,13
+Sum Modified Laplacian,17.33,14
+Intensity Range Index,17.56,15
+Intensity Skewness Index,17.63,16
+Laplacian Energy,17.76,17
+Curvelet Transform Sharpness Index,17.9,18
+Normalized Variance,17.9,19
+Wavelet W1,17.9,20
+Wavelet Detail Energy (db1),17.92,21
+Intensity Variance,18.19,22
+Wavelet W3,18.22,23
+Wavelet W2,18.32,24
+Mean Intensity,18.34,25
+Absolute Central Moment 2,18.41,26
+GLCM Contrast,18.51,27
+Maximal Intensity,18.96,28
+Absolute Central Moment 4,19.12,29
+Image Power,19.17,30
+Mean Absolute Laplacian,19.76,31
+Histogram Entropy,21.05,32

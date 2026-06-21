@@ -1,0 +1,9 @@
+scheme,comparison_pool,top1,top3_set,top5_set,spearman_vs_default,kendall_vs_default,max_rank_shift_top10
+paper_default,single,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad,1.0,1.0,0
+runtime_005_redistributed,single,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad,0.9989002932551319,0.9879032258064518,0
+runtime_005_to_accuracy,single,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad,0.9981671554252198,0.9838709677419356,0
+no_runtime,single,Variance of Gradient,Variance of Gradient | Modified Tenengrad | Gradient Squared Energy,Variance of Gradient | Modified Tenengrad | Gradient Squared Energy | Squared Gradient | Energy of Gradient,0.9824046920821112,0.9153225806451614,5
+paper_default,union,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad,1.0,1.0,0
+runtime_005_redistributed,union,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad,0.9502929386370643,0.8956521739130435,14
+runtime_005_to_accuracy,union,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad,0.9506629663891457,0.8956521739130435,14
+no_runtime,union,CFM1,CFM1 | CFM4 | CFM2,CFM1 | CFM4 | CFM2 | CFM3 | CFM7,0.7734196731421523,0.6753623188405798,15
