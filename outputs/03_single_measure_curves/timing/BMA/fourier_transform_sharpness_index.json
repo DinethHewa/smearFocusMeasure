@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Fourier Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.16303206743963528,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.023838575359259265,
+    "128": 0.0004095422802492976,
+    "512": 0.005185530219459906
+  }
+}

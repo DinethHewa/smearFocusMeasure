@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "GLCM Contrast",
+  "native_avg_time_per_slice_sec": 1.430109462561959,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.27036003272020026,
+    "128": 0.004498845899652224,
+    "512": 0.06857126662100199
+  }
+}

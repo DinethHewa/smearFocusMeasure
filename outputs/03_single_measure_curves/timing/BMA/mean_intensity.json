@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Mean Intensity",
+  "native_avg_time_per_slice_sec": 0.0057167777989525345,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0006392415586742573,
+    "128": 8.204601937904953e-05,
+    "512": 0.0001862042016000487
+  }
+}

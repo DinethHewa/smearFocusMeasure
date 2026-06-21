@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Fourier High Frequency Energy Ratio",
+  "native_avg_time_per_slice_sec": 0.19604007499903672,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.025385416598874146,
+    "128": 0.0006032908600172959,
+    "512": 0.006080245978664607
+  }
+}

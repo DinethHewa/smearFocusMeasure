@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Histogram Entropy",
+  "native_avg_time_per_slice_sec": 0.04141325604083249,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.007667862439411692,
+    "128": 0.0004040428984444588,
+    "512": 0.0021981441203388387
+  }
+}

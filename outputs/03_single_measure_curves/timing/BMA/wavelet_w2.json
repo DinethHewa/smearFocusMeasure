@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Wavelet W2",
+  "native_avg_time_per_slice_sec": 0.19579405356082133,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02056077667948557,
+    "128": 0.0004889690602431074,
+    "512": 0.0035352765797870235
+  }
+}

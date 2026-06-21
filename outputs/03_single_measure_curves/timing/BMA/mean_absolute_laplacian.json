@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Mean Absolute Laplacian",
+  "native_avg_time_per_slice_sec": 0.13462065465952036,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.019633029800606893,
+    "128": 0.0005333607399370521,
+    "512": 0.00519002024026122
+  }
+}

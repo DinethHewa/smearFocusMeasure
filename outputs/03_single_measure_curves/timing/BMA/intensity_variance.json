@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Intensity Variance",
+  "native_avg_time_per_slice_sec": 0.01678940609912388,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.002510437900200486,
+    "128": 0.0001654524003970437,
+    "512": 0.0006272345405886881
+  }
+}

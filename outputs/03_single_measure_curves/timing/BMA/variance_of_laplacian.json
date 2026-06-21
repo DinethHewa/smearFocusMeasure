@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Variance of Laplacian",
+  "native_avg_time_per_slice_sec": 0.01753889095998602,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0026499189413152634,
+    "128": 0.00021996511990437283,
+    "512": 0.0007377771407482215
+  }
+}

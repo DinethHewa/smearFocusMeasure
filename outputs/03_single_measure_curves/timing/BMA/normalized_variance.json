@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Normalized Variance",
+  "native_avg_time_per_slice_sec": 0.015791189720621334,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0021995375995174983,
+    "128": 0.0001957662188215181,
+    "512": 0.0006203198203002103
+  }
+}

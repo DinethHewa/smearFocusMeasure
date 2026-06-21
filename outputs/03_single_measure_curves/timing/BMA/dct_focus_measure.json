@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "DCT Focus Measure",
+  "native_avg_time_per_slice_sec": 0.07111885188089218,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.009808761982130819,
+    "128": 0.00032046185951912777,
+    "512": 0.002360361001919955
+  }
+}

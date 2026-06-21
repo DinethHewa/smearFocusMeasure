@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Squared Gradient",
+  "native_avg_time_per_slice_sec": 0.022554671540565324,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003509820879844483,
+    "128": 0.00017558495979756118,
+    "512": 0.000953880641318392
+  }
+}

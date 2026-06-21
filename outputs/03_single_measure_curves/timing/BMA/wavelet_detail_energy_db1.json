@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Wavelet Detail Energy (db1)",
+  "native_avg_time_per_slice_sec": 0.16890894236043097,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.01878322900040075,
+    "128": 0.0004324768597143702,
+    "512": 0.0029336450196569787
+  }
+}

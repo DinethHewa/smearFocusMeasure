@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Tenengrad",
+  "native_avg_time_per_slice_sec": 0.02351105283974903,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0033640361009747723,
+    "128": 0.00015553947945591063,
+    "512": 0.0008375155800604262
+  }
+}

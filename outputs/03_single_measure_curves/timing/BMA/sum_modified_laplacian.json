@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Sum Modified Laplacian",
+  "native_avg_time_per_slice_sec": 0.03968643486034125,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.005090154039498885,
+    "128": 0.00021354240219807253,
+    "512": 0.001299312100163661
+  }
+}

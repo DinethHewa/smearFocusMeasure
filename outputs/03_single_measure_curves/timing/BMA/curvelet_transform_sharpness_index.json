@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Curvelet Transform Sharpness Index",
+  "native_avg_time_per_slice_sec": 0.17846060148003745,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.017630485900153873,
+    "128": 0.000416920120769646,
+    "512": 0.002733479818853084
+  }
+}

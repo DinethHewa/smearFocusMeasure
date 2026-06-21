@@ -1,0 +1,11 @@
+{
+  "dataset_name": "BMA",
+  "measure_name": "Roberts Focus Measure",
+  "native_avg_time_per_slice_sec": 0.02556954228115501,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.003667911658121739,
+    "128": 0.0001478697214042768,
+    "512": 0.0009137897004256957
+  }
+}
