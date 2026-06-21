@@ -1,0 +1,3 @@
+scheme_name,top1,top3,top5
+paper_default,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad
+accuracy_heavy,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad

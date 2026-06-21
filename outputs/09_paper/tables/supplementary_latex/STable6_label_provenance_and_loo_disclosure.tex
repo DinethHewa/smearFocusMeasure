@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Dataset-level label provenance, source-versus-surrogate disclosure, and leave-one-out voter usage.}
+\begin{tabular}{lccccccccccccc}
+\hline
+dataset_name & dataset_label_mode & source_labels_available & source_labels_file & source_label_note & source_label_source_kind & stack_count & surrogate_labels_file & loo_label_files_written & default_voter_count & default_voters & measures_using_source_labels & measures_using_leave_one_out_surrogate & measures_using_surrogate \\
+\hline
+BMA & surrogate & false &  & no\_candidate\_source\_label\_file\_found &  & 38 & outputs/02\_reference\_labels/surrogate/BMA\_surrogate\_labels.npy & 32 & 10 & Tenengrad | Brenner Gradient | Variance of Laplacian | Sum Modified Laplacian | Normalized Variance | Energy of Gradient | Histogram Entropy | GLCM Contrast | Variance of Gradient | Fourier Transform Sharpness Index & 0 & 32 & 0 \\
+PBS & surrogate & false &  & no\_candidate\_source\_label\_file\_found &  & 77 & outputs/02\_reference\_labels/surrogate/PBS\_surrogate\_labels.npy & 32 & 10 & Tenengrad | Brenner Gradient | Variance of Laplacian | Sum Modified Laplacian | Normalized Variance | Energy of Gradient | Histogram Entropy | GLCM Contrast | Variance of Gradient | Fourier Transform Sharpness Index & 0 & 32 & 0 \\
+TBF & surrogate & false &  & no\_candidate\_source\_label\_file\_found &  & 182 & outputs/02\_reference\_labels/surrogate/TBF\_surrogate\_labels.npy & 32 & 10 & Tenengrad | Brenner Gradient | Variance of Laplacian | Sum Modified Laplacian | Normalized Variance | Energy of Gradient | Histogram Entropy | GLCM Contrast | Variance of Gradient | Fourier Transform Sharpness Index & 0 & 32 & 0 \\
+TBI & surrogate & false &  & dataset\_contains\_mat\_sidecars\_without\_explicit\_source\_labels &  & 30 & outputs/02\_reference\_labels/surrogate/TBI\_surrogate\_labels.npy & 32 & 10 & Tenengrad | Brenner Gradient | Variance of Laplacian | Sum Modified Laplacian | Normalized Variance | Energy of Gradient | Histogram Entropy | GLCM Contrast | Variance of Gradient | Fourier Transform Sharpness Index & 0 & 32 & 0 \\
+WBC & surrogate & false &  & no\_candidate\_source\_label\_file\_found &  & 25773 & outputs/02\_reference\_labels/surrogate/WBC\_surrogate\_labels.npy & 32 & 10 & Tenengrad | Brenner Gradient | Variance of Laplacian | Sum Modified Laplacian | Normalized Variance | Energy of Gradient | Histogram Entropy | GLCM Contrast | Variance of Gradient | Fourier Transform Sharpness Index & 0 & 32 & 0 \\
+\hline
+\end{tabular}
+\end{table}

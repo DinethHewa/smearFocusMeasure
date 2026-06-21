@@ -1,0 +1,6 @@
+alpha,top1,top3,top5
+0.5,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad
+0.6,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad
+0.7,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad
+0.8,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad
+0.9,Variance of Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient,Variance of Gradient | Gradient Squared Energy | Squared Gradient | Energy of Gradient | Tenengrad
