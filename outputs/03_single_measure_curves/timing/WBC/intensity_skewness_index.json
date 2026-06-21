@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Intensity Skewness Index",
+  "native_avg_time_per_slice_sec": 0.0005091130794608034,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.01191619357909076,
+    "128": 0.00022660459828330204,
+    "512": 0.0028124968995689413
+  }
+}

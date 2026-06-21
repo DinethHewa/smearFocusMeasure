@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Wavelet Detail Energy (db1)",
+  "native_avg_time_per_slice_sec": 0.00035290999920107425,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.018143744439294097,
+    "128": 0.00019116044015390798,
+    "512": 0.0024534353008493783
+  }
+}

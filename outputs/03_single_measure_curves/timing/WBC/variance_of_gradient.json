@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Variance of Gradient",
+  "native_avg_time_per_slice_sec": 0.00014231927925720811,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.004508505159756169,
+    "128": 8.1870119611267e-05,
+    "512": 0.0011097774206427857
+  }
+}

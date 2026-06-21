@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Image Power",
+  "native_avg_time_per_slice_sec": 3.457051905570552e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.001084907878539525,
+    "128": 1.873646047897637e-05,
+    "512": 0.000229543999012094
+  }
+}

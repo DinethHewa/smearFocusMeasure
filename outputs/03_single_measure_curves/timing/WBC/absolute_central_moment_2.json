@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Absolute Central Moment 2",
+  "native_avg_time_per_slice_sec": 6.553438113769516e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.002531549461709801,
+    "128": 3.166118141962215e-05,
+    "512": 0.0005233939993195235
+  }
+}

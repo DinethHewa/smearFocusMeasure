@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Mean Absolute Laplacian",
+  "native_avg_time_per_slice_sec": 0.0006334464397514239,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.02063380262028659,
+    "128": 0.000287817579228431,
+    "512": 0.004579390420403797
+  }
+}

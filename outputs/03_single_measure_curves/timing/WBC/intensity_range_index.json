@@ -1,0 +1,11 @@
+{
+  "dataset_name": "WBC",
+  "measure_name": "Intensity Range Index",
+  "native_avg_time_per_slice_sec": 3.4282697597518564e-05,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0007570151405525394,
+    "128": 1.4402519154828041e-05,
+    "512": 0.0001484949595760554
+  }
+}
