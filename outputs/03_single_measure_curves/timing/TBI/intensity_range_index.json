@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Intensity Range Index",
+  "native_avg_time_per_slice_sec": 0.008465089160308708,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0008660415202029981,
+    "128": 7.024125981843099e-05,
+    "512": 0.00024350191932171584
+  }
+}

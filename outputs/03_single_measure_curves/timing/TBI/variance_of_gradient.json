@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Variance of Gradient",
+  "native_avg_time_per_slice_sec": 0.03133132671995554,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.004599029418895953,
+    "128": 0.00026978820009389894,
+    "512": 0.0011671007401309907
+  }
+}

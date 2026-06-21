@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Wavelet Detail Energy (db1)",
+  "native_avg_time_per_slice_sec": 0.16583424493961502,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.018729779199056794,
+    "128": 0.00042159859993262216,
+    "512": 0.002998711739783175
+  }
+}

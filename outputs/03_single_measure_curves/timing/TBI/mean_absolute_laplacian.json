@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Mean Absolute Laplacian",
+  "native_avg_time_per_slice_sec": 0.146342734740756,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.0218462044003536,
+    "128": 0.0005348284798674286,
+    "512": 0.0052776063789497125
+  }
+}

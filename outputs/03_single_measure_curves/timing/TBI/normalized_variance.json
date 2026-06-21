@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Normalized Variance",
+  "native_avg_time_per_slice_sec": 0.018182878401712513,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.002289316500246059,
+    "128": 0.00020861711964244024,
+    "512": 0.0006542946599074639
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_name": "TBI",
+  "measure_name": "Absolute Central Moment 4",
+  "native_avg_time_per_slice_sec": 0.08957807988044805,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.01693189596029697,
+    "128": 0.0003781422012252733,
+    "512": 0.004060106700926554
+  }
+}
