@@ -1,0 +1,325 @@
+[
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig1_pipeline_overview.md",
+    "description": "End-to-end corrected benchmarking and composite synthesis workflow.",
+    "key": "Fig1_pipeline_overview",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig1_pipeline_overview.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig1_pipeline_overview.png"
+    },
+    "section": "Methods",
+    "title": "Corrected study pipeline"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig2_single_measure_heatmap.md",
+    "description": "Cross-dataset summary heatmap for single handcrafted focus measures.",
+    "key": "Fig2_single_measure_heatmap",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.png"
+    },
+    "section": "Results",
+    "title": "Single-measure benchmark heatmap"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig3_top_operator_bootstrap_ci.md",
+    "description": "Confidence interval summary for leading single operators.",
+    "key": "Fig3_top_operator_bootstrap_ci",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.png"
+    },
+    "section": "Results",
+    "title": "Bootstrap confidence intervals for top operators"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig4_resolution_sensitivity.md",
+    "description": "Ranking or metric variation across native and reduced resolutions.",
+    "key": "Fig4_resolution_sensitivity",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.png"
+    },
+    "section": "Results",
+    "title": "Resolution sensitivity of top operators"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig5_representative_single_focus_curves.md",
+    "description": "Normalized focus curves for selected top single measures.",
+    "key": "Fig5_representative_single_focus_curves",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.png"
+    },
+    "section": "Results",
+    "title": "Representative single-measure focus curves"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig6_representative_composite_vs_single_curves.md",
+    "description": "Normalized focus curves comparing the best composite against key single measures.",
+    "key": "Fig6_representative_composite_vs_single_curves",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.png"
+    },
+    "section": "Results",
+    "title": "Representative composite versus single focus curves"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig7_nemenyi_cd_overall_rank.md",
+    "description": "Critical-difference diagram for overall rank-based comparison.",
+    "key": "Fig7_nemenyi_cd_overall_rank",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png"
+    },
+    "section": "Results",
+    "title": "Nemenyi critical-difference diagram for overall rank"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig8_nemenyi_cd_accuracy_rank.md",
+    "description": "Critical-difference diagram for accuracy-specific ranking.",
+    "key": "Fig8_nemenyi_cd_accuracy_rank",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png"
+    },
+    "section": "Results",
+    "title": "Nemenyi critical-difference diagram for localization accuracy"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig9_gp_lodo_summary.md",
+    "description": "Foldwise held-out performance and best-expression summary for corrected GP.",
+    "key": "Fig9_gp_lodo_summary",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.png"
+    },
+    "section": "Results",
+    "title": "Leave-one-dataset-out GP summary"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig10_runtime_scaling.md",
+    "description": "Operator runtime comparison across native and reduced resolutions.",
+    "key": "Fig10_runtime_scaling",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig10_runtime_scaling.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig10_runtime_scaling.png"
+    },
+    "section": "Results",
+    "title": "Runtime scaling across image resolutions"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig11_optional_downstream_task.md",
+    "description": "Optional downstream or proxy biomedical anchor comparing poor focus, Brenner Gradient, and the best composite.",
+    "key": "Fig11_optional_downstream_task",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png"
+    },
+    "section": "Results",
+    "title": "Downstream biomedical anchor analysis"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Fig12_lodo_vs_final_refit.md",
+    "description": "Comparison between leave-one-dataset-out held-out GP performance and the final all-dataset refit used as the proposed composite.",
+    "key": "Fig12_lodo_vs_final_refit",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "main",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.pdf",
+      ".png": "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.png"
+    },
+    "section": "Results",
+    "title": "LODO validation versus final all-dataset GP refit"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig1_dataset_specific_focus_curves.md",
+    "description": "One or more representative normalized focus-curve plots per dataset.",
+    "key": "SFig1_dataset_specific_focus_curves",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.png"
+    },
+    "section": "Supplementary",
+    "title": "Dataset-specific representative focus curves"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig2_gp_convergence.md",
+    "description": "Convergence traces for corrected leave-one-dataset-out GP runs.",
+    "key": "SFig2_gp_convergence",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.png"
+    },
+    "section": "Supplementary",
+    "title": "GP convergence across folds and seeds"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig3_terminal_frequency.md",
+    "description": "Frequency of terminal usage across retained composite expressions.",
+    "key": "SFig3_terminal_frequency",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.png"
+    },
+    "section": "Supplementary",
+    "title": "Terminal usage frequency in GP solutions"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig4_expression_equivalence_clusters.md",
+    "description": "Correlation-based clustering of near-equivalent composite expressions.",
+    "key": "SFig4_expression_equivalence_clusters",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.png"
+    },
+    "section": "Supplementary",
+    "title": "Functional equivalence clustering of composite expressions"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig5_gp_convergence_by_fold.md",
+    "description": "Mean and seed-level convergence traces for each leave-one-dataset-out GP fold.",
+    "key": "SFig5_gp_convergence_by_fold",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.png"
+    },
+    "section": "Supplementary",
+    "title": "Generation-wise GP convergence by held-out fold"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig6_final_refit_convergence.md",
+    "description": "Best objective value over generations for the final all-dataset refit.",
+    "key": "SFig6_final_refit_convergence",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.png"
+    },
+    "section": "Supplementary",
+    "title": "Generation-wise convergence of the final all-dataset GP refit"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/SFig7_gp_seedwise_score_distribution.md",
+    "description": "Distribution of seed-level GP scores for held-out folds and final all-dataset refit.",
+    "key": "SFig7_gp_seedwise_score_distribution",
+    "output_exists": {
+      ".pdf": true,
+      ".png": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      ".pdf": "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.pdf",
+      ".png": "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.png"
+    },
+    "section": "Supplementary",
+    "title": "Seed-wise GP score distribution across LODO and final refit"
+  }
+]

@@ -1,0 +1,1373 @@
+{
+  "details": {
+    "asset_index": "outputs/09_paper/manifests/asset_index.json",
+    "asset_index_markdown": "outputs/09_paper/manifests/asset_index.md",
+    "asset_index_payload": {
+      "auxiliary_assets": [
+        {
+          "name": "Table11_optional_downstream_task.csv",
+          "path": "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv",
+          "suffix": ".csv"
+        },
+        {
+          "name": "Fig11_optional_downstream_task.png",
+          "path": "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png",
+          "suffix": ".png"
+        },
+        {
+          "name": "Fig11_optional_downstream_task.pdf",
+          "path": "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf",
+          "suffix": ".pdf"
+        },
+        {
+          "name": "optional_downstream_report.json",
+          "path": "outputs/09_paper/manifests/optional_downstream_report.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "optional_downstream_limitation.md",
+          "path": "outputs/09_paper/manifests/optional_downstream_limitation.md",
+          "suffix": ".md"
+        },
+        {
+          "name": "optional_downstream_baseline.checkpoint.json",
+          "path": "outputs/09_paper/manifests/optional_downstream_baseline.checkpoint.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "paper_export_summary.json",
+          "path": "outputs/09_paper/manifests/paper_export_summary.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "full_pipeline_summary.json",
+          "path": "outputs/09_paper/manifests/full_pipeline_summary.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "publication_procedure_summary.json",
+          "path": "outputs/09_paper/manifests/publication_procedure_summary.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "final_composite_expression.json",
+          "path": "outputs/05_gp_runs/summaries/final_composite_expression.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "final_refit_summary.json",
+          "path": "outputs/05_gp_runs/summaries/final_refit_summary.json",
+          "suffix": ".json"
+        },
+        {
+          "name": "final_refit_seed_results.json",
+          "path": "outputs/05_gp_runs/summaries/final_refit_seed_results.json",
+          "suffix": ".json"
+        }
+      ],
+      "captions_dir": "outputs/09_paper/captions",
+      "compatibility_layout": {
+        "compatibility_dirs": {
+          "main_csv": "outputs/09_paper/tables/main_csv",
+          "main_latex": "outputs/09_paper/tables/main_latex",
+          "supplementary_csv": "outputs/09_paper/tables/supplementary_csv",
+          "supplementary_latex": "outputs/09_paper/tables/supplementary_latex"
+        },
+        "mirrored_files": {
+          "outputs/09_paper/tables/main_csv": [
+            "outputs/09_paper/tables/main_csv/Table10_runtime_multi_resolution.csv",
+            "outputs/09_paper/tables/main_csv/Table11_optional_downstream_task.csv",
+            "outputs/09_paper/tables/main_csv/Table12_final_generalized_composite.csv",
+            "outputs/09_paper/tables/main_csv/Table2_dataset_summary.csv",
+            "outputs/09_paper/tables/main_csv/Table3_metric_definitions.csv",
+            "outputs/09_paper/tables/main_csv/Table4_metric_weights_and_alpha.csv",
+            "outputs/09_paper/tables/main_csv/Table5_top10_single_rank_based.csv",
+            "outputs/09_paper/tables/main_csv/Table6_top10_single_value_based.csv",
+            "outputs/09_paper/tables/main_csv/Table7_top10_composites_common_scoring.csv",
+            "outputs/09_paper/tables/main_csv/Table8_true_vs_surrogate_label_split.csv",
+            "outputs/09_paper/tables/main_csv/Table9_equal_vs_stack_weighted_comparison.csv",
+            "outputs/09_paper/tables/main_csv/Table_bootstrap_top10_single_rank_summary.csv",
+            "outputs/09_paper/tables/main_csv/Table_friedman_and_cd_summary.csv"
+          ],
+          "outputs/09_paper/tables/main_latex": [
+            "outputs/09_paper/tables/main_latex/Table10_runtime_multi_resolution.tex",
+            "outputs/09_paper/tables/main_latex/Table11_optional_downstream_task.tex",
+            "outputs/09_paper/tables/main_latex/Table12_final_generalized_composite.tex",
+            "outputs/09_paper/tables/main_latex/Table2_dataset_summary.tex",
+            "outputs/09_paper/tables/main_latex/Table3_metric_definitions.tex",
+            "outputs/09_paper/tables/main_latex/Table4_metric_weights_and_alpha.tex",
+            "outputs/09_paper/tables/main_latex/Table5_top10_single_rank_based.tex",
+            "outputs/09_paper/tables/main_latex/Table6_top10_single_value_based.tex",
+            "outputs/09_paper/tables/main_latex/Table7_top10_composites_common_scoring.tex",
+            "outputs/09_paper/tables/main_latex/Table8_true_vs_surrogate_label_split.tex",
+            "outputs/09_paper/tables/main_latex/Table9_equal_vs_stack_weighted_comparison.tex"
+          ],
+          "outputs/09_paper/tables/supplementary_csv": [
+            "outputs/09_paper/tables/supplementary_csv/STable10_gp_generation_traces.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable11_gp_seedwise_lodo_and_final.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable1_all_single_measure_results.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable2_alpha_sensitivity.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable3_metric_weight_sensitivity.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable4_gp_foldwise_results.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable5_composite_deduplication.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable6_label_provenance_and_loo_disclosure.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable7_rank_stability_summary.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable8_top_composites_10_metric_profile.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable9_gp_lodo_vs_final_refit.csv",
+            "outputs/09_paper/tables/supplementary_csv/STable_bootstrap_all_single_rank_summary.csv"
+          ],
+          "outputs/09_paper/tables/supplementary_latex": [
+            "outputs/09_paper/tables/supplementary_latex/STable10_gp_generation_traces.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable11_gp_seedwise_lodo_and_final.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable12_gp_terminal_selection_lodo_and_final.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable1_all_single_measure_results.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable2_alpha_sensitivity.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable3_metric_weight_sensitivity.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable4_gp_foldwise_results.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable5_composite_deduplication.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable6_label_provenance_and_loo_disclosure.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable7_rank_stability_summary.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable8_top_composites_10_metric_profile.tex",
+            "outputs/09_paper/tables/supplementary_latex/STable9_gp_lodo_vs_final_refit.tex"
+          ]
+        }
+      },
+      "figure_manifest": [
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig1_pipeline_overview.md",
+          "description": "End-to-end corrected benchmarking and composite synthesis workflow.",
+          "key": "Fig1_pipeline_overview",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig1_pipeline_overview.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig1_pipeline_overview.png"
+          },
+          "section": "Methods",
+          "title": "Corrected study pipeline"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig2_single_measure_heatmap.md",
+          "description": "Cross-dataset summary heatmap for single handcrafted focus measures.",
+          "key": "Fig2_single_measure_heatmap",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.png"
+          },
+          "section": "Results",
+          "title": "Single-measure benchmark heatmap"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig3_top_operator_bootstrap_ci.md",
+          "description": "Confidence interval summary for leading single operators.",
+          "key": "Fig3_top_operator_bootstrap_ci",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.png"
+          },
+          "section": "Results",
+          "title": "Bootstrap confidence intervals for top operators"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig4_resolution_sensitivity.md",
+          "description": "Ranking or metric variation across native and reduced resolutions.",
+          "key": "Fig4_resolution_sensitivity",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.png"
+          },
+          "section": "Results",
+          "title": "Resolution sensitivity of top operators"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig5_representative_single_focus_curves.md",
+          "description": "Normalized focus curves for selected top single measures.",
+          "key": "Fig5_representative_single_focus_curves",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.png"
+          },
+          "section": "Results",
+          "title": "Representative single-measure focus curves"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig6_representative_composite_vs_single_curves.md",
+          "description": "Normalized focus curves comparing the best composite against key single measures.",
+          "key": "Fig6_representative_composite_vs_single_curves",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.png"
+          },
+          "section": "Results",
+          "title": "Representative composite versus single focus curves"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig7_nemenyi_cd_overall_rank.md",
+          "description": "Critical-difference diagram for overall rank-based comparison.",
+          "key": "Fig7_nemenyi_cd_overall_rank",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png"
+          },
+          "section": "Results",
+          "title": "Nemenyi critical-difference diagram for overall rank"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig8_nemenyi_cd_accuracy_rank.md",
+          "description": "Critical-difference diagram for accuracy-specific ranking.",
+          "key": "Fig8_nemenyi_cd_accuracy_rank",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png"
+          },
+          "section": "Results",
+          "title": "Nemenyi critical-difference diagram for localization accuracy"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig9_gp_lodo_summary.md",
+          "description": "Foldwise held-out performance and best-expression summary for corrected GP.",
+          "key": "Fig9_gp_lodo_summary",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.png"
+          },
+          "section": "Results",
+          "title": "Leave-one-dataset-out GP summary"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig10_runtime_scaling.md",
+          "description": "Operator runtime comparison across native and reduced resolutions.",
+          "key": "Fig10_runtime_scaling",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig10_runtime_scaling.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig10_runtime_scaling.png"
+          },
+          "section": "Results",
+          "title": "Runtime scaling across image resolutions"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig11_optional_downstream_task.md",
+          "description": "Optional downstream or proxy biomedical anchor comparing poor focus, Brenner Gradient, and the best composite.",
+          "key": "Fig11_optional_downstream_task",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png"
+          },
+          "section": "Results",
+          "title": "Downstream biomedical anchor analysis"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Fig12_lodo_vs_final_refit.md",
+          "description": "Comparison between leave-one-dataset-out held-out GP performance and the final all-dataset refit used as the proposed composite.",
+          "key": "Fig12_lodo_vs_final_refit",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "main",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.pdf",
+            ".png": "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.png"
+          },
+          "section": "Results",
+          "title": "LODO validation versus final all-dataset GP refit"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig1_dataset_specific_focus_curves.md",
+          "description": "One or more representative normalized focus-curve plots per dataset.",
+          "key": "SFig1_dataset_specific_focus_curves",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.png"
+          },
+          "section": "Supplementary",
+          "title": "Dataset-specific representative focus curves"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig2_gp_convergence.md",
+          "description": "Convergence traces for corrected leave-one-dataset-out GP runs.",
+          "key": "SFig2_gp_convergence",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.png"
+          },
+          "section": "Supplementary",
+          "title": "GP convergence across folds and seeds"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig3_terminal_frequency.md",
+          "description": "Frequency of terminal usage across retained composite expressions.",
+          "key": "SFig3_terminal_frequency",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.png"
+          },
+          "section": "Supplementary",
+          "title": "Terminal usage frequency in GP solutions"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig4_expression_equivalence_clusters.md",
+          "description": "Correlation-based clustering of near-equivalent composite expressions.",
+          "key": "SFig4_expression_equivalence_clusters",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.png"
+          },
+          "section": "Supplementary",
+          "title": "Functional equivalence clustering of composite expressions"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig5_gp_convergence_by_fold.md",
+          "description": "Mean and seed-level convergence traces for each leave-one-dataset-out GP fold.",
+          "key": "SFig5_gp_convergence_by_fold",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.png"
+          },
+          "section": "Supplementary",
+          "title": "Generation-wise GP convergence by held-out fold"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig6_final_refit_convergence.md",
+          "description": "Best objective value over generations for the final all-dataset refit.",
+          "key": "SFig6_final_refit_convergence",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.png"
+          },
+          "section": "Supplementary",
+          "title": "Generation-wise convergence of the final all-dataset GP refit"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/SFig7_gp_seedwise_score_distribution.md",
+          "description": "Distribution of seed-level GP scores for held-out folds and final all-dataset refit.",
+          "key": "SFig7_gp_seedwise_score_distribution",
+          "output_exists": {
+            ".pdf": true,
+            ".png": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            ".pdf": "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.pdf",
+            ".png": "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.png"
+          },
+          "section": "Supplementary",
+          "title": "Seed-wise GP score distribution across LODO and final refit"
+        }
+      ],
+      "paper_root": "outputs/09_paper",
+      "table_manifest": [
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table2_dataset_summary.md",
+          "description": "Summary of all benchmark datasets and their acquisition characteristics.",
+          "key": "Table2_dataset_summary",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table2_dataset_summary.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table2_dataset_summary.tex"
+          },
+          "section": "Methods",
+          "title": "Dataset summary"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table3_metric_definitions.md",
+          "description": "Definitions of the quantitative autofocus evaluation metrics.",
+          "key": "Table3_metric_definitions",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table3_metric_definitions.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table3_metric_definitions.tex"
+          },
+          "section": "Methods",
+          "title": "Autofocus metric definitions"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table4_metric_weights_and_alpha.md",
+          "description": "Scalarization settings for corrected value-based analysis.",
+          "key": "Table4_metric_weights_and_alpha",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table4_metric_weights_and_alpha.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table4_metric_weights_and_alpha.tex"
+          },
+          "section": "Methods",
+          "title": "Metric weights and alpha settings"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table5_top10_single_rank_based.md",
+          "description": "Final top-10 operator list under corrected rank-based evaluation.",
+          "key": "Table5_top10_single_rank_based",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table5_top10_single_rank_based.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table5_top10_single_rank_based.tex"
+          },
+          "section": "Results",
+          "title": "Top-10 single measures under rank-based analysis"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table6_top10_single_value_based.md",
+          "description": "Final top-10 operator list under corrected normalized value-based evaluation.",
+          "key": "Table6_top10_single_value_based",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table6_top10_single_value_based.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table6_top10_single_value_based.tex"
+          },
+          "section": "Results",
+          "title": "Top-10 single measures under normalized value-based analysis"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table7_top10_composites_common_scoring.md",
+          "description": "Top composite expressions under the same corrected scoring regime as singles.",
+          "key": "Table7_top10_composites_common_scoring",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table7_top10_composites_common_scoring.tex"
+          },
+          "section": "Results",
+          "title": "Top-10 composites under common scoring regime"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table8_true_vs_surrogate_label_split.md",
+          "description": "Comparison of performance on datasets with source labels versus surrogate labels.",
+          "key": "Table8_true_vs_surrogate_label_split",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table8_true_vs_surrogate_label_split.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table8_true_vs_surrogate_label_split.tex"
+          },
+          "section": "Results",
+          "title": "Results split by source-label and surrogate-label datasets"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table9_equal_vs_stack_weighted_comparison.md",
+          "description": "Sensitivity of aggregate conclusions to weighting choice.",
+          "key": "Table9_equal_vs_stack_weighted_comparison",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table9_equal_vs_stack_weighted_comparison.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table9_equal_vs_stack_weighted_comparison.tex"
+          },
+          "section": "Results",
+          "title": "Equal-weighted versus per-stack-weighted comparison"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table10_runtime_multi_resolution.md",
+          "description": "Execution time comparison across native and reduced resolutions.",
+          "key": "Table10_runtime_multi_resolution",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table10_runtime_multi_resolution.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table10_runtime_multi_resolution.tex"
+          },
+          "section": "Results",
+          "title": "Runtime comparison across image resolutions"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table11_optional_downstream_task.md",
+          "description": "Performance summary for the downstream biomedical anchor or proxy fallback analysis.",
+          "key": "Table11_optional_downstream_task",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table11_optional_downstream_task.tex"
+          },
+          "section": "Results",
+          "title": "Downstream biomedical anchor summary"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/Table12_final_generalized_composite.md",
+          "description": "Final all-dataset GP refit expression proposed for general use after LODO validation.",
+          "key": "Table12_final_generalized_composite",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "main",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/main/csv/Table12_final_generalized_composite.csv",
+            "latex": "outputs/09_paper/tables/main/latex/Table12_final_generalized_composite.tex"
+          },
+          "section": "Results",
+          "title": "Final generalized composite focus measure"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable1_all_single_measure_results.md",
+          "description": "Complete single-measure benchmark results for all handcrafted operators.",
+          "key": "STable1_all_single_measure_results",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable1_all_single_measure_results.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable1_all_single_measure_results.tex"
+          },
+          "section": "Supplementary",
+          "title": "Full single-measure results for all operators"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable2_alpha_sensitivity.md",
+          "description": "Sensitivity of corrected value-based rankings to alpha selection.",
+          "key": "STable2_alpha_sensitivity",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable2_alpha_sensitivity.tex"
+          },
+          "section": "Supplementary",
+          "title": "Alpha sensitivity analysis"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable3_metric_weight_sensitivity.md",
+          "description": "Sensitivity of corrected rankings to alternate metric-weight schemes.",
+          "key": "STable3_metric_weight_sensitivity",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable3_metric_weight_sensitivity.tex"
+          },
+          "section": "Supplementary",
+          "title": "Metric-weight sensitivity analysis"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable4_gp_foldwise_results.md",
+          "description": "Held-out foldwise performance and best expressions from corrected GP.",
+          "key": "STable4_gp_foldwise_results",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable4_gp_foldwise_results.tex"
+          },
+          "section": "Supplementary",
+          "title": "Foldwise leave-one-dataset-out GP results"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable5_composite_deduplication.md",
+          "description": "Deduplication summary for syntactic and functional composite redundancy.",
+          "key": "STable5_composite_deduplication",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable5_composite_deduplication.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable5_composite_deduplication.tex"
+          },
+          "section": "Supplementary",
+          "title": "Composite deduplication and equivalence summary"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable6_label_provenance_and_loo_disclosure.md",
+          "description": "Per-dataset disclosure of source-label availability, surrogate-label fallback, and leave-one-out voter usage.",
+          "key": "STable6_label_provenance_and_loo_disclosure",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable6_label_provenance_and_loo_disclosure.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable6_label_provenance_and_loo_disclosure.tex"
+          },
+          "section": "Supplementary",
+          "title": "Dataset label provenance and leave-one-out disclosure"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable7_rank_stability_summary.md",
+          "description": "Rank-stability summary for top single measures under native-subset versus 1024-resolution reruns.",
+          "key": "STable7_rank_stability_summary",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable7_rank_stability_summary.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable7_rank_stability_summary.tex"
+          },
+          "section": "Supplementary",
+          "title": "Native versus 1024 rank-stability study"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable8_top_composites_10_metric_profile.md",
+          "description": "Per-composite metric profile under the same 10 autofocus metrics used for single measures.",
+          "key": "STable8_top_composites_10_metric_profile",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable8_top_composites_10_metric_profile.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable8_top_composites_10_metric_profile.tex"
+          },
+          "section": "Supplementary",
+          "title": "Top composites under the full 10 autofocus metrics"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable9_gp_lodo_vs_final_refit.md",
+          "description": "Protocol-level comparison of held-out LODO results and the final all-dataset GP refit.",
+          "key": "STable9_gp_lodo_vs_final_refit",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable9_gp_lodo_vs_final_refit.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable9_gp_lodo_vs_final_refit.tex"
+          },
+          "section": "Supplementary",
+          "title": "LODO GP versus final all-dataset refit summary"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable10_gp_generation_traces.md",
+          "description": "Per-generation best objective values for all LODO and final-refit GP seeds.",
+          "key": "STable10_gp_generation_traces",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable10_gp_generation_traces.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable10_gp_generation_traces.tex"
+          },
+          "section": "Supplementary",
+          "title": "Generation-wise GP progress traces"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable11_gp_seedwise_lodo_and_final.md",
+          "description": "Seed-level best expressions, scores, and complexity for all LODO folds and final refit runs.",
+          "key": "STable11_gp_seedwise_lodo_and_final",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable11_gp_seedwise_lodo_and_final.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable11_gp_seedwise_lodo_and_final.tex"
+          },
+          "section": "Supplementary",
+          "title": "Seed-wise LODO and final-refit GP results"
+        },
+        {
+          "caption_exists": true,
+          "caption_file": "outputs/09_paper/captions/STable12_gp_terminal_selection_lodo_and_final.md",
+          "description": "Selected GP terminals, ranking sources, and terminal families for each held-out fold and final all-dataset refit.",
+          "key": "STable12_gp_terminal_selection_lodo_and_final",
+          "output_exists": {
+            "csv": true,
+            "latex": true
+          },
+          "output_group": "supplementary",
+          "outputs": {
+            "csv": "outputs/09_paper/tables/supplementary/csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+            "latex": "outputs/09_paper/tables/supplementary/latex/STable12_gp_terminal_selection_lodo_and_final.tex"
+          },
+          "section": "Supplementary",
+          "title": "Terminal selection for LODO folds and final refit"
+        }
+      ]
+    },
+    "caption_status": {
+      "existing_count": 42,
+      "existing_files": [
+        "outputs/09_paper/captions/Fig1_pipeline_overview.md",
+        "outputs/09_paper/captions/Fig2_single_measure_heatmap.md",
+        "outputs/09_paper/captions/Fig3_top_operator_bootstrap_ci.md",
+        "outputs/09_paper/captions/Fig4_resolution_sensitivity.md",
+        "outputs/09_paper/captions/Fig5_representative_single_focus_curves.md",
+        "outputs/09_paper/captions/Fig6_representative_composite_vs_single_curves.md",
+        "outputs/09_paper/captions/Fig7_nemenyi_cd_overall_rank.md",
+        "outputs/09_paper/captions/Fig8_nemenyi_cd_accuracy_rank.md",
+        "outputs/09_paper/captions/Fig9_gp_lodo_summary.md",
+        "outputs/09_paper/captions/Fig10_runtime_scaling.md",
+        "outputs/09_paper/captions/Fig11_optional_downstream_task.md",
+        "outputs/09_paper/captions/Fig12_lodo_vs_final_refit.md",
+        "outputs/09_paper/captions/SFig1_dataset_specific_focus_curves.md",
+        "outputs/09_paper/captions/SFig2_gp_convergence.md",
+        "outputs/09_paper/captions/SFig3_terminal_frequency.md",
+        "outputs/09_paper/captions/SFig4_expression_equivalence_clusters.md",
+        "outputs/09_paper/captions/SFig5_gp_convergence_by_fold.md",
+        "outputs/09_paper/captions/SFig6_final_refit_convergence.md",
+        "outputs/09_paper/captions/SFig7_gp_seedwise_score_distribution.md",
+        "outputs/09_paper/captions/Table2_dataset_summary.md",
+        "outputs/09_paper/captions/Table3_metric_definitions.md",
+        "outputs/09_paper/captions/Table4_metric_weights_and_alpha.md",
+        "outputs/09_paper/captions/Table5_top10_single_rank_based.md",
+        "outputs/09_paper/captions/Table6_top10_single_value_based.md",
+        "outputs/09_paper/captions/Table7_top10_composites_common_scoring.md",
+        "outputs/09_paper/captions/Table8_true_vs_surrogate_label_split.md",
+        "outputs/09_paper/captions/Table9_equal_vs_stack_weighted_comparison.md",
+        "outputs/09_paper/captions/Table10_runtime_multi_resolution.md",
+        "outputs/09_paper/captions/Table11_optional_downstream_task.md",
+        "outputs/09_paper/captions/Table12_final_generalized_composite.md",
+        "outputs/09_paper/captions/STable1_all_single_measure_results.md",
+        "outputs/09_paper/captions/STable2_alpha_sensitivity.md",
+        "outputs/09_paper/captions/STable3_metric_weight_sensitivity.md",
+        "outputs/09_paper/captions/STable4_gp_foldwise_results.md",
+        "outputs/09_paper/captions/STable5_composite_deduplication.md",
+        "outputs/09_paper/captions/STable6_label_provenance_and_loo_disclosure.md",
+        "outputs/09_paper/captions/STable7_rank_stability_summary.md",
+        "outputs/09_paper/captions/STable8_top_composites_10_metric_profile.md",
+        "outputs/09_paper/captions/STable9_gp_lodo_vs_final_refit.md",
+        "outputs/09_paper/captions/STable10_gp_generation_traces.md",
+        "outputs/09_paper/captions/STable11_gp_seedwise_lodo_and_final.md",
+        "outputs/09_paper/captions/STable12_gp_terminal_selection_lodo_and_final.md"
+      ],
+      "expected_count": 42,
+      "missing_count": 0,
+      "missing_files": []
+    },
+    "compatibility_layout": {
+      "compatibility_dirs": {
+        "main_csv": "outputs/09_paper/tables/main_csv",
+        "main_latex": "outputs/09_paper/tables/main_latex",
+        "supplementary_csv": "outputs/09_paper/tables/supplementary_csv",
+        "supplementary_latex": "outputs/09_paper/tables/supplementary_latex"
+      },
+      "mirrored_files": {
+        "outputs/09_paper/tables/main_csv": [
+          "outputs/09_paper/tables/main_csv/Table10_runtime_multi_resolution.csv",
+          "outputs/09_paper/tables/main_csv/Table11_optional_downstream_task.csv",
+          "outputs/09_paper/tables/main_csv/Table12_final_generalized_composite.csv",
+          "outputs/09_paper/tables/main_csv/Table2_dataset_summary.csv",
+          "outputs/09_paper/tables/main_csv/Table3_metric_definitions.csv",
+          "outputs/09_paper/tables/main_csv/Table4_metric_weights_and_alpha.csv",
+          "outputs/09_paper/tables/main_csv/Table5_top10_single_rank_based.csv",
+          "outputs/09_paper/tables/main_csv/Table6_top10_single_value_based.csv",
+          "outputs/09_paper/tables/main_csv/Table7_top10_composites_common_scoring.csv",
+          "outputs/09_paper/tables/main_csv/Table8_true_vs_surrogate_label_split.csv",
+          "outputs/09_paper/tables/main_csv/Table9_equal_vs_stack_weighted_comparison.csv",
+          "outputs/09_paper/tables/main_csv/Table_bootstrap_top10_single_rank_summary.csv",
+          "outputs/09_paper/tables/main_csv/Table_friedman_and_cd_summary.csv"
+        ],
+        "outputs/09_paper/tables/main_latex": [
+          "outputs/09_paper/tables/main_latex/Table10_runtime_multi_resolution.tex",
+          "outputs/09_paper/tables/main_latex/Table11_optional_downstream_task.tex",
+          "outputs/09_paper/tables/main_latex/Table12_final_generalized_composite.tex",
+          "outputs/09_paper/tables/main_latex/Table2_dataset_summary.tex",
+          "outputs/09_paper/tables/main_latex/Table3_metric_definitions.tex",
+          "outputs/09_paper/tables/main_latex/Table4_metric_weights_and_alpha.tex",
+          "outputs/09_paper/tables/main_latex/Table5_top10_single_rank_based.tex",
+          "outputs/09_paper/tables/main_latex/Table6_top10_single_value_based.tex",
+          "outputs/09_paper/tables/main_latex/Table7_top10_composites_common_scoring.tex",
+          "outputs/09_paper/tables/main_latex/Table8_true_vs_surrogate_label_split.tex",
+          "outputs/09_paper/tables/main_latex/Table9_equal_vs_stack_weighted_comparison.tex"
+        ],
+        "outputs/09_paper/tables/supplementary_csv": [
+          "outputs/09_paper/tables/supplementary_csv/STable10_gp_generation_traces.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable11_gp_seedwise_lodo_and_final.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable1_all_single_measure_results.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable2_alpha_sensitivity.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable3_metric_weight_sensitivity.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable4_gp_foldwise_results.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable5_composite_deduplication.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable6_label_provenance_and_loo_disclosure.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable7_rank_stability_summary.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable8_top_composites_10_metric_profile.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable9_gp_lodo_vs_final_refit.csv",
+          "outputs/09_paper/tables/supplementary_csv/STable_bootstrap_all_single_rank_summary.csv"
+        ],
+        "outputs/09_paper/tables/supplementary_latex": [
+          "outputs/09_paper/tables/supplementary_latex/STable10_gp_generation_traces.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable11_gp_seedwise_lodo_and_final.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable12_gp_terminal_selection_lodo_and_final.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable1_all_single_measure_results.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable2_alpha_sensitivity.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable3_metric_weight_sensitivity.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable4_gp_foldwise_results.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable5_composite_deduplication.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable6_label_provenance_and_loo_disclosure.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable7_rank_stability_summary.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable8_top_composites_10_metric_profile.tex",
+          "outputs/09_paper/tables/supplementary_latex/STable9_gp_lodo_vs_final_refit.tex"
+        ]
+      }
+    },
+    "existing_figure_files": [
+      "outputs/09_paper/figures/main/Fig10_runtime_scaling.pdf",
+      "outputs/09_paper/figures/main/Fig10_runtime_scaling.png",
+      "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf",
+      "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png",
+      "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.pdf",
+      "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.png",
+      "outputs/09_paper/figures/main/Fig1_pipeline_overview.pdf",
+      "outputs/09_paper/figures/main/Fig1_pipeline_overview.png",
+      "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.pdf",
+      "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.png",
+      "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.pdf",
+      "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.png",
+      "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.pdf",
+      "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.png",
+      "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.pdf",
+      "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.png",
+      "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.pdf",
+      "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.png",
+      "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf",
+      "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png",
+      "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf",
+      "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png",
+      "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.pdf",
+      "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.png",
+      "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.pdf",
+      "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.png",
+      "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.pdf",
+      "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.png",
+      "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.pdf",
+      "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.png",
+      "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.pdf",
+      "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.png",
+      "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.pdf",
+      "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.png",
+      "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.pdf",
+      "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.png",
+      "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.pdf",
+      "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.png"
+    ],
+    "existing_table_files": [
+      "outputs/09_paper/tables/main/csv/Table10_runtime_multi_resolution.csv",
+      "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv",
+      "outputs/09_paper/tables/main/csv/Table12_final_generalized_composite.csv",
+      "outputs/09_paper/tables/main/csv/Table2_dataset_summary.csv",
+      "outputs/09_paper/tables/main/csv/Table3_metric_definitions.csv",
+      "outputs/09_paper/tables/main/csv/Table4_metric_weights_and_alpha.csv",
+      "outputs/09_paper/tables/main/csv/Table5_top10_single_rank_based.csv",
+      "outputs/09_paper/tables/main/csv/Table6_top10_single_value_based.csv",
+      "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv",
+      "outputs/09_paper/tables/main/csv/Table8_true_vs_surrogate_label_split.csv",
+      "outputs/09_paper/tables/main/csv/Table9_equal_vs_stack_weighted_comparison.csv",
+      "outputs/09_paper/tables/main/csv/Table_bootstrap_top10_single_rank_summary.csv",
+      "outputs/09_paper/tables/main/csv/Table_friedman_and_cd_summary.csv",
+      "outputs/09_paper/tables/main/latex/Table10_runtime_multi_resolution.tex",
+      "outputs/09_paper/tables/main/latex/Table11_optional_downstream_task.tex",
+      "outputs/09_paper/tables/main/latex/Table12_final_generalized_composite.tex",
+      "outputs/09_paper/tables/main/latex/Table2_dataset_summary.tex",
+      "outputs/09_paper/tables/main/latex/Table3_metric_definitions.tex",
+      "outputs/09_paper/tables/main/latex/Table4_metric_weights_and_alpha.tex",
+      "outputs/09_paper/tables/main/latex/Table5_top10_single_rank_based.tex",
+      "outputs/09_paper/tables/main/latex/Table6_top10_single_value_based.tex",
+      "outputs/09_paper/tables/main/latex/Table7_top10_composites_common_scoring.tex",
+      "outputs/09_paper/tables/main/latex/Table8_true_vs_surrogate_label_split.tex",
+      "outputs/09_paper/tables/main/latex/Table9_equal_vs_stack_weighted_comparison.tex",
+      "outputs/09_paper/tables/main_csv/Table10_runtime_multi_resolution.csv",
+      "outputs/09_paper/tables/main_csv/Table11_optional_downstream_task.csv",
+      "outputs/09_paper/tables/main_csv/Table12_final_generalized_composite.csv",
+      "outputs/09_paper/tables/main_csv/Table2_dataset_summary.csv",
+      "outputs/09_paper/tables/main_csv/Table3_metric_definitions.csv",
+      "outputs/09_paper/tables/main_csv/Table4_metric_weights_and_alpha.csv",
+      "outputs/09_paper/tables/main_csv/Table5_top10_single_rank_based.csv",
+      "outputs/09_paper/tables/main_csv/Table6_top10_single_value_based.csv",
+      "outputs/09_paper/tables/main_csv/Table7_top10_composites_common_scoring.csv",
+      "outputs/09_paper/tables/main_csv/Table8_true_vs_surrogate_label_split.csv",
+      "outputs/09_paper/tables/main_csv/Table9_equal_vs_stack_weighted_comparison.csv",
+      "outputs/09_paper/tables/main_csv/Table_bootstrap_top10_single_rank_summary.csv",
+      "outputs/09_paper/tables/main_csv/Table_friedman_and_cd_summary.csv",
+      "outputs/09_paper/tables/main_latex/Table10_runtime_multi_resolution.tex",
+      "outputs/09_paper/tables/main_latex/Table11_optional_downstream_task.tex",
+      "outputs/09_paper/tables/main_latex/Table12_final_generalized_composite.tex",
+      "outputs/09_paper/tables/main_latex/Table2_dataset_summary.tex",
+      "outputs/09_paper/tables/main_latex/Table3_metric_definitions.tex",
+      "outputs/09_paper/tables/main_latex/Table4_metric_weights_and_alpha.tex",
+      "outputs/09_paper/tables/main_latex/Table5_top10_single_rank_based.tex",
+      "outputs/09_paper/tables/main_latex/Table6_top10_single_value_based.tex",
+      "outputs/09_paper/tables/main_latex/Table7_top10_composites_common_scoring.tex",
+      "outputs/09_paper/tables/main_latex/Table8_true_vs_surrogate_label_split.tex",
+      "outputs/09_paper/tables/main_latex/Table9_equal_vs_stack_weighted_comparison.tex",
+      "outputs/09_paper/tables/supplementary/csv/STable10_gp_generation_traces.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable11_gp_seedwise_lodo_and_final.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable1_all_single_measure_results.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable5_composite_deduplication.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable6_label_provenance_and_loo_disclosure.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable7_rank_stability_summary.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable8_top_composites_10_metric_profile.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable9_gp_lodo_vs_final_refit.csv",
+      "outputs/09_paper/tables/supplementary/csv/STable_bootstrap_all_single_rank_summary.csv",
+      "outputs/09_paper/tables/supplementary/latex/STable10_gp_generation_traces.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable11_gp_seedwise_lodo_and_final.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable12_gp_terminal_selection_lodo_and_final.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable1_all_single_measure_results.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable2_alpha_sensitivity.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable3_metric_weight_sensitivity.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable4_gp_foldwise_results.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable5_composite_deduplication.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable6_label_provenance_and_loo_disclosure.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable7_rank_stability_summary.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable8_top_composites_10_metric_profile.tex",
+      "outputs/09_paper/tables/supplementary/latex/STable9_gp_lodo_vs_final_refit.tex",
+      "outputs/09_paper/tables/supplementary_csv/STable10_gp_generation_traces.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable11_gp_seedwise_lodo_and_final.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable1_all_single_measure_results.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable2_alpha_sensitivity.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable3_metric_weight_sensitivity.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable4_gp_foldwise_results.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable5_composite_deduplication.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable6_label_provenance_and_loo_disclosure.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable7_rank_stability_summary.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable8_top_composites_10_metric_profile.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable9_gp_lodo_vs_final_refit.csv",
+      "outputs/09_paper/tables/supplementary_csv/STable_bootstrap_all_single_rank_summary.csv",
+      "outputs/09_paper/tables/supplementary_latex/STable10_gp_generation_traces.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable11_gp_seedwise_lodo_and_final.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable12_gp_terminal_selection_lodo_and_final.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable1_all_single_measure_results.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable2_alpha_sensitivity.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable3_metric_weight_sensitivity.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable4_gp_foldwise_results.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable5_composite_deduplication.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable6_label_provenance_and_loo_disclosure.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable7_rank_stability_summary.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable8_top_composites_10_metric_profile.tex",
+      "outputs/09_paper/tables/supplementary_latex/STable9_gp_lodo_vs_final_refit.tex"
+    ],
+    "figure_exports": {
+      "Fig12_lodo_vs_final_refit": true,
+      "Fig1_pipeline_overview": true,
+      "Fig6_representative_composite_vs_single_curves": true,
+      "Fig9_gp_lodo_summary": true,
+      "SFig2_gp_convergence": true,
+      "SFig3_terminal_frequency": true,
+      "SFig4_expression_equivalence_clusters": true,
+      "SFig5_gp_convergence_by_fold": true,
+      "SFig6_final_refit_convergence": true,
+      "SFig7_gp_seedwise_score_distribution": true
+    },
+    "figure_manifest": "outputs/09_paper/manifests/figure_manifest.json",
+    "figure_status": {
+      "existing_count": 38,
+      "existing_files": [
+        "outputs/09_paper/figures/main/Fig1_pipeline_overview.png",
+        "outputs/09_paper/figures/main/Fig1_pipeline_overview.pdf",
+        "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.png",
+        "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.pdf",
+        "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.png",
+        "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.pdf",
+        "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.png",
+        "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.pdf",
+        "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.png",
+        "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.pdf",
+        "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.png",
+        "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.pdf",
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png",
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf",
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png",
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf",
+        "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.png",
+        "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.pdf",
+        "outputs/09_paper/figures/main/Fig10_runtime_scaling.png",
+        "outputs/09_paper/figures/main/Fig10_runtime_scaling.pdf",
+        "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png",
+        "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf",
+        "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.png",
+        "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.pdf",
+        "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.png",
+        "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.pdf",
+        "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.png",
+        "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.pdf",
+        "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.png",
+        "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.pdf",
+        "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.png",
+        "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.pdf",
+        "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.png",
+        "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.pdf",
+        "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.png",
+        "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.pdf",
+        "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.png",
+        "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.pdf"
+      ],
+      "expected_count": 38,
+      "missing_count": 0,
+      "missing_files": []
+    },
+    "run_mode": "full",
+    "strict_required_figure_status": {
+      "existing_count": 38,
+      "existing_files": [
+        "outputs/09_paper/figures/main/Fig1_pipeline_overview.png",
+        "outputs/09_paper/figures/main/Fig1_pipeline_overview.pdf",
+        "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.png",
+        "outputs/09_paper/figures/main/Fig2_single_measure_heatmap.pdf",
+        "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.png",
+        "outputs/09_paper/figures/main/Fig3_top_operator_bootstrap_ci.pdf",
+        "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.png",
+        "outputs/09_paper/figures/main/Fig5_representative_single_focus_curves.pdf",
+        "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.png",
+        "outputs/09_paper/figures/supplementary/SFig1_dataset_specific_focus_curves.pdf",
+        "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.png",
+        "outputs/09_paper/figures/main/Fig4_resolution_sensitivity.pdf",
+        "outputs/09_paper/figures/main/Fig10_runtime_scaling.png",
+        "outputs/09_paper/figures/main/Fig10_runtime_scaling.pdf",
+        "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.png",
+        "outputs/09_paper/figures/main/Fig6_representative_composite_vs_single_curves.pdf",
+        "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.png",
+        "outputs/09_paper/figures/main/Fig9_gp_lodo_summary.pdf",
+        "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.png",
+        "outputs/09_paper/figures/supplementary/SFig2_gp_convergence.pdf",
+        "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.png",
+        "outputs/09_paper/figures/supplementary/SFig3_terminal_frequency.pdf",
+        "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.png",
+        "outputs/09_paper/figures/supplementary/SFig4_expression_equivalence_clusters.pdf",
+        "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.png",
+        "outputs/09_paper/figures/main/Fig12_lodo_vs_final_refit.pdf",
+        "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.png",
+        "outputs/09_paper/figures/supplementary/SFig5_gp_convergence_by_fold.pdf",
+        "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.png",
+        "outputs/09_paper/figures/supplementary/SFig6_final_refit_convergence.pdf",
+        "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.png",
+        "outputs/09_paper/figures/supplementary/SFig7_gp_seedwise_score_distribution.pdf",
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.png",
+        "outputs/09_paper/figures/main/Fig7_nemenyi_cd_overall_rank.pdf",
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.png",
+        "outputs/09_paper/figures/main/Fig8_nemenyi_cd_accuracy_rank.pdf",
+        "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png",
+        "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf"
+      ],
+      "expected_count": 38,
+      "missing_count": 0,
+      "missing_files": []
+    },
+    "strict_required_table_status": {
+      "existing_count": 62,
+      "existing_files": [
+        "outputs/09_paper/tables/supplementary/csv/STable6_label_provenance_and_loo_disclosure.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable6_label_provenance_and_loo_disclosure.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable7_rank_stability_summary.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable7_rank_stability_summary.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable8_top_composites_10_metric_profile.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable8_top_composites_10_metric_profile.tex",
+        "outputs/09_paper/tables/main/csv/Table12_final_generalized_composite.csv",
+        "outputs/09_paper/tables/main/latex/Table12_final_generalized_composite.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable9_gp_lodo_vs_final_refit.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable9_gp_lodo_vs_final_refit.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable10_gp_generation_traces.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable10_gp_generation_traces.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable11_gp_seedwise_lodo_and_final.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable11_gp_seedwise_lodo_and_final.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable12_gp_terminal_selection_lodo_and_final.tex",
+        "outputs/09_paper/tables/main/csv/Table2_dataset_summary.csv",
+        "outputs/09_paper/tables/main/latex/Table2_dataset_summary.tex",
+        "outputs/09_paper/tables/main/csv/Table3_metric_definitions.csv",
+        "outputs/09_paper/tables/main/latex/Table3_metric_definitions.tex",
+        "outputs/09_paper/tables/main/csv/Table4_metric_weights_and_alpha.csv",
+        "outputs/09_paper/tables/main/latex/Table4_metric_weights_and_alpha.tex",
+        "outputs/09_paper/tables/main/csv/Table5_top10_single_rank_based.csv",
+        "outputs/09_paper/tables/main/latex/Table5_top10_single_rank_based.tex",
+        "outputs/09_paper/tables/main/csv/Table6_top10_single_value_based.csv",
+        "outputs/09_paper/tables/main/latex/Table6_top10_single_value_based.tex",
+        "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv",
+        "outputs/09_paper/tables/main/latex/Table7_top10_composites_common_scoring.tex",
+        "outputs/09_paper/tables/main/csv/Table8_true_vs_surrogate_label_split.csv",
+        "outputs/09_paper/tables/main/latex/Table8_true_vs_surrogate_label_split.tex",
+        "outputs/09_paper/tables/main/csv/Table9_equal_vs_stack_weighted_comparison.csv",
+        "outputs/09_paper/tables/main/latex/Table9_equal_vs_stack_weighted_comparison.tex",
+        "outputs/09_paper/tables/main/csv/Table10_runtime_multi_resolution.csv",
+        "outputs/09_paper/tables/main/latex/Table10_runtime_multi_resolution.tex",
+        "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv",
+        "outputs/09_paper/tables/main/latex/Table11_optional_downstream_task.tex",
+        "outputs/09_paper/tables/main/csv/Table12_final_generalized_composite.csv",
+        "outputs/09_paper/tables/main/latex/Table12_final_generalized_composite.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable1_all_single_measure_results.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable1_all_single_measure_results.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable2_alpha_sensitivity.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable3_metric_weight_sensitivity.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable4_gp_foldwise_results.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable5_composite_deduplication.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable5_composite_deduplication.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable6_label_provenance_and_loo_disclosure.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable6_label_provenance_and_loo_disclosure.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable7_rank_stability_summary.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable7_rank_stability_summary.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable8_top_composites_10_metric_profile.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable8_top_composites_10_metric_profile.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable9_gp_lodo_vs_final_refit.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable9_gp_lodo_vs_final_refit.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable10_gp_generation_traces.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable10_gp_generation_traces.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable11_gp_seedwise_lodo_and_final.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable11_gp_seedwise_lodo_and_final.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable12_gp_terminal_selection_lodo_and_final.tex"
+      ],
+      "expected_count": 62,
+      "missing_count": 0,
+      "missing_files": []
+    },
+    "table_exports": {
+      "STable10_gp_generation_traces": true,
+      "STable11_gp_seedwise_lodo_and_final": true,
+      "STable12_gp_terminal_selection_lodo_and_final": true,
+      "STable1_all_single_measure_results": true,
+      "STable2_alpha_sensitivity": true,
+      "STable3_metric_weight_sensitivity": true,
+      "STable4_gp_foldwise_results": true,
+      "STable5_composite_deduplication": true,
+      "STable6_label_provenance_and_loo_disclosure": true,
+      "STable7_rank_stability_summary": true,
+      "STable8_top_composites_10_metric_profile": true,
+      "STable9_gp_lodo_vs_final_refit": true,
+      "Table10_runtime_multi_resolution": true,
+      "Table11_optional_downstream_task": true,
+      "Table12_final_generalized_composite": true,
+      "Table2_dataset_summary": true,
+      "Table3_metric_definitions": true,
+      "Table4_metric_weights_and_alpha": true,
+      "Table5_top10_single_rank_based": true,
+      "Table6_top10_single_value_based": true,
+      "Table7_top10_composites_common_scoring": true,
+      "Table8_true_vs_surrogate_label_split": true,
+      "Table9_equal_vs_stack_weighted_comparison": true
+    },
+    "table_manifest": "outputs/09_paper/manifests/table_manifest.json",
+    "table_status": {
+      "existing_count": 46,
+      "existing_files": [
+        "outputs/09_paper/tables/main/csv/Table2_dataset_summary.csv",
+        "outputs/09_paper/tables/main/latex/Table2_dataset_summary.tex",
+        "outputs/09_paper/tables/main/csv/Table3_metric_definitions.csv",
+        "outputs/09_paper/tables/main/latex/Table3_metric_definitions.tex",
+        "outputs/09_paper/tables/main/csv/Table4_metric_weights_and_alpha.csv",
+        "outputs/09_paper/tables/main/latex/Table4_metric_weights_and_alpha.tex",
+        "outputs/09_paper/tables/main/csv/Table5_top10_single_rank_based.csv",
+        "outputs/09_paper/tables/main/latex/Table5_top10_single_rank_based.tex",
+        "outputs/09_paper/tables/main/csv/Table6_top10_single_value_based.csv",
+        "outputs/09_paper/tables/main/latex/Table6_top10_single_value_based.tex",
+        "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv",
+        "outputs/09_paper/tables/main/latex/Table7_top10_composites_common_scoring.tex",
+        "outputs/09_paper/tables/main/csv/Table8_true_vs_surrogate_label_split.csv",
+        "outputs/09_paper/tables/main/latex/Table8_true_vs_surrogate_label_split.tex",
+        "outputs/09_paper/tables/main/csv/Table9_equal_vs_stack_weighted_comparison.csv",
+        "outputs/09_paper/tables/main/latex/Table9_equal_vs_stack_weighted_comparison.tex",
+        "outputs/09_paper/tables/main/csv/Table10_runtime_multi_resolution.csv",
+        "outputs/09_paper/tables/main/latex/Table10_runtime_multi_resolution.tex",
+        "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv",
+        "outputs/09_paper/tables/main/latex/Table11_optional_downstream_task.tex",
+        "outputs/09_paper/tables/main/csv/Table12_final_generalized_composite.csv",
+        "outputs/09_paper/tables/main/latex/Table12_final_generalized_composite.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable1_all_single_measure_results.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable1_all_single_measure_results.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable2_alpha_sensitivity.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable3_metric_weight_sensitivity.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable4_gp_foldwise_results.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable5_composite_deduplication.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable5_composite_deduplication.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable6_label_provenance_and_loo_disclosure.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable6_label_provenance_and_loo_disclosure.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable7_rank_stability_summary.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable7_rank_stability_summary.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable8_top_composites_10_metric_profile.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable8_top_composites_10_metric_profile.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable9_gp_lodo_vs_final_refit.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable9_gp_lodo_vs_final_refit.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable10_gp_generation_traces.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable10_gp_generation_traces.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable11_gp_seedwise_lodo_and_final.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable11_gp_seedwise_lodo_and_final.tex",
+        "outputs/09_paper/tables/supplementary/csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+        "outputs/09_paper/tables/supplementary/latex/STable12_gp_terminal_selection_lodo_and_final.tex"
+      ],
+      "expected_count": 46,
+      "missing_count": 0,
+      "missing_files": []
+    }
+  },
+  "stage": "export_paper_assets",
+  "status": "complete",
+  "timestamp_utc": "2026-05-22T03:49:19.810295+00:00"
+}

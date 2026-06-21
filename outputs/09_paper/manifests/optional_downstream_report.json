@@ -1,0 +1,40 @@
+{
+  "figure_files": [
+    "outputs/09_paper/figures/main/Fig11_optional_downstream_task.png",
+    "outputs/09_paper/figures/main/Fig11_optional_downstream_task.pdf"
+  ],
+  "note": "Used because true downstream class labels were not reliably available.",
+  "preferred_dataset": "WBC",
+  "result_mode": "focus_quality_proxy",
+  "rows": [
+    {
+      "analysis_mode": "focus_quality_proxy",
+      "dataset_name": "WBC",
+      "mean_absolute_focus_index_error": 5.544484538082489,
+      "mean_gradient_energy": 10453827.989174718,
+      "mean_laplacian_variance": 41.6583839777934,
+      "num_samples": 25773,
+      "strategy": "poor_autofocus"
+    },
+    {
+      "analysis_mode": "focus_quality_proxy",
+      "dataset_name": "WBC",
+      "mean_absolute_focus_index_error": 0.07965700539324098,
+      "mean_gradient_energy": 30189020.225080512,
+      "mean_laplacian_variance": 141.64739014967805,
+      "num_samples": 25773,
+      "strategy": "brenner_gradient"
+    },
+    {
+      "analysis_mode": "focus_quality_proxy",
+      "dataset_name": "WBC",
+      "mean_absolute_focus_index_error": 0.035308268342839406,
+      "mean_gradient_energy": 30209186.97497381,
+      "mean_laplacian_variance": 141.0878167178009,
+      "num_samples": 25773,
+      "strategy": "best_composite"
+    }
+  ],
+  "run_mode": "full",
+  "table_csv": "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv"
+}

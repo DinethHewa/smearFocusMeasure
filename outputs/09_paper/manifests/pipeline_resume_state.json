@@ -1,0 +1,71 @@
+{
+  "current_stage": null,
+  "next_stage": null,
+  "results": [
+    {
+      "checkpoint_path": "outputs/01_stacks/build_stacks.checkpoint.json",
+      "description": "Build native-resolution stacks from raw datasets",
+      "script_name": "01_build_stacks.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/02_reference_labels/manifests/build_reference_labels.checkpoint.json",
+      "description": "Build source/surrogate/leave-one-out labels",
+      "script_name": "02_build_reference_labels.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/03_single_measure_curves/run_single_measure_benchmark.checkpoint.json",
+      "description": "Compute raw and normalized single-measure curves",
+      "script_name": "03_run_single_measure_benchmark.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/04_single_measure_eval/main/evaluate_single_measures.checkpoint.json",
+      "description": "Evaluate single measures under corrected metric framework",
+      "script_name": "04_evaluate_single_measures.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/04_single_measure_eval/main/plot_single_measure_results.checkpoint.json",
+      "description": "Generate single-measure benchmark figures",
+      "script_name": "05_plot_single_measure_results.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/05_gp_runs/summaries/run_composite_gp_lodo.checkpoint.json",
+      "description": "Run corrected leave-one-dataset-out composite GP",
+      "script_name": "06_run_composite_gp_lodo.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/06_composite_eval/main/evaluate_composites.checkpoint.json",
+      "description": "Evaluate composites under same metric framework as singles",
+      "script_name": "07_evaluate_composites.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/07_statistics/statistics/run_statistics_and_sensitivity.checkpoint.json",
+      "description": "Run Friedman, Nemenyi, bootstrap, alpha and weight sensitivity",
+      "script_name": "08_run_statistics_and_sensitivity.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/09_paper/manifests/optional_downstream_baseline.checkpoint.json",
+      "description": "Optional downstream / BSPC anchoring analysis",
+      "script_name": "09_optional_downstream_baseline.py",
+      "status": "skipped_completed_checkpoint"
+    },
+    {
+      "checkpoint_path": "outputs/09_paper/manifests/export_paper_assets.checkpoint.json",
+      "description": "Export final paper figures/tables/manifests",
+      "script_name": "10_export_paper_assets.py",
+      "status": "skipped_completed_checkpoint"
+    }
+  ],
+  "resume": false,
+  "run_mode": "full",
+  "status": "complete",
+  "summary_path": "outputs/09_paper/manifests/full_pipeline_summary.json",
+  "timestamp_utc": "2026-06-12T17:10:08.364058+00:00"
+}

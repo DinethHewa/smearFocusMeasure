@@ -1,0 +1,393 @@
+[
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table2_dataset_summary.md",
+    "description": "Summary of all benchmark datasets and their acquisition characteristics.",
+    "key": "Table2_dataset_summary",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table2_dataset_summary.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table2_dataset_summary.tex"
+    },
+    "section": "Methods",
+    "title": "Dataset summary"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table3_metric_definitions.md",
+    "description": "Definitions of the quantitative autofocus evaluation metrics.",
+    "key": "Table3_metric_definitions",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table3_metric_definitions.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table3_metric_definitions.tex"
+    },
+    "section": "Methods",
+    "title": "Autofocus metric definitions"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table4_metric_weights_and_alpha.md",
+    "description": "Scalarization settings for corrected value-based analysis.",
+    "key": "Table4_metric_weights_and_alpha",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table4_metric_weights_and_alpha.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table4_metric_weights_and_alpha.tex"
+    },
+    "section": "Methods",
+    "title": "Metric weights and alpha settings"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table5_top10_single_rank_based.md",
+    "description": "Final top-10 operator list under corrected rank-based evaluation.",
+    "key": "Table5_top10_single_rank_based",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table5_top10_single_rank_based.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table5_top10_single_rank_based.tex"
+    },
+    "section": "Results",
+    "title": "Top-10 single measures under rank-based analysis"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table6_top10_single_value_based.md",
+    "description": "Final top-10 operator list under corrected normalized value-based evaluation.",
+    "key": "Table6_top10_single_value_based",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table6_top10_single_value_based.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table6_top10_single_value_based.tex"
+    },
+    "section": "Results",
+    "title": "Top-10 single measures under normalized value-based analysis"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table7_top10_composites_common_scoring.md",
+    "description": "Top composite expressions under the same corrected scoring regime as singles.",
+    "key": "Table7_top10_composites_common_scoring",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table7_top10_composites_common_scoring.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table7_top10_composites_common_scoring.tex"
+    },
+    "section": "Results",
+    "title": "Top-10 composites under common scoring regime"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table8_true_vs_surrogate_label_split.md",
+    "description": "Comparison of performance on datasets with source labels versus surrogate labels.",
+    "key": "Table8_true_vs_surrogate_label_split",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table8_true_vs_surrogate_label_split.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table8_true_vs_surrogate_label_split.tex"
+    },
+    "section": "Results",
+    "title": "Results split by source-label and surrogate-label datasets"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table9_equal_vs_stack_weighted_comparison.md",
+    "description": "Sensitivity of aggregate conclusions to weighting choice.",
+    "key": "Table9_equal_vs_stack_weighted_comparison",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table9_equal_vs_stack_weighted_comparison.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table9_equal_vs_stack_weighted_comparison.tex"
+    },
+    "section": "Results",
+    "title": "Equal-weighted versus per-stack-weighted comparison"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table10_runtime_multi_resolution.md",
+    "description": "Execution time comparison across native and reduced resolutions.",
+    "key": "Table10_runtime_multi_resolution",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table10_runtime_multi_resolution.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table10_runtime_multi_resolution.tex"
+    },
+    "section": "Results",
+    "title": "Runtime comparison across image resolutions"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table11_optional_downstream_task.md",
+    "description": "Performance summary for the downstream biomedical anchor or proxy fallback analysis.",
+    "key": "Table11_optional_downstream_task",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table11_optional_downstream_task.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table11_optional_downstream_task.tex"
+    },
+    "section": "Results",
+    "title": "Downstream biomedical anchor summary"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/Table12_final_generalized_composite.md",
+    "description": "Final all-dataset GP refit expression proposed for general use after LODO validation.",
+    "key": "Table12_final_generalized_composite",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "main",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/main/csv/Table12_final_generalized_composite.csv",
+      "latex": "outputs/09_paper/tables/main/latex/Table12_final_generalized_composite.tex"
+    },
+    "section": "Results",
+    "title": "Final generalized composite focus measure"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable1_all_single_measure_results.md",
+    "description": "Complete single-measure benchmark results for all handcrafted operators.",
+    "key": "STable1_all_single_measure_results",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable1_all_single_measure_results.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable1_all_single_measure_results.tex"
+    },
+    "section": "Supplementary",
+    "title": "Full single-measure results for all operators"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable2_alpha_sensitivity.md",
+    "description": "Sensitivity of corrected value-based rankings to alpha selection.",
+    "key": "STable2_alpha_sensitivity",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable2_alpha_sensitivity.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable2_alpha_sensitivity.tex"
+    },
+    "section": "Supplementary",
+    "title": "Alpha sensitivity analysis"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable3_metric_weight_sensitivity.md",
+    "description": "Sensitivity of corrected rankings to alternate metric-weight schemes.",
+    "key": "STable3_metric_weight_sensitivity",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable3_metric_weight_sensitivity.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable3_metric_weight_sensitivity.tex"
+    },
+    "section": "Supplementary",
+    "title": "Metric-weight sensitivity analysis"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable4_gp_foldwise_results.md",
+    "description": "Held-out foldwise performance and best expressions from corrected GP.",
+    "key": "STable4_gp_foldwise_results",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable4_gp_foldwise_results.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable4_gp_foldwise_results.tex"
+    },
+    "section": "Supplementary",
+    "title": "Foldwise leave-one-dataset-out GP results"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable5_composite_deduplication.md",
+    "description": "Deduplication summary for syntactic and functional composite redundancy.",
+    "key": "STable5_composite_deduplication",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable5_composite_deduplication.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable5_composite_deduplication.tex"
+    },
+    "section": "Supplementary",
+    "title": "Composite deduplication and equivalence summary"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable6_label_provenance_and_loo_disclosure.md",
+    "description": "Per-dataset disclosure of source-label availability, surrogate-label fallback, and leave-one-out voter usage.",
+    "key": "STable6_label_provenance_and_loo_disclosure",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable6_label_provenance_and_loo_disclosure.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable6_label_provenance_and_loo_disclosure.tex"
+    },
+    "section": "Supplementary",
+    "title": "Dataset label provenance and leave-one-out disclosure"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable7_rank_stability_summary.md",
+    "description": "Rank-stability summary for top single measures under native-subset versus 1024-resolution reruns.",
+    "key": "STable7_rank_stability_summary",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable7_rank_stability_summary.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable7_rank_stability_summary.tex"
+    },
+    "section": "Supplementary",
+    "title": "Native versus 1024 rank-stability study"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable8_top_composites_10_metric_profile.md",
+    "description": "Per-composite metric profile under the same 10 autofocus metrics used for single measures.",
+    "key": "STable8_top_composites_10_metric_profile",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable8_top_composites_10_metric_profile.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable8_top_composites_10_metric_profile.tex"
+    },
+    "section": "Supplementary",
+    "title": "Top composites under the full 10 autofocus metrics"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable9_gp_lodo_vs_final_refit.md",
+    "description": "Protocol-level comparison of held-out LODO results and the final all-dataset GP refit.",
+    "key": "STable9_gp_lodo_vs_final_refit",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable9_gp_lodo_vs_final_refit.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable9_gp_lodo_vs_final_refit.tex"
+    },
+    "section": "Supplementary",
+    "title": "LODO GP versus final all-dataset refit summary"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable10_gp_generation_traces.md",
+    "description": "Per-generation best objective values for all LODO and final-refit GP seeds.",
+    "key": "STable10_gp_generation_traces",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable10_gp_generation_traces.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable10_gp_generation_traces.tex"
+    },
+    "section": "Supplementary",
+    "title": "Generation-wise GP progress traces"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable11_gp_seedwise_lodo_and_final.md",
+    "description": "Seed-level best expressions, scores, and complexity for all LODO folds and final refit runs.",
+    "key": "STable11_gp_seedwise_lodo_and_final",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable11_gp_seedwise_lodo_and_final.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable11_gp_seedwise_lodo_and_final.tex"
+    },
+    "section": "Supplementary",
+    "title": "Seed-wise LODO and final-refit GP results"
+  },
+  {
+    "caption_exists": true,
+    "caption_file": "outputs/09_paper/captions/STable12_gp_terminal_selection_lodo_and_final.md",
+    "description": "Selected GP terminals, ranking sources, and terminal families for each held-out fold and final all-dataset refit.",
+    "key": "STable12_gp_terminal_selection_lodo_and_final",
+    "output_exists": {
+      "csv": true,
+      "latex": true
+    },
+    "output_group": "supplementary",
+    "outputs": {
+      "csv": "outputs/09_paper/tables/supplementary/csv/STable12_gp_terminal_selection_lodo_and_final.csv",
+      "latex": "outputs/09_paper/tables/supplementary/latex/STable12_gp_terminal_selection_lodo_and_final.tex"
+    },
+    "section": "Supplementary",
+    "title": "Terminal selection for LODO folds and final refit"
+  }
+]
