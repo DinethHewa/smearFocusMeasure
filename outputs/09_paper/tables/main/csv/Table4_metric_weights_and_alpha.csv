@@ -1,0 +1,11 @@
+metric_name,weight,alpha,alpha_sensitivity_values
+absolute_peak_localization_error,0.2,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+range_around_global_maximum,0.15,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+false_maxima_count,0.1,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+fwhm,0.1,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+noise_level,0.1,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+steep_to_gradual_slope_ratio,0.1,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+execution_time_per_slice,0.1,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+steep_slope_width,0.05,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+curvature_at_peak,0.05,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
+rrmse_under_additive_noise,0.05,0.7,0.5 | 0.6 | 0.7 | 0.8 | 0.9
