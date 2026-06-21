@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Wavelet Detail Energy (db1)",
+  "native_avg_time_per_slice_sec": 0.15701296053943226,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.018390365398663563,
+    "128": 0.000427734621334821,
+    "512": 0.0030791171206510626
+  }
+}

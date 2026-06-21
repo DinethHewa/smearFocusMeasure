@@ -1,0 +1,11 @@
+{
+  "dataset_name": "PBS",
+  "measure_name": "Variance of Gradient",
+  "native_avg_time_per_slice_sec": 0.030003075319400524,
+  "num_stacks_used": 10,
+  "resized_avg_time_per_slice_sec": {
+    "1024": 0.004400659239036031,
+    "128": 0.0002777714005787857,
+    "512": 0.0011567096190992744
+  }
+}
