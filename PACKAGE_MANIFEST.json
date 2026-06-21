@@ -1,0 +1,28 @@
+{
+  "package_name": "focusMeasureGithub",
+  "package_profile": "github",
+  "title": "Weakly Supervised Cross-Dataset Benchmarking and Interpretable Symbolic Fusion of Focus Measures for Smear Microscopy Autofocus",
+  "version": "1.0.0",
+  "created_utc": "2026-06-21T19:31:31.600639+00:00",
+  "description": "Portable source repository with normalized curves, compact derived results, paper assets, and reviewer-response outputs.",
+  "payload_file_count": 707,
+  "payload_total_size_bytes": 102382716,
+  "stack_arrays_included": false,
+  "raw_microscopy_images_included": false,
+  "raw_focus_curves_included": false,
+  "full_gp_seed_artifacts_included": false,
+  "machine_specific_paths_sanitized": true,
+  "dataset_order": [
+    "WBC",
+    "TBI",
+    "PBS",
+    "BMA",
+    "TBF"
+  ],
+  "active_single_measures": 32,
+  "lodo_seed_runs": 50,
+  "final_refit_seed_runs": 10,
+  "retained_composite_candidates": 14,
+  "inventory_file": "FILE_INVENTORY.csv",
+  "checksum_file": "MANIFEST_SHA256.txt"
+}

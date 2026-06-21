@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its archived outputs, please cite the associated manuscript and Zenodo record."
+title: "Weakly Supervised Cross-Dataset Benchmarking and Interpretable Symbolic Fusion of Focus Measures for Smear Microscopy Autofocus"
+type: software
+authors:
+  - given-names: "Dineth"
+    family-names: "REPLACE_WITH_FAMILY_NAME"
+version: 1.0.0
+date-released: 2026-06-22
+license: MIT
+keywords:
+  - autofocus
+  - focus measure
+  - smear microscopy
+  - genetic programming
+  - symbolic fusion
+  - cross-dataset benchmarking
+  - weak supervision
+repository-code: "https://github.com/REPLACE_WITH_ACCOUNT/REPLACE_WITH_REPOSITORY"
+abstract: "Code and reproducibility outputs for a five-dataset benchmark of handcrafted and genetically synthesized composite focus measures for smear microscopy autofocus."
