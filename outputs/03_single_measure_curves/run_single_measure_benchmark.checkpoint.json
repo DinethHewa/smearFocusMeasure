@@ -1,0 +1,18 @@
+{
+  "details": {
+    "datasets": [
+      "WBC",
+      "TBI",
+      "PBS",
+      "BMA",
+      "TBF"
+    ],
+    "num_measures_run": 32,
+    "operator_manifest": "outputs/03_single_measure_curves/single_operator_manifest.json",
+    "run_mode": "full",
+    "timing_summary_csv": "outputs/03_single_measure_curves/single_timing_summary.csv"
+  },
+  "stage": "run_single_measure_benchmark",
+  "status": "complete",
+  "timestamp_utc": "2026-05-09T01:23:03.399456+00:00"
+}

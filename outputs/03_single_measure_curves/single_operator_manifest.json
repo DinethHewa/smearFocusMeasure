@@ -1,0 +1,194 @@
+[
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Tenengrad",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Brenner Gradient",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "laplacian",
+    "maximize": true,
+    "measure_name": "Variance of Laplacian",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "laplacian",
+    "maximize": true,
+    "measure_name": "Sum Modified Laplacian",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Normalized Variance",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Energy of Gradient",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "entropy",
+    "maximize": true,
+    "measure_name": "Histogram Entropy",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "texture",
+    "maximize": true,
+    "measure_name": "GLCM Contrast",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Variance of Gradient",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "frequency",
+    "maximize": true,
+    "measure_name": "Fourier Transform Sharpness Index",
+    "notes": "Required surrogate voter"
+  },
+  {
+    "family": "frequency",
+    "maximize": true,
+    "measure_name": "Fourier High Frequency Energy Ratio",
+    "notes": ""
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Roberts Focus Measure",
+    "notes": ""
+  },
+  {
+    "family": "wavelet",
+    "maximize": true,
+    "measure_name": "Wavelet W1",
+    "notes": ""
+  },
+  {
+    "family": "wavelet",
+    "maximize": true,
+    "measure_name": "Wavelet W2",
+    "notes": ""
+  },
+  {
+    "family": "wavelet",
+    "maximize": true,
+    "measure_name": "Wavelet W3",
+    "notes": ""
+  },
+  {
+    "family": "wavelet",
+    "maximize": true,
+    "measure_name": "Wavelet Detail Energy (db1)",
+    "notes": "Legacy alias target used in place of deprecated curvelet label"
+  },
+  {
+    "family": "wavelet_alias",
+    "maximize": true,
+    "measure_name": "Curvelet Transform Sharpness Index",
+    "notes": "Legacy alias mapped to Wavelet Detail Energy (db1)"
+  },
+  {
+    "family": "frequency",
+    "maximize": true,
+    "measure_name": "DCT Focus Measure",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Intensity Skewness Index",
+    "notes": ""
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Squared Gradient",
+    "notes": ""
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Gradient Squared Energy",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Mean Intensity",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Intensity Variance",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Intensity Range Index",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Maximal Intensity",
+    "notes": ""
+  },
+  {
+    "family": "laplacian",
+    "maximize": true,
+    "measure_name": "Laplacian Energy",
+    "notes": ""
+  },
+  {
+    "family": "laplacian",
+    "maximize": true,
+    "measure_name": "Mean Absolute Laplacian",
+    "notes": ""
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Spatial Frequency",
+    "notes": ""
+  },
+  {
+    "family": "gradient",
+    "maximize": true,
+    "measure_name": "Modified Tenengrad",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Absolute Central Moment 2",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Absolute Central Moment 4",
+    "notes": ""
+  },
+  {
+    "family": "statistical",
+    "maximize": true,
+    "measure_name": "Image Power",
+    "notes": ""
+  }
+]
