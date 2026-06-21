@@ -1,0 +1,107 @@
+{
+  "BMA": {
+    "dataset_name": "BMA",
+    "label_mode": "surrogate",
+    "loo_measure_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "source_label_source_kind": null,
+    "stack_count": 38,
+    "surrogate_voters": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index"
+    ]
+  },
+  "PBS": {
+    "dataset_name": "PBS",
+    "label_mode": "surrogate",
+    "loo_measure_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "source_label_source_kind": null,
+    "stack_count": 77,
+    "surrogate_voters": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index"
+    ]
+  },
+  "TBF": {
+    "dataset_name": "TBF",
+    "label_mode": "surrogate",
+    "loo_measure_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "source_label_source_kind": null,
+    "stack_count": 182,
+    "surrogate_voters": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index"
+    ]
+  },
+  "TBI": {
+    "dataset_name": "TBI",
+    "label_mode": "surrogate",
+    "loo_measure_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "dataset_contains_mat_sidecars_without_explicit_source_labels",
+    "source_label_source_kind": null,
+    "stack_count": 30,
+    "surrogate_voters": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index"
+    ]
+  },
+  "WBC": {
+    "dataset_name": "WBC",
+    "label_mode": "surrogate",
+    "loo_measure_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "source_label_source_kind": null,
+    "stack_count": 25773,
+    "surrogate_voters": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index"
+    ]
+  }
+}

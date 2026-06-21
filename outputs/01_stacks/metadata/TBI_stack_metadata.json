@@ -1,0 +1,57 @@
+{
+  "dataset_name": "TBI",
+  "discovery_mode": "immediate_child_dirs",
+  "grayscale_conversion": true,
+  "image_shape_histogram": {
+    "(2112, 2816)": 300
+  },
+  "native_resolution_note": "Native resolution preserved by default",
+  "native_resolution_preserved": true,
+  "planes_per_stack_max": 10,
+  "planes_per_stack_median": 10.0,
+  "planes_per_stack_min": 10,
+  "raw_dataset_root": "external-data/TBI",
+  "rejected_low_count_examples": [],
+  "roi_mode": "center",
+  "roi_size": null,
+  "sidecar_counts": {
+    ".mat": 18
+  },
+  "stack_count": 30,
+  "stack_count_before_truncation": 30,
+  "stack_folder_examples": [
+    "external-data/TBI/HH1",
+    "external-data/TBI/HH2",
+    "external-data/TBI/HH3",
+    "external-data/TBI/HH4",
+    "external-data/TBI/HH5"
+  ],
+  "stack_shape_examples": [
+    [
+      10,
+      2112,
+      2816
+    ],
+    [
+      10,
+      2112,
+      2816
+    ],
+    [
+      10,
+      2112,
+      2816
+    ],
+    [
+      10,
+      2112,
+      2816
+    ],
+    [
+      10,
+      2112,
+      2816
+    ]
+  ],
+  "use_roi_cropping": false
+}

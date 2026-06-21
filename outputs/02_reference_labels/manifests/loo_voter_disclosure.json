@@ -1,0 +1,2696 @@
+{
+  "datasets": {
+    "BMA": [
+      {
+        "measure_name": "Absolute Central Moment 2",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/absolute_central_moment_2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Absolute Central Moment 4",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/absolute_central_moment_4_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Brenner Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/brenner_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Curvelet Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/curvelet_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "DCT Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/dct_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Energy of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/energy_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Fourier High Frequency Energy Ratio",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/fourier_high_frequency_energy_ratio_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Fourier Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/fourier_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "GLCM Contrast",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/glcm_contrast_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Gradient Squared Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/gradient_squared_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Histogram Entropy",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/histogram_entropy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Image Power",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/image_power_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Range Index",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/intensity_range_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Skewness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/intensity_skewness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/intensity_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Laplacian Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/laplacian_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Maximal Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/maximal_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Absolute Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/mean_absolute_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/mean_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Modified Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/modified_tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Normalized Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/normalized_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Roberts Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/roberts_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Spatial Frequency",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/spatial_frequency_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Squared Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/squared_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Sum Modified Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/sum_modified_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/variance_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/variance_of_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Wavelet Detail Energy (db1)",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/wavelet_detail_energy_db1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W1",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/wavelet_w1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W2",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/wavelet_w2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W3",
+        "path": "outputs/02_reference_labels/leave_one_out/BMA/wavelet_w3_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      }
+    ],
+    "PBS": [
+      {
+        "measure_name": "Absolute Central Moment 2",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/absolute_central_moment_2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Absolute Central Moment 4",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/absolute_central_moment_4_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Brenner Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/brenner_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Curvelet Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/curvelet_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "DCT Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/dct_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Energy of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/energy_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Fourier High Frequency Energy Ratio",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/fourier_high_frequency_energy_ratio_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Fourier Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/fourier_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "GLCM Contrast",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/glcm_contrast_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Gradient Squared Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/gradient_squared_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Histogram Entropy",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/histogram_entropy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Image Power",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/image_power_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Range Index",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/intensity_range_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Skewness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/intensity_skewness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/intensity_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Laplacian Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/laplacian_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Maximal Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/maximal_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Absolute Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/mean_absolute_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/mean_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Modified Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/modified_tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Normalized Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/normalized_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Roberts Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/roberts_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Spatial Frequency",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/spatial_frequency_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Squared Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/squared_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Sum Modified Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/sum_modified_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/variance_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/variance_of_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Wavelet Detail Energy (db1)",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/wavelet_detail_energy_db1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W1",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/wavelet_w1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W2",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/wavelet_w2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W3",
+        "path": "outputs/02_reference_labels/leave_one_out/PBS/wavelet_w3_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      }
+    ],
+    "TBF": [
+      {
+        "measure_name": "Absolute Central Moment 2",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/absolute_central_moment_2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Absolute Central Moment 4",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/absolute_central_moment_4_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Brenner Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/brenner_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Curvelet Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/curvelet_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "DCT Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/dct_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Energy of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/energy_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Fourier High Frequency Energy Ratio",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/fourier_high_frequency_energy_ratio_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Fourier Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/fourier_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "GLCM Contrast",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/glcm_contrast_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Gradient Squared Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/gradient_squared_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Histogram Entropy",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/histogram_entropy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Image Power",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/image_power_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Range Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/intensity_range_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Skewness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/intensity_skewness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/intensity_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Laplacian Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/laplacian_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Maximal Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/maximal_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Absolute Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/mean_absolute_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/mean_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Modified Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/modified_tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Normalized Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/normalized_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Roberts Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/roberts_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Spatial Frequency",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/spatial_frequency_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Squared Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/squared_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Sum Modified Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/sum_modified_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/variance_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/variance_of_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Wavelet Detail Energy (db1)",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/wavelet_detail_energy_db1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W1",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/wavelet_w1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W2",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/wavelet_w2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W3",
+        "path": "outputs/02_reference_labels/leave_one_out/TBF/wavelet_w3_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      }
+    ],
+    "TBI": [
+      {
+        "measure_name": "Absolute Central Moment 2",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/absolute_central_moment_2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Absolute Central Moment 4",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/absolute_central_moment_4_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Brenner Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/brenner_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Curvelet Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/curvelet_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "DCT Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/dct_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Energy of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/energy_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Fourier High Frequency Energy Ratio",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/fourier_high_frequency_energy_ratio_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Fourier Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/fourier_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "GLCM Contrast",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/glcm_contrast_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Gradient Squared Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/gradient_squared_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Histogram Entropy",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/histogram_entropy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Image Power",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/image_power_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Range Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/intensity_range_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Skewness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/intensity_skewness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/intensity_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Laplacian Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/laplacian_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Maximal Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/maximal_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Absolute Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/mean_absolute_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/mean_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Modified Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/modified_tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Normalized Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/normalized_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Roberts Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/roberts_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Spatial Frequency",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/spatial_frequency_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Squared Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/squared_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Sum Modified Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/sum_modified_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/variance_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/variance_of_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Wavelet Detail Energy (db1)",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/wavelet_detail_energy_db1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W1",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/wavelet_w1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W2",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/wavelet_w2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W3",
+        "path": "outputs/02_reference_labels/leave_one_out/TBI/wavelet_w3_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      }
+    ],
+    "WBC": [
+      {
+        "measure_name": "Absolute Central Moment 2",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/absolute_central_moment_2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Absolute Central Moment 4",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/absolute_central_moment_4_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Brenner Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/brenner_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Curvelet Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/curvelet_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "DCT Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/dct_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Energy of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/energy_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Fourier High Frequency Energy Ratio",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/fourier_high_frequency_energy_ratio_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Fourier Transform Sharpness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/fourier_transform_sharpness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "GLCM Contrast",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/glcm_contrast_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Gradient Squared Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/gradient_squared_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Histogram Entropy",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/histogram_entropy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Image Power",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/image_power_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Range Index",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/intensity_range_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Skewness Index",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/intensity_skewness_index_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Intensity Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/intensity_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Laplacian Energy",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/laplacian_energy_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Maximal Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/maximal_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Absolute Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/mean_absolute_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Mean Intensity",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/mean_intensity_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Modified Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/modified_tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Normalized Variance",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/normalized_variance_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Roberts Focus Measure",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/roberts_focus_measure_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Spatial Frequency",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/spatial_frequency_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Squared Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/squared_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Sum Modified Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/sum_modified_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Tenengrad",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/tenengrad_loo_labels.npy",
+        "voter_pool": [
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Gradient",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/variance_of_gradient_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Variance of Laplacian",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/variance_of_laplacian_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 9
+      },
+      {
+        "measure_name": "Wavelet Detail Energy (db1)",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/wavelet_detail_energy_db1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W1",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/wavelet_w1_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W2",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/wavelet_w2_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      },
+      {
+        "measure_name": "Wavelet W3",
+        "path": "outputs/02_reference_labels/leave_one_out/WBC/wavelet_w3_loo_labels.npy",
+        "voter_pool": [
+          "Tenengrad",
+          "Brenner Gradient",
+          "Variance of Laplacian",
+          "Sum Modified Laplacian",
+          "Normalized Variance",
+          "Energy of Gradient",
+          "Histogram Entropy",
+          "GLCM Contrast",
+          "Variance of Gradient",
+          "Fourier Transform Sharpness Index"
+        ],
+        "voter_pool_size": 10
+      }
+    ]
+  },
+  "default_surrogate_voters": [
+    "Tenengrad",
+    "Brenner Gradient",
+    "Variance of Laplacian",
+    "Sum Modified Laplacian",
+    "Normalized Variance",
+    "Energy of Gradient",
+    "Histogram Entropy",
+    "GLCM Contrast",
+    "Variance of Gradient",
+    "Fourier Transform Sharpness Index"
+  ]
+}

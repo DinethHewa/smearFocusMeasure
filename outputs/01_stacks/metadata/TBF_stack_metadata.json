@@ -1,0 +1,55 @@
+{
+  "dataset_name": "TBF",
+  "discovery_mode": "immediate_child_dirs",
+  "grayscale_conversion": true,
+  "image_shape_histogram": {
+    "(2160, 2560)": 2548
+  },
+  "native_resolution_note": "Native resolution preserved by default",
+  "native_resolution_preserved": true,
+  "planes_per_stack_max": 14,
+  "planes_per_stack_median": 14.0,
+  "planes_per_stack_min": 14,
+  "raw_dataset_root": "external-data/TBF",
+  "rejected_low_count_examples": [],
+  "roi_mode": "center",
+  "roi_size": null,
+  "sidecar_counts": {},
+  "stack_count": 182,
+  "stack_count_before_truncation": 182,
+  "stack_folder_examples": [
+    "external-data/TBF/FieldPos000",
+    "external-data/TBF/FieldPos000 (2)",
+    "external-data/TBF/FieldPos000 (3)",
+    "external-data/TBF/FieldPos000 (4)",
+    "external-data/TBF/FieldPos000 (5)"
+  ],
+  "stack_shape_examples": [
+    [
+      14,
+      2160,
+      2560
+    ],
+    [
+      14,
+      2160,
+      2560
+    ],
+    [
+      14,
+      2160,
+      2560
+    ],
+    [
+      14,
+      2160,
+      2560
+    ],
+    [
+      14,
+      2160,
+      2560
+    ]
+  ],
+  "use_roi_cropping": false
+}

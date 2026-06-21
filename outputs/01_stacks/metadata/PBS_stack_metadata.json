@@ -1,0 +1,55 @@
+{
+  "dataset_name": "PBS",
+  "discovery_mode": "immediate_child_dirs",
+  "grayscale_conversion": true,
+  "image_shape_histogram": {
+    "(2160, 2560)": 1035
+  },
+  "native_resolution_note": "Native resolution preserved by default",
+  "native_resolution_preserved": true,
+  "planes_per_stack_max": 15,
+  "planes_per_stack_median": 15.0,
+  "planes_per_stack_min": 9,
+  "raw_dataset_root": "external-data/PBS",
+  "rejected_low_count_examples": [],
+  "roi_mode": "center",
+  "roi_size": null,
+  "sidecar_counts": {},
+  "stack_count": 77,
+  "stack_count_before_truncation": 77,
+  "stack_folder_examples": [
+    "external-data/PBS/FieldPos001_Cam01_RGB_MB",
+    "external-data/PBS/FieldPos019_Cam01_RGB_MB",
+    "external-data/PBS/FieldPos085_Cam01_RGB_MB",
+    "external-data/PBS/FieldPos100_Cam01_RGB_MB",
+    "external-data/PBS/FieldPos113_Cam01_RGB_MB"
+  ],
+  "stack_shape_examples": [
+    [
+      9,
+      2160,
+      2560
+    ],
+    [
+      9,
+      2160,
+      2560
+    ],
+    [
+      9,
+      2160,
+      2560
+    ],
+    [
+      15,
+      2160,
+      2560
+    ],
+    [
+      9,
+      2160,
+      2560
+    ]
+  ],
+  "use_roi_cropping": false
+}

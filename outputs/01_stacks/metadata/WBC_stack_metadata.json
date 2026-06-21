@@ -1,0 +1,55 @@
+{
+  "dataset_name": "WBC",
+  "discovery_mode": "immediate_child_dirs",
+  "grayscale_conversion": true,
+  "image_shape_histogram": {
+    "(200, 200)": 257730
+  },
+  "native_resolution_note": "Native resolution preserved by default",
+  "native_resolution_preserved": true,
+  "planes_per_stack_max": 10,
+  "planes_per_stack_median": 10.0,
+  "planes_per_stack_min": 10,
+  "raw_dataset_root": "external-data/WBC",
+  "rejected_low_count_examples": [],
+  "roi_mode": "center",
+  "roi_size": null,
+  "sidecar_counts": {},
+  "stack_count": 25773,
+  "stack_count_before_truncation": 25773,
+  "stack_folder_examples": [
+    "external-data/WBC/0",
+    "external-data/WBC/1",
+    "external-data/WBC/2",
+    "external-data/WBC/3",
+    "external-data/WBC/4"
+  ],
+  "stack_shape_examples": [
+    [
+      10,
+      200,
+      200
+    ],
+    [
+      10,
+      200,
+      200
+    ],
+    [
+      10,
+      200,
+      200
+    ],
+    [
+      10,
+      200,
+      200
+    ],
+    [
+      10,
+      200,
+      200
+    ]
+  ],
+  "use_roi_cropping": false
+}

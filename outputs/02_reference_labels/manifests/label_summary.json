@@ -1,0 +1,47 @@
+[
+  {
+    "dataset_name": "WBC",
+    "label_mode": "surrogate",
+    "loo_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "stack_count": 25773,
+    "surrogate_written": true
+  },
+  {
+    "dataset_name": "TBI",
+    "label_mode": "surrogate",
+    "loo_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "dataset_contains_mat_sidecars_without_explicit_source_labels",
+    "stack_count": 30,
+    "surrogate_written": true
+  },
+  {
+    "dataset_name": "PBS",
+    "label_mode": "surrogate",
+    "loo_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "stack_count": 77,
+    "surrogate_written": true
+  },
+  {
+    "dataset_name": "BMA",
+    "label_mode": "surrogate",
+    "loo_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "stack_count": 38,
+    "surrogate_written": true
+  },
+  {
+    "dataset_name": "TBF",
+    "label_mode": "surrogate",
+    "loo_count": 32,
+    "source_label_file_detected": null,
+    "source_label_note": "no_candidate_source_label_file_found",
+    "stack_count": 182,
+    "surrogate_written": true
+  }
+]

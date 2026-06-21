@@ -1,0 +1,32 @@
+{
+  "details": {
+    "datasets_processed": [
+      "WBC",
+      "TBI",
+      "PBS",
+      "BMA",
+      "TBF"
+    ],
+    "default_voters": [
+      "Tenengrad",
+      "Brenner Gradient",
+      "Variance of Laplacian",
+      "Sum Modified Laplacian",
+      "Normalized Variance",
+      "Energy of Gradient",
+      "Histogram Entropy",
+      "GLCM Contrast",
+      "Variance of Gradient",
+      "Fourier Transform Sharpness Index"
+    ],
+    "label_provenance_manifest": "outputs/02_reference_labels/manifests/label_provenance_disclosure.json",
+    "loo_enabled": true,
+    "loo_voter_disclosure": "outputs/02_reference_labels/manifests/loo_voter_disclosure.json",
+    "manifest_file": "outputs/02_reference_labels/manifests/label_source_manifest.json",
+    "run_mode": "full",
+    "summary_file": "outputs/02_reference_labels/manifests/label_summary.json"
+  },
+  "stage": "build_reference_labels",
+  "status": "complete",
+  "timestamp_utc": "2026-05-08T17:52:51.112004+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "details": {
+    "datasets": {
+      "BMA": {
+        "discovery_mode": "immediate_child_dirs",
+        "metadata_file": "outputs/01_stacks/metadata/BMA_stack_metadata.json",
+        "planes_per_stack_max": 14,
+        "planes_per_stack_min": 14,
+        "stack_count": 38,
+        "stack_count_before_truncation": 38,
+        "stack_file": "outputs/01_stacks/arrays/BMA_stacks.npy"
+      },
+      "PBS": {
+        "discovery_mode": "immediate_child_dirs",
+        "metadata_file": "outputs/01_stacks/metadata/PBS_stack_metadata.json",
+        "planes_per_stack_max": 15,
+        "planes_per_stack_min": 9,
+        "stack_count": 77,
+        "stack_count_before_truncation": 77,
+        "stack_file": "outputs/01_stacks/arrays/PBS_stacks.npy"
+      },
+      "TBF": {
+        "discovery_mode": "immediate_child_dirs",
+        "metadata_file": "outputs/01_stacks/metadata/TBF_stack_metadata.json",
+        "planes_per_stack_max": 14,
+        "planes_per_stack_min": 14,
+        "stack_count": 182,
+        "stack_count_before_truncation": 182,
+        "stack_file": "outputs/01_stacks/arrays/TBF_stacks.npy"
+      },
+      "TBI": {
+        "discovery_mode": "immediate_child_dirs",
+        "metadata_file": "outputs/01_stacks/metadata/TBI_stack_metadata.json",
+        "planes_per_stack_max": 10,
+        "planes_per_stack_min": 10,
+        "stack_count": 30,
+        "stack_count_before_truncation": 30,
+        "stack_file": "outputs/01_stacks/arrays/TBI_stacks.npy"
+      },
+      "WBC": {
+        "discovery_mode": "immediate_child_dirs",
+        "metadata_file": "outputs/01_stacks/metadata/WBC_stack_metadata.json",
+        "planes_per_stack_max": 10,
+        "planes_per_stack_min": 10,
+        "stack_count": 25773,
+        "stack_count_before_truncation": 25773,
+        "stack_file": "outputs/01_stacks/arrays/WBC_stacks.npy"
+      }
+    },
+    "max_stacks_per_dataset": null,
+    "run_mode": "full"
+  },
+  "stage": "build_stacks",
+  "status": "complete",
+  "timestamp_utc": "2026-05-08T14:32:54.829515+00:00"
+}
